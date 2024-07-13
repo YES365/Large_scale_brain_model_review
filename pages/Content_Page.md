@@ -1,7 +1,18 @@
-# Neuron-based/AI-related models
+# Neuron-based/AI-related Models
 -
-- # Population-based models
-	- ## Brain network model
-		-
-	- ## Neural field model
-		-
+- # Population-based Models
+	- ## Brain Network Model
+		- ### [[References of BNM]]
+		- ### Main Researchers
+			- ### [[Viktor Jirsa]]
+			- ### [[Gustavo Deco]]
+			- ### [[Wang Xiaojing]]
+		- ### Topics
+			- ### [[Heterogenous Modeling]]
+			- ### [[Modeling Neuromodulation]]
+		- ### Novel Ideas
+			-
+	- ## Neural Field Model
+-
+- ## Works Related to Neural Dynamics
+	-
