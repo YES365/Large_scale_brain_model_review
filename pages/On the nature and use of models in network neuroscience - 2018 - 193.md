@@ -1,0 +1,41 @@
+- [On the nature and use of models in network neuroscience | Nature Reviews Neuroscience](https://www.nature.com/articles/s41583-018-0038-8)
+- 中文：[微信公众平台 (qq.com)](https://mp.weixin.qq.com/s/ABiDJzK-u3-CHPV7ERsqlA)
+-
+- ## Abstract
+	- 网络理论为研究相互关联的大脑机制之间的关系及其与行为的相关性提供了一个直观而吸引人的框架。网络模型的多样性可能导致混乱，使评估模型有效性和效力的工作复杂化，并妨碍跨学科合作。在这篇综述中，我们检查了网络神经科学领域，重点放在组织可以帮助克服这些挑战的原理。首先，我们描述了构建网络模型的基本目标。其次，我们回顾了最常见的网络模型形式。网络模型可以从三个维度加以描述：从数据表征到第一性原理理论；从生物物理现实主义|biophysical realism到功能现象学|functional phenomenology；从基本描述|elementary description到粗粒度近似|coarse-grained approximation。第三，我们利用生物学、哲学和其他学科为这些模型建立验证原则。最后，我们将讨论沟通不同模型类型的机会，并为未来的追求指出令人兴奋的前沿。
+	-
+- ## Introduction
+	-
+	- ### Box 1 Model theory — a philosophical perspective
+		-
+-
+- ## What kinds of models are used?
+	-
+	- ### From data representation to first-principles theory
+		-
+	- ### From biophysical realism to functional phenomenology
+		-
+		- ### Box 2 Functional phenomenology and information theory
+			-
+		-
+	- ### From elementary descriptions to coarse-grained approximations
+		-
+	- ### Density of study in this 3D space
+		-
+	-
+-
+- ## Assessing validity and effectiveness
+	-
+	- ### Descriptive validity
+		-
+	- ### Explanatory validity
+		-
+	- ### Predictive validity
+		-
+-
+- ## Future outlook
+	-
+	- ### Box 3 Bridging model types
+		-
+-
+- ## Conclusion

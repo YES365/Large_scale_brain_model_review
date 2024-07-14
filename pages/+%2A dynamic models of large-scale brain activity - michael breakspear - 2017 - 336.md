@@ -1,0 +1,385 @@
+- [Dynamic models of large-scale brain activity | Nature Neuroscience](https://www.nature.com/articles/nn.4497)
+-
+- ## 总结
+	- 神经元群体建模：弱相关的neural ensemble approach - **Fokker-Planck equation(FPE)**； 强相关的 **neural mass model(NMM)。**NMM既有神经元动力的均值简化模型（突触动力学模型），也有大尺度的经验模型。
+	- 全脑大尺度动力学建模： 网络形态的 brain network model（**BNM**）；时变的连续二维场模型 neural field model（**NFM**）
+	- 混沌、临界性、亚稳态、多稳态，是神经活动非平稳性的不同解释途径。
+	- 模型的验证、比较与驳斥，解释全脑功能数据的非平稳性，和临床应用（诊断与治疗），是大尺度模型的新兴课题。
+	- 大尺度模型的发展目标：大目标——进一步发展模型，在模型中包含更多的生物物理机制，容纳更广的假设（介于强相关和弱相关之间）；小目标——更多地应用模型，得到关于疾病的、治疗的、认知的更多信息。
+-
+- ## Citation
+	- ### The great minds
+		- [Synergetics | SpringerLink](https://link.springer.com/book/10.1007/978-3-642-88338-5)；[A theoretical model of phase transitions in human hand movements | SpringerLink](https://link.springer.com/article/10.1007/BF00336922)  —— **Hermann Haken**
+		- [Mass Action in the Nervous System | ScienceDirect ](https://www.sciencedirect.com/book/9780122671500/mass-action-in-the-nervous-system)；[Nonlinear gain mediating cortical stimulus-response relations | SpringerLink](https://link.springer.com/article/10.1007/BF00337412) ——  **Walter J. Freeman**
+		- [Just a moment...](https://www.science.org/doi/10.1126/science.177.4047.393#con)—— ** ****Philip Warren Anderson **
+		- [-* The Free-energy Principle: A Unified Brain Theory? - 2010 - 2685  ](__ The Free-energy Principle_ A Unified Brain Theory_ - 2010 - 2685.md) ； [-* Perception And Self-organized Instability - 2012 - 158  ](__ Perception And Self-organized Instability - 2012 - 158.md) ——  **Karl Friston**
+	- ### 综述
+		- [-* Noise In The Nervous System - 2008 - 1486  ](__ Noise In The Nervous System - 2008 - 1486.md)
+		- [-* The Dynamic Brain: From Spiking Neurons To Neural Masses And Cortical Fields - 2008 - 697    ](__ The Dynamic Brain_ From Spiking Neurons To Neural Masses And Cortical Fields - 2008 - 697.md)
+		- [-* Computational Psychiatry As A Bridge From Neuroscience To Clinical Applications - 2016 - 384  ](__ Computational Psychiatry As A Bridge From Neuroscience To Clinical Applications - 2016 - 384.md)
+		- [-* Translational Perspectives For Computational Neuroimaging - 2015 - 110  ](__ Translational Perspectives For Computational Neuroimaging - 2015 - 110.md)
+	- ### Technical
+		- [Bayesian inference with probabilistic population codes | Nature Neuroscience](https://www.nature.com/articles/nn1790)
+		- [Population dynamics: Variance and the sigmoid activation function - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1053811908005132?via%3Dihub)
+	- ### 因果建模
+		- [-# Quantifying Causal Emergence Shows That Macro Can Beat Micro - 2013 - 96](_# Quantifying Causal Emergence Shows That Macro Can Beat Micro - 2013 - 96.md)
+		- Dynamic causal modelling
+			- [-# Stochastic Dynamic Causal Modelling Of FMRI Data: Should We Care About Neural Noise? - 2012 - 74](_# Stochastic Dynamic Causal Modelling Of FMRI Data_ Should We Care About Neural Noise_ - 2012 - 74.md)
+			- [-# Nonlinear Dynamic Causal Models For FMRI - 2008 - 313](_# Nonlinear Dynamic Causal Models For FMRI - 2008 - 313.md)
+			- [-* Dynamic Causal Modelling - 2003 - 3157](__ Dynamic Causal Modelling - 2003 - 3157.md)
+	- ### NFMs
+		- [Phys. Rev. Lett. 77, 960 (1996)  -  Field Theory of Electromagnetic Brain Activity](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.77.960)
+		- [Phys. Rev. E 56, 826 (1997)  -  Propagation and stability of waves of electrical activity in the cerebral cortex](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.56.826)
+		- [Phys. Rev. E 76, 051901 (2007)  -  Modeling electrocortical activity through improved local approximations of integral neural field equations](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.76.051901#fulltext)
+		- [Unifying Explanation of Primary Generalized Seizures Through Nonlinear Brain Modeling and Bifurcation Analysis | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/16/9/1296/276340?login=true#3385098)  - 307
+		- [Waves in Spatially-Disordered Neural Fields: A Case Study in Uncertainty Quantification | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-319-21296-8_14)
+		- [Just a moment...](https://journals.sagepub.com/doi/10.1177/0748730406297512) - 132
+		- [-# Eigenmodes Of Brain Activity: Neural Field Theory Predictions And Comparison With Experiment - 2016 - 54](_# Eigenmodes Of Brain Activity_ Neural Field Theory Predictions And Comparison With Experiment - 2016 - 54.md)
+	- ### BNMs
+		- [-# Network Structure Of Cerebral Cortex Shapes Functional Connectivity On Multiple Time Scales - 2007 - 1060](_# Network Structure Of Cerebral Cortex Shapes Functional Connectivity On Multiple Time Scales - 2007 - 1060.md)
+		- [-* A Recurrent Network Mechanism Of Time Integration In Perceptual Decisions - Kong-Fatt Wong and Xiao-Jing Wang - 2006 - 868](__ A Recurrent Network Mechanism Of Time Integration In Perceptual Decisions - Kong-Fatt Wong and Xiao-Jing Wang - 2006 - 868.md)
+		- [-# Biophysical Network Models And The Human Connectome - 2013 - 54](_# Biophysical Network Models And The Human Connectome - 2013 - 54.md)
+		- [-# Feedforward And Feedback Frequency-dependent Interactions In A Large-scale Laminar Network Of The Primate Cortex - 2016 - 124](_# Feedforward And Feedback Frequency-dependent Interactions In A Large-scale Laminar Network Of The Primate Cortex - 2016 - 124.md)
+		- [Towards The Virtual Brain: Network Modeling Of The Intact And The Damaged Brain - 2010 - 161](Towards The Virtual Brain_ Network Modeling Of The Intact And The Damaged Brain - 2010 - 161.md)
+	- ### BNM+NFM
+		- [-# Next-generation Neural Field Model: The Evolution Of Synchrony Within Patterns And Waves - 2019 - 18](_# Next-generation Neural Field Model_ The Evolution Of Synchrony Within Patterns And Waves - 2019 - 18.md)
+		- [-# Next Generation Neural Mass Models - 2018 - 13](_# Next Generation Neural Mass Models - 2018 - 13.md)
+	- ### FPEs
+		- [Dynamics of the Firing Probability of Noisy Integrate-and-Fire Neurons | Neural Computation | MIT Press](https://direct.mit.edu/neco/article/14/9/2057/6665/Dynamics-of-the-Firing-Probability-of-Noisy)
+		- [A Master Equation Formalism for Macroscopic Modeling of Asynchronous Irregular Activity States | Neural Computation | MIT Press](https://direct.mit.edu/neco/article/21/1/46/7393/A-Master-Equation-Formalism-for-Macroscopic)
+		- [Stochastic models of neuronal dynamics | Philosophical Transactions of the Royal Society B: Biological Sciences](https://royalsocietypublishing.org/doi/10.1098/rstb.2005.1648)
+		- [link.springer.com/article/10.1023/A:1008964915724](https://link.springer.com/article/10.1023/A:1008964915724)
+	- ### NMMs
+		- [Electroencephalogram and visual evoked potential generation in a mathematical model of coupled cortical columns | SpringerLink](https://link.springer.com/article/10.1007/BF00199471)   —— Jansen-Rit
+		- [Excitatory and Inhibitory Interactions in Localized Populations of Model Neurons - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0006349572860685)  —— Wilson-Cowan
+		- [Phys. Rev. E 83, 026204 (2011)  -  Reduced representations of heterogeneous mixed neural networks with synaptic coupling](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.026204) —— Jirsa
+		- [Neural Population Modes Capture Biologically Realistic Large Scale Network Dynamics | SpringerLink](https://link.springer.com/article/10.1007/s11538-010-9573-9)  —— Jirsa
+		- [Recurrent Network Model of Somatosensory Parametric Working Memory in the Prefrontal Cortex | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/15/5/679/442256) —— Wang Xiaojing
+	- ### 数据融合
+		- [-# Model Driven EEG/fMRI Fusion Of Brain Oscillations - 2008 - 133](_# Model Driven EEG_fMRI Fusion Of Brain Oscillations - 2008 - 133.md)
+		- [-# Hemodynamic Traveling Waves In Human Visual Cortex - 2012 - 70](_# Hemodynamic Traveling Waves In Human Visual Cortex - 2012 - 70.md)
+	- ### 非平稳性
+		- [-# A Canonical Model Of Multistability And Scale-Invariance In Biological Systems - 2012 - 115](_# A Canonical Model Of Multistability And Scale-Invariance In Biological Systems - 2012 - 115.md)  - 多稳态
+		- [-# Biophysical Mechanisms Of Multistability In Resting-State Cortical Rhythms - 2011 - 222](_# Biophysical Mechanisms Of Multistability In Resting-State Cortical Rhythms - 2011 - 222.md)  - 多稳态
+		- [-* Time-resolved Resting-state Brain Networks - 2014 - 437](__ Time-resolved Resting-state Brain Networks - 2014 - 437.md)  - 亚稳态混沌吸引子
+		- [-# The Frustrated Brain: From Dynamics On Motifs To Communities And Networks - 2014 - 44](_# The Frustrated Brain_ From Dynamics On Motifs To Communities And Networks - 2014 - 44.md)  - 亚稳态极限环
+		- [-* Ongoing Cortical Activity At Rest: Criticality, Multistability, And Ghost Attractors - 2012 - 590](__ Ongoing Cortical Activity At Rest_ Criticality, Multistability, And Ghost Attractors - 2012 - 590.md)  - 鬼吸引子
+		- [-* Brain Organization Into Resting State Networks Emerges At Criticality On A Model Of The Human Connectome - 2013 - 256](__ Brain Organization Into Resting State Networks Emerges At Criticality On A Model Of The Human Connectome - 2013 - 256.md)  - 临界性
+		- [-# The Heavy Tail Of The Human Brain - 2015 - 54](_# The Heavy Tail Of The Human Brain - 2015 - 54.md)  - 重尾分布
+		- [Just a moment...](https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.10011)
+	- ### 神经系统中的噪声
+		- [-# Key Role Of Coupling, Delay, And Noise In Resting Brain Fluctuations - 2009 - 420](_# Key Role Of Coupling, Delay, And Noise In Resting Brain Fluctuations - 2009 - 420.md)
+		- [-# Brain Noise Is Task Dependent And Region Specific - 2010 - 104](_# Brain Noise Is Task Dependent And Region Specific - 2010 - 104.md)
+	- ### BOLD信号
+		- [On the Stability of BOLD fMRI Correlations | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/27/10/4719/3060865)
+		- [Unexpected arousal modulates the influence of sensory noise on confidence | eLife](https://elifesciences.org/articles/18103)
+		- [Relationship between respiration, end-tidal CO2, and BOLD signals in resting-state fMRI - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811909004121)
+		- [The integration of the internal and external milieu in the insula during dynamic emotional experiences - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811915008174)
+	- ### Connectome
+		- [-# Spatial Embedding And Wiring Cost Constrain The Functional Layout Of The Cortical Network Of Rodents And Primates - 2016 - 123](_# Spatial Embedding And Wiring Cost Constrain The Functional Layout Of The Cortical Network Of Rodents And Primates - 2016 - 123.md)
+		- [-# The Contribution Of Geometry To The Human Connectome - 2016 - 126](_# The Contribution Of Geometry To The Human Connectome - 2016 - 126.md)
+	- ### 疾病研究
+		- [-# On The Nature Of Seizure Dynamics - 2014 - 331](_# On The Nature Of Seizure Dynamics - 2014 - 331.md)
+		- [Phys. Rev. E 65, 041924 (2002)  -  Dynamics of large-scale brain activity in normal arousal states and epileptic seizures](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.65.041924) - 302
+		- [Just a moment...](https://onlinelibrary.wiley.com/doi/full/10.1111/j.0013-9580.2003.12005.x) - 304
+		- [-* The Virtual Epileptic Patient: Individualized Whole-brain Models Of Epilepsy Spread - 2017 - 150](__ The Virtual Epileptic Patient_ Individualized Whole-brain Models Of Epilepsy Spread - 2017 - 150.md)
+		- [-* Dysconnection In Schizophrenia: From Abnormal Synaptic Plasticity To Failures Of Self-monitoring - 2009 - 748](__ Dysconnection In Schizophrenia_ From Abnormal Synaptic Plasticity To Failures Of Self-monitoring - 2009 - 748.md)
+		- [-# Structural And Functional Dysconnectivity Of The Fronto-thalamic System In Schizophrenia: A DCM-DTI Study - 2015 - 60](_# Structural And Functional Dysconnectivity Of The Fronto-thalamic System In Schizophrenia_ A DCM-DTI Study - 2015 - 60.md)
+		- [Disrupted Effective Connectivity Of Cortical Systems Supporting Attention And Interoception In Melancholia - 2015 - 60](Disrupted Effective Connectivity Of Cortical Systems Supporting Attention And Interoception In Melancholia - 2015 - 60.md)
+		- [-* Linking Microcircuit Dysfunction To Cognitive Impairment: Effects Of Disinhibition Associated With Schizophrenia In A Cortical Working Memory Model - 2014 - 135](__ Linking Microcircuit Dysfunction To Cognitive Impairment_ Effects Of Disinhibition Associated With Schizophrenia In A Cortical Working Memory Model - 2014 - 135.md)
+		- [Losing Control Under Ketamine: Suppressed Cortico-Hippocampal Drive Following Acute Ketamine in Rats | Neuropsychopharmacology](https://www.nature.com/articles/npp2014184)
+	- ### Burst Suppression
+		- [Cortical burst dynamics predict clinical outcome early in extremely preterm infants | Brain | Oxford Academic](https://academic.oup.com/brain/article/138/8/2206/329885?login=true)
+		- [Just a moment...](https://www.pnas.org/doi/abs/10.1073/pnas.1121461109)
+		- [Frontiers | The Mesoscopic Modeling of Burst Suppression during Anesthesia | Frontiers in Computational Neuroscience](https://www.frontiersin.org/articles/10.3389/fncom.2013.00046/full)
+	- ### 动态FC
+		- [-* Functional Connectivity Dynamics: Modeling The Switching Behavior Of The Resting State - 2015 - 273](__ Functional Connectivity Dynamics_ Modeling The Switching Behavior Of The Resting State - 2015 - 273.md)
+		- [-* Time-resolved Resting-state Brain Networks - 2014 - 437](__ Time-resolved Resting-state Brain Networks - 2014 - 437.md)
+		- [-# Time–frequency Dynamics Of Resting-state Brain Connectivity Measured With FMRI - 2010 - 1196](_# Time–frequency Dynamics Of Resting-state Brain Connectivity Measured With FMRI - 2010 - 1196.md)
+		- [-# Fast Transient Networks In Spontaneous Human Brain Activity - 2014 - 252](_# Fast Transient Networks In Spontaneous Human Brain Activity - 2014 - 252.md) - MEG
+		- [-* Exploring The Network Dynamics Underlying Brain Activity During Rest - 2014 - 209](__ Exploring The Network Dynamics Underlying Brain Activity During Rest - 2014 - 209.md)
+	- ### 非侵入式刺激
+		- [Concurrent TMS-fMRI And Psychophysics Reveal Frontal Influences On Human Retinotopic Visual Cortex - 2006 - 379](Concurrent TMS-fMRI And Psychophysics Reveal Frontal Influences On Human Retinotopic Visual Cortex - 2006 - 379.md)
+		- [-# A Hierarchy Of Timescales Explains Distinct Effects Of Local Inhibition Of Primary Visual Cortex And Frontal Eye Fields - 2016 - 57](_# A Hierarchy Of Timescales Explains Distinct Effects Of Local Inhibition Of Primary Visual Cortex And Frontal Eye Fields - 2016 - 57.md)
+		- [-* Transcranial Direct Current Stimulation Changes Resting State Functional Connectivity: A Large-scale Brain Network Modeling Study - 2016 - 72](__ Transcranial Direct Current Stimulation Changes Resting State Functional Connectivity_ A Large-scale Brain Network Modeling Study - 2016 - 72.md)
+		- [-* Mapping How Local Perturbations Influence Systems-level Brain Dynamics - 2017 - 67](__ Mapping How Local Perturbations Influence Systems-level Brain Dynamics - 2017 - 67.md)
+	- ### 无标度介于FPE与NMM之间
+		- [Just a moment...](https://www.pnas.org/doi/abs/10.1073/pnas.0904089106)   - 322
+		- [Phys. Rev. Lett. 94, 018102 (2005)  -  Scale-Free Brain Functional Networks](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.94.018102)  - 993
+		- [Neurobiologically Realistic Determinants of Self-Organized Criticality in Networks of Spiking Neurons](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002038) - 181
+		- [Dynamical synapses causing self-organized criticality in neural networks | Nature Physics](https://www.nature.com/articles/nphys758) - 349
+		- [Self-organized criticality occurs in non-conservative neuronal networks during ‘up’ states | Nature Physics](https://www.nature.com/articles/nphys1757) - 126
+-
+- ## 总结
+	- 神经元群体建模：弱相关的neural ensemble approach - **Fokker-Planck equation(FPE)**； 强相关的 **neural mass model(NMM)。**NMM既有神经元动力的均值简化模型（突触动力学模型），也有大尺度的经验模型。
+	- 全脑大尺度动力学建模： 网络形态的 brain network model（**BNM**）；时变的连续二维场模型 neural field model（**NFM**）
+	- 混沌、临界性、亚稳态、多稳态，是神经活动非平稳性的不同解释途径。
+	- 模型的验证、比较与驳斥，解释全脑功能数据的非平稳性，和临床应用（诊断与治疗），是大尺度模型的新兴课题。
+	- 大尺度模型的发展目标：大目标——进一步发展模型，在模型中包含更多的生物物理机制，容纳更广的假设（介于强相关和弱相关之间）；小目标——更多地应用模型，得到关于疾病的、治疗的、认知的更多信息。
+-
+- ## Citation
+	- ### The great minds
+		- [Synergetics | SpringerLink](https://link.springer.com/book/10.1007/978-3-642-88338-5)；[A theoretical model of phase transitions in human hand movements | SpringerLink](https://link.springer.com/article/10.1007/BF00336922)  —— **Hermann Haken**
+		- [Mass Action in the Nervous System | ScienceDirect ](https://www.sciencedirect.com/book/9780122671500/mass-action-in-the-nervous-system)；[Nonlinear gain mediating cortical stimulus-response relations | SpringerLink](https://link.springer.com/article/10.1007/BF00337412) ——  **Walter J. Freeman**
+		- [Just a moment...](https://www.science.org/doi/10.1126/science.177.4047.393#con)—— ** ****Philip Warren Anderson **
+		- [-* The Free-energy Principle: A Unified Brain Theory? - 2010 - 2685  ](__ The Free-energy Principle_ A Unified Brain Theory_ - 2010 - 2685.md) ； [-* Perception And Self-organized Instability - 2012 - 158  ](__ Perception And Self-organized Instability - 2012 - 158.md) ——  **Karl Friston**
+	- ### 综述
+		- [-* Noise In The Nervous System - 2008 - 1486  ](__ Noise In The Nervous System - 2008 - 1486.md)
+		- [-* The Dynamic Brain: From Spiking Neurons To Neural Masses And Cortical Fields - 2008 - 697    ](__ The Dynamic Brain_ From Spiking Neurons To Neural Masses And Cortical Fields - 2008 - 697.md)
+		- [-* Computational Psychiatry As A Bridge From Neuroscience To Clinical Applications - 2016 - 384  ](__ Computational Psychiatry As A Bridge From Neuroscience To Clinical Applications - 2016 - 384.md)
+		- [-* Translational Perspectives For Computational Neuroimaging - 2015 - 110  ](__ Translational Perspectives For Computational Neuroimaging - 2015 - 110.md)
+	- ### Technical
+		- [Bayesian inference with probabilistic population codes | Nature Neuroscience](https://www.nature.com/articles/nn1790)
+		- [Population dynamics: Variance and the sigmoid activation function - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1053811908005132?via%3Dihub)
+	- ### 因果建模
+		- [-# Quantifying Causal Emergence Shows That Macro Can Beat Micro - 2013 - 96](_# Quantifying Causal Emergence Shows That Macro Can Beat Micro - 2013 - 96.md)
+		- Dynamic causal modelling
+			- [-# Stochastic Dynamic Causal Modelling Of FMRI Data: Should We Care About Neural Noise? - 2012 - 74](_# Stochastic Dynamic Causal Modelling Of FMRI Data_ Should We Care About Neural Noise_ - 2012 - 74.md)
+			- [-# Nonlinear Dynamic Causal Models For FMRI - 2008 - 313](_# Nonlinear Dynamic Causal Models For FMRI - 2008 - 313.md)
+			- [-* Dynamic Causal Modelling - 2003 - 3157](__ Dynamic Causal Modelling - 2003 - 3157.md)
+	- ### NFMs
+		- [Phys. Rev. Lett. 77, 960 (1996)  -  Field Theory of Electromagnetic Brain Activity](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.77.960)
+		- [Phys. Rev. E 56, 826 (1997)  -  Propagation and stability of waves of electrical activity in the cerebral cortex](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.56.826)
+		- [Phys. Rev. E 76, 051901 (2007)  -  Modeling electrocortical activity through improved local approximations of integral neural field equations](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.76.051901#fulltext)
+		- [Unifying Explanation of Primary Generalized Seizures Through Nonlinear Brain Modeling and Bifurcation Analysis | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/16/9/1296/276340?login=true#3385098)  - 307
+		- [Waves in Spatially-Disordered Neural Fields: A Case Study in Uncertainty Quantification | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-319-21296-8_14)
+		- [Just a moment...](https://journals.sagepub.com/doi/10.1177/0748730406297512) - 132
+		- [-# Eigenmodes Of Brain Activity: Neural Field Theory Predictions And Comparison With Experiment - 2016 - 54](_# Eigenmodes Of Brain Activity_ Neural Field Theory Predictions And Comparison With Experiment - 2016 - 54.md)
+	- ### BNMs
+		- [-# Network Structure Of Cerebral Cortex Shapes Functional Connectivity On Multiple Time Scales - 2007 - 1060](_# Network Structure Of Cerebral Cortex Shapes Functional Connectivity On Multiple Time Scales - 2007 - 1060.md)
+		- [-* A Recurrent Network Mechanism Of Time Integration In Perceptual Decisions - Kong-Fatt Wong and Xiao-Jing Wang - 2006 - 868](__ A Recurrent Network Mechanism Of Time Integration In Perceptual Decisions - Kong-Fatt Wong and Xiao-Jing Wang - 2006 - 868.md)
+		- [-# Biophysical Network Models And The Human Connectome - 2013 - 54](_# Biophysical Network Models And The Human Connectome - 2013 - 54.md)
+		- [-# Feedforward And Feedback Frequency-dependent Interactions In A Large-scale Laminar Network Of The Primate Cortex - 2016 - 124](_# Feedforward And Feedback Frequency-dependent Interactions In A Large-scale Laminar Network Of The Primate Cortex - 2016 - 124.md)
+		- [Towards The Virtual Brain: Network Modeling Of The Intact And The Damaged Brain - 2010 - 161](Towards The Virtual Brain_ Network Modeling Of The Intact And The Damaged Brain - 2010 - 161.md)
+	- ### BNM+NFM
+		- [-# Next-generation Neural Field Model: The Evolution Of Synchrony Within Patterns And Waves - 2019 - 18](_# Next-generation Neural Field Model_ The Evolution Of Synchrony Within Patterns And Waves - 2019 - 18.md)
+		- [-# Next Generation Neural Mass Models - 2018 - 13](_# Next Generation Neural Mass Models - 2018 - 13.md)
+	- ### FPEs
+		- [Dynamics of the Firing Probability of Noisy Integrate-and-Fire Neurons | Neural Computation | MIT Press](https://direct.mit.edu/neco/article/14/9/2057/6665/Dynamics-of-the-Firing-Probability-of-Noisy)
+		- [A Master Equation Formalism for Macroscopic Modeling of Asynchronous Irregular Activity States | Neural Computation | MIT Press](https://direct.mit.edu/neco/article/21/1/46/7393/A-Master-Equation-Formalism-for-Macroscopic)
+		- [Stochastic models of neuronal dynamics | Philosophical Transactions of the Royal Society B: Biological Sciences](https://royalsocietypublishing.org/doi/10.1098/rstb.2005.1648)
+		- [link.springer.com/article/10.1023/A:1008964915724](https://link.springer.com/article/10.1023/A:1008964915724)
+	- ### NMMs
+		- [Electroencephalogram and visual evoked potential generation in a mathematical model of coupled cortical columns | SpringerLink](https://link.springer.com/article/10.1007/BF00199471)   —— Jansen-Rit
+		- [Excitatory and Inhibitory Interactions in Localized Populations of Model Neurons - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0006349572860685)  —— Wilson-Cowan
+		- [Phys. Rev. E 83, 026204 (2011)  -  Reduced representations of heterogeneous mixed neural networks with synaptic coupling](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.026204) —— Jirsa
+		- [Neural Population Modes Capture Biologically Realistic Large Scale Network Dynamics | SpringerLink](https://link.springer.com/article/10.1007/s11538-010-9573-9)  —— Jirsa
+		- [Recurrent Network Model of Somatosensory Parametric Working Memory in the Prefrontal Cortex | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/15/5/679/442256) —— Wang Xiaojing
+	- ### 数据融合
+		- [-# Model Driven EEG/fMRI Fusion Of Brain Oscillations - 2008 - 133](_# Model Driven EEG_fMRI Fusion Of Brain Oscillations - 2008 - 133.md)
+		- [-# Hemodynamic Traveling Waves In Human Visual Cortex - 2012 - 70](_# Hemodynamic Traveling Waves In Human Visual Cortex - 2012 - 70.md)
+	- ### 非平稳性
+		- [-# A Canonical Model Of Multistability And Scale-Invariance In Biological Systems - 2012 - 115](_# A Canonical Model Of Multistability And Scale-Invariance In Biological Systems - 2012 - 115.md)  - 多稳态
+		- [-# Biophysical Mechanisms Of Multistability In Resting-State Cortical Rhythms - 2011 - 222](_# Biophysical Mechanisms Of Multistability In Resting-State Cortical Rhythms - 2011 - 222.md)  - 多稳态
+		- [-* Time-resolved Resting-state Brain Networks - 2014 - 437](__ Time-resolved Resting-state Brain Networks - 2014 - 437.md)  - 亚稳态混沌吸引子
+		- [-# The Frustrated Brain: From Dynamics On Motifs To Communities And Networks - 2014 - 44](_# The Frustrated Brain_ From Dynamics On Motifs To Communities And Networks - 2014 - 44.md)  - 亚稳态极限环
+		- [-* Ongoing Cortical Activity At Rest: Criticality, Multistability, And Ghost Attractors - 2012 - 590](__ Ongoing Cortical Activity At Rest_ Criticality, Multistability, And Ghost Attractors - 2012 - 590.md)  - 鬼吸引子
+		- [-* Brain Organization Into Resting State Networks Emerges At Criticality On A Model Of The Human Connectome - 2013 - 256](__ Brain Organization Into Resting State Networks Emerges At Criticality On A Model Of The Human Connectome - 2013 - 256.md)  - 临界性
+		- [-# The Heavy Tail Of The Human Brain - 2015 - 54](_# The Heavy Tail Of The Human Brain - 2015 - 54.md)  - 重尾分布
+		- [Just a moment...](https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.10011)
+	- ### 神经系统中的噪声
+		- [-# Key Role Of Coupling, Delay, And Noise In Resting Brain Fluctuations - 2009 - 420](_# Key Role Of Coupling, Delay, And Noise In Resting Brain Fluctuations - 2009 - 420.md)
+		- [-# Brain Noise Is Task Dependent And Region Specific - 2010 - 104](_# Brain Noise Is Task Dependent And Region Specific - 2010 - 104.md)
+	- ### BOLD信号
+		- [On the Stability of BOLD fMRI Correlations | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/27/10/4719/3060865)
+		- [Unexpected arousal modulates the influence of sensory noise on confidence | eLife](https://elifesciences.org/articles/18103)
+		- [Relationship between respiration, end-tidal CO2, and BOLD signals in resting-state fMRI - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811909004121)
+		- [The integration of the internal and external milieu in the insula during dynamic emotional experiences - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811915008174)
+	- ### Connectome
+		- [-# Spatial Embedding And Wiring Cost Constrain The Functional Layout Of The Cortical Network Of Rodents And Primates - 2016 - 123](_# Spatial Embedding And Wiring Cost Constrain The Functional Layout Of The Cortical Network Of Rodents And Primates - 2016 - 123.md)
+		- [-# The Contribution Of Geometry To The Human Connectome - 2016 - 126](_# The Contribution Of Geometry To The Human Connectome - 2016 - 126.md)
+	- ### 疾病研究
+		- [-# On The Nature Of Seizure Dynamics - 2014 - 331](_# On The Nature Of Seizure Dynamics - 2014 - 331.md)
+		- [Phys. Rev. E 65, 041924 (2002)  -  Dynamics of large-scale brain activity in normal arousal states and epileptic seizures](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.65.041924) - 302
+		- [Just a moment...](https://onlinelibrary.wiley.com/doi/full/10.1111/j.0013-9580.2003.12005.x) - 304
+		- [-* The Virtual Epileptic Patient: Individualized Whole-brain Models Of Epilepsy Spread - 2017 - 150](__ The Virtual Epileptic Patient_ Individualized Whole-brain Models Of Epilepsy Spread - 2017 - 150.md)
+		- [-* Dysconnection In Schizophrenia: From Abnormal Synaptic Plasticity To Failures Of Self-monitoring - 2009 - 748](__ Dysconnection In Schizophrenia_ From Abnormal Synaptic Plasticity To Failures Of Self-monitoring - 2009 - 748.md)
+		- [-# Structural And Functional Dysconnectivity Of The Fronto-thalamic System In Schizophrenia: A DCM-DTI Study - 2015 - 60](_# Structural And Functional Dysconnectivity Of The Fronto-thalamic System In Schizophrenia_ A DCM-DTI Study - 2015 - 60.md)
+		- [Disrupted Effective Connectivity Of Cortical Systems Supporting Attention And Interoception In Melancholia - 2015 - 60](Disrupted Effective Connectivity Of Cortical Systems Supporting Attention And Interoception In Melancholia - 2015 - 60.md)
+		- [-* Linking Microcircuit Dysfunction To Cognitive Impairment: Effects Of Disinhibition Associated With Schizophrenia In A Cortical Working Memory Model - 2014 - 135](__ Linking Microcircuit Dysfunction To Cognitive Impairment_ Effects Of Disinhibition Associated With Schizophrenia In A Cortical Working Memory Model - 2014 - 135.md)
+		- [Losing Control Under Ketamine: Suppressed Cortico-Hippocampal Drive Following Acute Ketamine in Rats | Neuropsychopharmacology](https://www.nature.com/articles/npp2014184)
+	- ### Burst Suppression
+		- [Cortical burst dynamics predict clinical outcome early in extremely preterm infants | Brain | Oxford Academic](https://academic.oup.com/brain/article/138/8/2206/329885?login=true)
+		- [Just a moment...](https://www.pnas.org/doi/abs/10.1073/pnas.1121461109)
+		- [Frontiers | The Mesoscopic Modeling of Burst Suppression during Anesthesia | Frontiers in Computational Neuroscience](https://www.frontiersin.org/articles/10.3389/fncom.2013.00046/full)
+	- ### 动态FC
+		- [-* Functional Connectivity Dynamics: Modeling The Switching Behavior Of The Resting State - 2015 - 273](__ Functional Connectivity Dynamics_ Modeling The Switching Behavior Of The Resting State - 2015 - 273.md)
+		- [-* Time-resolved Resting-state Brain Networks - 2014 - 437](__ Time-resolved Resting-state Brain Networks - 2014 - 437.md)
+		- [-# Time–frequency Dynamics Of Resting-state Brain Connectivity Measured With FMRI - 2010 - 1196](_# Time–frequency Dynamics Of Resting-state Brain Connectivity Measured With FMRI - 2010 - 1196.md)
+		- [-# Fast Transient Networks In Spontaneous Human Brain Activity - 2014 - 252](_# Fast Transient Networks In Spontaneous Human Brain Activity - 2014 - 252.md) - MEG
+		- [-* Exploring The Network Dynamics Underlying Brain Activity During Rest - 2014 - 209](__ Exploring The Network Dynamics Underlying Brain Activity During Rest - 2014 - 209.md)
+	- ### 非侵入式刺激
+		- [Concurrent TMS-fMRI And Psychophysics Reveal Frontal Influences On Human Retinotopic Visual Cortex - 2006 - 379](Concurrent TMS-fMRI And Psychophysics Reveal Frontal Influences On Human Retinotopic Visual Cortex - 2006 - 379.md)
+		- [-# A Hierarchy Of Timescales Explains Distinct Effects Of Local Inhibition Of Primary Visual Cortex And Frontal Eye Fields - 2016 - 57](_# A Hierarchy Of Timescales Explains Distinct Effects Of Local Inhibition Of Primary Visual Cortex And Frontal Eye Fields - 2016 - 57.md)
+		- [-* Transcranial Direct Current Stimulation Changes Resting State Functional Connectivity: A Large-scale Brain Network Modeling Study - 2016 - 72](__ Transcranial Direct Current Stimulation Changes Resting State Functional Connectivity_ A Large-scale Brain Network Modeling Study - 2016 - 72.md)
+		- [-* Mapping How Local Perturbations Influence Systems-level Brain Dynamics - 2017 - 67](__ Mapping How Local Perturbations Influence Systems-level Brain Dynamics - 2017 - 67.md)
+	- ### 无标度介于FPE与NMM之间
+		- [Just a moment...](https://www.pnas.org/doi/abs/10.1073/pnas.0904089106)   - 322
+		- [Phys. Rev. Lett. 94, 018102 (2005)  -  Scale-Free Brain Functional Networks](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.94.018102)  - 993
+		- [Neurobiologically Realistic Determinants of Self-Organized Criticality in Networks of Spiking Neurons](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002038) - 181
+		- [Dynamical synapses causing self-organized criticality in neural networks | Nature Physics](https://www.nature.com/articles/nphys758) - 349
+		- [Self-organized criticality occurs in non-conservative neuronal networks during ‘up’ states | Nature Physics](https://www.nature.com/articles/nphys1757) - 126
+-
+- ## Abstract
+	- 使用非线性动态系统理论模型对大规模大脑活动进行建模，可以将来自多种模式的实验数据整合到一个通用框架中，从而促进预测、测试和可能的反驳。
+	- 本文总结了大尺度计算建模路径的核心假设，促进理论转化为实践的方法论框架，以及正在出现的支持大尺度建模的证据。
+	- 虽然仍然存在大量的挑战，有证据表明，神经元集群的非线性动态是适应性皮层活动的核心。同样，异常的动态过程似乎是许多大脑疾病的基础。
+-
+- ## Main
+	- 虽然对单神经元的脉冲计算特性的研究已经取得了很大进展，但是运动和感知通常不是来自单个神经元的脉冲，而是来自大脑系统中许多皮层、丘脑和脊髓神经元的集体行为([Quantifying causal emergence shows that macro can beat micro | PNAS](https://www.pnas.org/content/110/49/19790))。此外，宏观功能成像数据，如脑功能性磁共振成像成像(fMRI)和脑电图成像(EEG)反映了成千上万神经元的集体活动( [Electric Fields of the Brain: The neurophysics of EEG - Oxford Scholarship](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780195050387.001.0001/acprof-9780195050387) )。到目前为止，还没有广泛接受的神经元群体的集体活动的数学理论。传统上，对认知和功能神经影像数据的分析基本上是在没有正式的大规模神经活动的生物物理模型的情况下进行的。
+	- 在磁学、流体动力学、生态学等许多学科中，观察到的现象反映的是集体行为，而不是单个单元的行为。这些领域的研究是建立在精确的数学定律基础上的，这些定律控制着诸如磁场、流体流动和人口动态等宏观变量( [Synergetics | SpringerLink](https://link.springer.com/book/10.1007/978-3-642-88338-5) )。这些规律为整合、解释和预测经验数据提供了一个框架。神经元的集体动力学是否服从支撑这些场的“平均场”方法？
+	- 事实上，存在平均场神经模型( [Phys. Rev. Lett. 77, 960 (1996)  -  Field Theory of Electromagnetic Brain Activity](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.77.960) ; [Phys. Rev. E 56, 826 (1997)  -  Propagation and stability of waves of electrical activity in the cerebral cortex](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.56.826) ; [Phys. Rev. E 76, 051901 (2007)  -  Modeling electrocortical activity through improved local approximations of integral neural field equations](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.76.051901#fulltext) )。这些模型不是描述单个尖峰神经元的行为，而是描述神经元群体的集体行为( [Mass Action in the Nervous System | ScienceDirect ](https://www.sciencedirect.com/book/9780122671500/mass-action-in-the-nervous-system) ; [Nonlinear gain mediating cortical stimulus-response relations | SpringerLink](https://link.springer.com/article/10.1007/BF00337412) )。它们在模拟癫痫、静息态脑网络等诸多宏观活动上取得了进展，并成为多模态数据融合的工具([Model driven EEG/fMRI fusion of brain oscillations (wiley.com)](https://onlinelibrary.wiley.com/doi/epdf/10.1002/hbm.20704))。模型反演技术的进步(根据经验数据估计模型的可能性和参数)使平均场模型在认知神经科学中得到广泛应用( [Stochastic dynamic causal modelling of fMRI data: Should we care about neural noise? - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811912004697?via%3Dihub) )。
+	- 然而，大规模大脑活动的动态模型渗透到主流神经科学一直缓慢。其中一些原因是技术上的: 测试这些模型的预测是具有挑战性的。其他的原因可能是历史和文化方面的: 神经科学研究历来以对单个神经元的非常详细的描述而自豪（即不愿意丢弃微观细节）。
+	- 集体神经元活动的模型对于理解知觉和行为以及大规模神经影像数据的决定因素是至关重要的。这些模型也有它们的注意事项，技术上(限制了它们的即时效用)和概念上(限制了它们的最终效用)。这篇综述提供了大规模脑活动的动态模型的教学介绍，从基本理论的原则到挑战，争论和最近的突破。
+-
+- ## Dynamic models of brain activity: core concepts
+	- ### Dynamical systems theory
+		- 动态系统理论起源于17世纪的牛顿和莱布尼茨，他们发明了微积分来研究天体力学---- 恒星和行星的运动。这一理论的核心是微分方程，它们根据支配系统的物理定律表示系统状态变量的时间动力学。
+		- 对于微分方程，纯代数方法(写下和解决方程式)求解解析解具有局限性。庞加莱所指出的集合视角(相空间视角)可以为动态系统提供更深刻的见解。系统的状态变量张成相空间，系统的微分方程对应于相空间中的流，流所形成的轨道会汇聚向吸引子(不动点，极限环，奇异吸引子等)， 吸引子捕获了系统活动的所有特征: 稳态、周期、准周期和混沌。
+		- **Figure 1: A dynamical system is defined by a differential equation dX/d*t* = f(X).**
+			- ![Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnn.4497/MediaObjects/41593_2017_Article_BFnn4497_Fig1_HTML.jpg){:height 672, :width 843}
+			- 这里 x 由两个状态变量 x (电池膜电位)和 y (快速去极化离子通道的电导)组成。
+			- (a)相空间是状态变量跨越的几何空间: 在这种情况下，只是由 x 和 y 的轴组成的笛卡尔平面。然后，动力系统定义了一个长度和方向的矢量，由 f (x，y)在每个点给出，也就是说，对于每个膜电位和离子通道电导的组合。
+			- (b)流动(也称为向量场)是所有这些向量的集合，显示了动力系统如何在相空间中流动: 在这里，明显是顺时针方向的流动。
+			- (c)轨道是流动的解ー与流动相切的光滑线。
+			- (d)轨道收敛到吸引子上，即系统的长期解。这里只有一个单一的极限循环吸引子(红色)达到从许多不同的起点(其他颜色)。
+			- (e-g)通过增加一个缓慢恢复变量 z (middle) ，系统可以表现出一个简单的极限环(e，top) ，对应于有规则的尖峰(e，bottom) ; 或者一个更复杂的极限环(f，top) ，产生有规则的尖峰(f，bottom) ; 或者一个混沌的(奇异的)吸引子(g，top) ，当尖峰和恢复变量的时间尺度混合时，表现出不规则的尖峰(g，bottom)。
+		- ### Box 1: Dynamical systems theory definitions
+			- **State variables**
+				- 状态变量是描述感兴趣系统所需的动态变化量。对于天体运动，这些是行星的位置和速度。对于单个神经元来说，它们包括离子通道的膜电位和电导。对于神经质量模型，状态变量对应于每种神经类型的平均放电率、突触电流和膜电位。
+			- **Parameters**
+				- 一个系统的参数是那些在建模状态变量时可以被认为是常量的量。比如行星的质量，离子种类的能斯特电位，或者不同神经元之间突触连接的密度。
+			- **Differential equation**
+				- 微分方程描述了状态变量如何随着当前状态和系统参数的变化而变化。最著名的微分方程是牛顿第二定律。
+			- **Analytic solution**
+				- 微分方程的解析解是一个给出系统未来精确状态的数学方程。
+			- **Phase space**
+				- 相空间是系统所有方程张成的几何空间。如果系统有 n 个状态变量，则系统的相空间为 n 维。系统的状态对应于这个空间中的点。系统的微分方程在相空间的每个点（每个状态）都给出一个向量（速度场；流）。
+			- **Flow**
+				- 动力系统的流对应于相空间中所有点的向量。
+			- **Orbit**
+				- 轨道是相空间中沿着系统的流的曲线，它是系统解的一种几何表示。
+			- **Attractor**
+				- 在初始瞬态之后，轨道收敛到一个吸引子(点，极限环，等等)。当系统参数的微小变化只引起形态学的微小变化时，一个吸引子被认为是结构稳定的|**structurally stable**; 否则它被认为是发生了分叉|**bifurcation**。
+				- 如果有一个以上的吸引子，那么系统被称为多稳态的|**multistable**。每个吸引子都被自己的吸引域| **basin of attraction** 包围ーー流向吸引子的相空间中的所有点。吸引域被吸引域边界| **basin boundaries**  隔开。
+				- 一个不动点| **fixed point** 吸引子对应于一个已经达到稳定平衡的系统的稳态解。极限环| **limit cycle** 是一个产生周期振荡的简单闭合轨道。一个奇异吸引子| **strange attractor** 是一个复杂的分形轨道拥有属性不稳定的，发散轨道。奇异吸引子产生混沌| **chaos** ——确定的但非周期的振荡。
+			- **Saddle**
+				- 鞍类似于吸引子，但它至少有一个逃逸| escape(outset)。鞍是不稳定的。鞍可以被连接成一个序列(异宿环| heteroclinic cycle)，产生一种不存在吸引子的动力学形式——亚稳态| **metastability** 。
+			- **Criticality**
+				- 临界性出现在只具有弱稳定吸引子(例如，吸引子靠近分支)的系统中。噪声的存在会导致非常长的，缓慢的具有无标度统计特性的随机波动。
+			- **Numerical simulation**
+				- 通过对感兴趣的动力学模型应用数值积分格式，得到了一个非线性动力学模型的数值模拟。对于大规模的大脑动力学模型来说，这需要一个能够在包含噪音和时延的情况下整合高维系统的方案。
+				- **The Virtual Brain：**
+					- [Towards the Virtual Brain: Network Modeling of the Intact and the Damaged Brain | Jirsa | Archives Italiennes de Biologie](http://architalbiol.org/index.php/aib/article/view/148189)
+					- [Frontiers | The Virtual Brain: a simulator of primate brain network dynamics | Frontiers in Neuroinformatics](https://www.frontiersin.org/articles/10.3389/fninf.2013.00010/full)
+					- [Mathematical framework for large-scale brain network modeling in The Virtual Brain - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811915000051)
+					- [Differentiation of Alzheimer's disease based on local and global parameters in personalized Virtual Brain models - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2213158218301268)
+			-
+		- 庞加莱用这种几何方法展示了三个相互作用的天体是如何呈现混沌行为的，从而以几何方式解决了这个问题。在当代，代数、几何和数值模拟都被用来提供动力学的完整图像。
+	- ### Bifurcations and multistability
+		- 当系统参数的微小变化导致吸引子形状的微小变化时，吸引子的结构是稳定的。如果吸引子发生剧烈变化，则称其为不稳定的，相应的参数值称为分岔点。
+		- 在一些系统中，两个或两个以上的吸引子可以共存于同一组参数中，它们被吸引域包围，被吸引域边界隔开。这样的系统被认为是多稳态的。一个多稳态系统根据其起始状态的不同，会表现出不同的活动形式，如稳态平衡或混沌振荡。
+		- 扰动可以使得系统状态跨越吸引域边界。
+		- 通过建立多稳态动力系统模型，我们深入了解了简单运动行为的本质，例如从切分到反切分的手指敲击( [A theoretical model of phase transitions in human hand movements | SpringerLink](https://link.springer.com/article/10.1007/BF00336922) )。
+	- ### Noise and stochastic calculus
+		- 大脑的神经元群体活动不可避免的带有随机噪声——由热能、离子通道振荡和其他神经元的不规则突触输入等原因导致的随机波动( [Noise in the nervous system | Nature Reviews Neuroscience](https://www.nature.com/articles/nrn2258) ; [Brain Noise Is Task Dependent and Region Specific | Journal of Neurophysiology](https://journals.physiology.org/doi/full/10.1152/jn.00648.2010) )。这种波动来自于内部和外部的信号源。给动力系统增加噪音相当于在每一个时间步骤中给轨道添加微小的扰动。
+		- 尽管随机微分方程的数学并不平凡，轨道、吸引子和分岔的视角仍然可以提供指导。 例如，一个稳定的极限环仍然会产生振荡活动，虽然具有波动的振幅和频率，而加入多稳态系统的噪声会引起吸引子之间的不稳定切换( [A Canonical Model of Multistability and Scale-Invariance in Biological Systems](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002634) )。
+		- 由于噪声的存在，大尺度脑动力学模型植根于随机分析。尽管具体实现方式有所不同，大尺度脑动力学模型都来自于描述脉冲神经元群体的微分方程，并且包含两个关键成分：一个耦合项代表神经元间的突出作用，倾向于实现群体的同步，以及一个倾向于打破同步的随机项。由此产生的系综动力学反映了非线性神经动力学、神经间耦合和噪声的混合( [Network structure of cerebral cortex shapes functional connectivity on multiple time scales | PNAS](https://www.pnas.org/content/104/24/10240) ; [Key role of coupling, delay, and noise in resting brain fluctuations | PNAS](https://www.pnas.org/content/106/25/10302) )。下文讨论支撑这些有噪声的系综动力学研究的框架。
+-
+- ## Principles of collective neural behavior
+	- 单细胞棘波是高度非线性的，但是这种非线性是否出现在宏观神经元的活动中，如果是这样的话，是什么过程“传输”了跨尺度的非线性动力学( [More Is Different](https://www.science.org/doi/10.1126/science.177.4047.393) )？最能描述这种集体动力学的方程的合适形式是什么？有许多方法可以解决这些问题。
+	- ### The neural ensemble approach
+		- 解决这个问题的最简单的方法是假设在大的空间尺度上，单个神经元的确切状态是不相关的，而且，整个神经元群的神经元状态是不相关的。
+		- 中心极限定理表示不相关的随机过程之和收敛于高斯概率分布，即使个别过程是高度非高斯的。根据这个扩散近似|diffusion approximation，由高度非线性但基本上不相关的尖峰组成的神经元系综活动，可以简化为一个标准正态分布，具有简单的线性统计。
+		- 这样，一个神经元系综(比如一个皮层区域)的活动可以由发射率均值和方差两个变量来描述，平均放电率反映了神经元群体对总输入的响应，而方差则反映了随机效应的离散程度。
+		- **Figure 2: Principles of the neuronal ensemble reduction.**
+			- ![Figure 2](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnn.4497/MediaObjects/41593_2017_Article_BFnn4497_Fig2_HTML.jpg)
+			- (a)复杂的空间系统，例如人类皮层柱，由随着距离减弱的相互作用耦合在一起的组分构成。(b)如果由此产生的相关性与系统的大小相比衰减得很快，系统的统计数据会收敛到一个正态分布(inset) ，即使个别组成部分的统计数据是高度非高斯的。
+			- (c) Fokker–Planck方程描述了随机涨落的输入和强度发生变化时统计量是如何被动变化的。在这里输入增加，噪音变得不那么有影响力。当我们沿着箭头方向移动时，平均速率上升，总体分布变得更加精确。(d)如果系统内的相关性变强——例如，由于同步——相关长度在箭头指向蓝曲线的方向上向系统大小发散。作为扩散近似基础的假设可能不能得到满足。
+			- (e)如果存在强烈的系综相关，统计数字可能会收敛到一个非高斯分布(蓝曲线)。典型的波动向平均值收缩(因此分布变得更像帐篷) ，但是左右尾(极端值)变得更胖，相应的是罕见但高振幅的同步波动。
+		- 描述这种线性正态分布系综的动力学方程叫做 Fokker–Planck方程(FPE)。在扩散近似成立的假设下，一个神经元系综的 FPE 可以从简单的(integrate-and-fire)单神经元模型解析地导出( [The Dynamic Brain: From Spiking Neurons to Neural Masses and Cortical Fields](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000092) )。
+		- 平均发射率实质上是所有神经元响应的被动总和，并编码其输入的平均(最可能的)总体表示。FPE 还描述了总体方差的动态，对应于总体响应的表征精度( [The free-energy principle: a unified brain theory? | Nature Reviews Neuroscience](https://www.nature.com/articles/nrn2787) )。作为系综变化的输入，FPE 捕捉系综活动的漂移(平均值的变化)和扩散(方差的变化)。
+		- FPE 是局域神经元群体编码的一种可解析实现的表征。神经元的非线性，神经元之间的局域相关性和神经元类型之间的差异，都被扩散近似所包含。FPE将脉冲神经元群体的成千上万个自由度简化为均值、方差两个变量，这种维度简化是超越“大脑暴力解释(即超大规模神经元网络)”的核心( [Computational psychiatry as a bridge from neuroscience to clinical applications | Nature Neuroscience](https://www.nature.com/articles/nn.4238) )。
+		- 正态分布是均值和方差固定时，熵最大的分布，从信息论的视角，FPE是一个神经元系统包含信息最少（潜在信息最多）的表征。 因此，线性 FPE 可以看作是神经系统大尺度模型的起点。
+		- 当局部系综的统计量是高斯分布时，标准 FPE 代表了一种强大而简约的方法来平衡复杂性和可跟踪性。然而，来自各种神经元记录的聚合证据表明，神经元群体活动的空间和时间统计通常符合重尾分布( [The heavy tail of the human brain - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0959438814002141) )。 重尾分布对应于同步爆发的神经活动，违反了扩散假设。简言之，不规则的同步爆发，将相关态从微观尺度传递到了宏观尺度，导致了非高斯的波动。
+		- 重尾神经系统的建模有哪些选择？当统计量服从其它简单的概率分布(如幂律)时，存在定义良好且易于处理(非线性或分数阶)的 FPE。随机场理论可以适应这些良好行为的非高斯场景。因此，这些更一般的 FPE 对于具有强相关性和重尾统计特性的神经系统集合建模是非常有用的。然而，尽管这是理论物理学中的一个活跃领域，但在神经科学中却是一个相对未被探索的领域。因此，我们考虑下面的其他可能性。
+		- **Box 2: Beyond the linear Fokker-Planck equation**
+			- 线性FPE依赖于扩散近似，它要求系统的相关长度远小于系统的空间尺度，使得系综的涨落是不相关的小尺度时间的被动和。但由于长程的非平凡的神经元连接的存在|correspond to the formation of transient but nontrivial correlations among distant neurons，神经系统中存在比扩散近似约束下更大更频繁的涨落(重尾分布)。
+			- 神经元之间的相互关系来自于它们的放电同步或者它们放电频率的调节的同步。因此，当耦合动力系统的潜在同步倾向压倒了系综内噪声的破坏效应时，长程相关性就出现了。神经元不再过滤输入信号，被动地对整体平均值做出贡献，而是与平均值的动态反馈同步|synchronize to dynamic feedback from the mean  ，从而提高连贯性|coherence。
+			- 将神经元动态地多尺度地组合成大的同步系综，会使得神经元状态收敛于系综均值（方差收缩，峭度增加）。由于在神经元之间产生统计冗余，集合的熵因此减小。矛盾的是，熵的减少可能赋予计算优势，因为系统中有用的信息不仅取决于熵(信息多样性) ，而且还取决于可靠性，即熵和冗余之间的平衡。
+			- 对于重尾活动的神经系统集合建模有哪些选择？当统计量服从其它简单的概率分布(如双峰函数或幂律函数)时，确实存在定义良好、易于处理的非线性分式 FPEs。非线性 fpe 包含平均项和噪声项之间的高阶相互作用。一个系统(如金融市场)在高吞吐量期间变得更加不稳定(如大量交易)可以用非线性 FPE 建模。分数阶 FPE 源于对微积分的一般化，用于建立具有记忆和持续长程相关性的随机系统模型，正如神经科学中广泛观察到的那样，例如 α 节律的波动。它建立在对微积分的深刻重构之上。虽然在概念上很有吸引力，但是到目前为止，分数微积分在神经科学上的应用还很少。
+	- ### Neural mass models
+		- 在存在强相干的情况下，可以合理地假设集合活动足够接近平均值，从而可以丢弃方差。这将维度的数量减少到一个，并允许多个相互作用的局域群体，如在不同的皮层的兴奋性和抑制性神经元，由一个小数目的方程组模拟，每个方程描述一个神经元群体的平均活动( [Electroencephalogram and visual evoked potential generation in a mathematical model of coupled cortical columns | SpringerLink](https://link.springer.com/article/10.1007/BF00199471) )。这种质量作用方法是神经质量模型(NMMs)的核心。
+		- NMM有几种风格。其中一类假设神经元之间的相关性是如此之强，以至于整个神经元系综的动力学类似于单个神经元的动力学。相应地，系综平均活动模型采用与单神经元模型相同的基于电导的模型。模型使用sigmoid类型的激活函数，将膜电位映射为平均放电率。sigmoid函数的宽度隐含地包含了神经元阈值和神经元状态的离散( [Population dynamics: Variance and the sigmoid activation function - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811908005132?via%3Dihub) )。这种NMM与FPE的核心区别在于，NMM中方差是固定值，而FPE建模了方差的演化。这种NMM通常包含兴奋性神经元(有电导)和抑制性神经元(通常是被动的)的耦合，可以呈现稳态、周期性和混沌振荡(通过快慢时间尺度的混合)。
+		- 第二类NMM是采用 Hodgkin 和 Huxley 的方法，通过细致的经验观察来理解模拟系统对输入的响应(唯象理论)。与H-H模型类似，早期的NMM是从仔细观察神经群体(兔子嗅球)对驱动输入变化的集体反应中得出的( [Nonlinear gain mediating cortical stimulus-response relations | SpringerLink](https://link.springer.com/article/10.1007/BF00337412) )。这类方法尊重这样的理念： 复杂系统可以在不同的组织层次上展示具体的规则，因此大尺度的活动可能不仅是其各部分的总和。 Wilson–Cowan模型( [Just a moment...](https://www.cell.com/biophysj/pdf/S0006-3495(72)86068-5.pdf) )和Jansen-Rit模型( [Electroencephalogram and visual evoked potential generation in a mathematical model of coupled cortical columns | SpringerLink](https://link.springer.com/article/10.1007/BF00199471) )是这类经验模型的典型例子。 还有一些混合方法将群体动力学的理论处理与经验性的突触和输入-响应函数结合起来（ [Phys. Rev. E 83, 026204 (2011)  -  Reduced representations of heterogeneous mixed neural networks with synaptic coupling](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.026204) ; [Neural Population Modes Capture Biologically Realistic Large Scale Network Dynamics | SpringerLink](https://link.springer.com/article/10.1007/s11538-010-9573-9) ; [Recurrent Network Model of Somatosensory Parametric Working Memory in the Prefrontal Cortex | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/13/11/1208/274120?login=true) ）。
+		- **Figure 3: Models of large-scale brain dynamics.**
+			- ![Figure 3](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnn.4497/MediaObjects/41593_2017_Article_BFnn4497_Fig3_HTML.jpg)
+			- (a)神经质量模型(NMMs)是通过取得平均状态的每一类神经元(锥体，抑制)在一个局部人口，这里的一个皮层柱(左)。传统的脉冲神经模型将每个神经元视为一个理想化的单元(中心)。NMMs 更进一步，将整个族群动态降低到低维微分方程，代表局部相互作用神经元的平均状态(右)。细胞阈值的变化(插图，右上角)将每个神经元的全有或全无动作电位平滑成介于平均膜电位和平均放电率之间的平滑的乙状图。积分这个方程产生一个吸引子的局部动态(右下)
+			- (b)大脑网络模型(BNMs)是将一组网络模型耦合到一个大规模系统(上) ，连接通过连接体(改编自 g. Roberts，a. Perry，a. Lord，a. Frankland，v. Leung 等人，Mol。精神病学，在新闻界)。由于强大的短程连接，BNMs 可以产生波模式(底部)。这个例子展示了一个沿对角线方向向右移动的波。
+			- (c)在神经领域模型(NFM)中，皮层被看作是一个平滑的板(顶部) ，支持传播活动波(顶部插图)。包含丘脑神经质量的神经领域模型(下图插图)产生 α 振荡，其光谱特性与经验数据中观察到的相同(下图)。
+			- [Unifying Explanation of Primary Generalized Seizures Through Nonlinear Brain Modeling and Bifurcation Analysis | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/16/9/1296/276340?login=true)
+-
+- ## Large-scale brain dynamics
+	- ### Networks of neural masses
+		- NMM 描述了一个局部群体的相互作用的神经元，如锥体和抑制细胞。但局域群体和支持大脑功能的大规模系统之间仍然存在几个数量级。通过将一系列NMM耦合到介观和宏观环路，可以搭建起大尺度的脑动力学模型（ [A Recurrent Network Mechanism of Time Integration in Perceptual Decisions | Journal of Neuroscience](https://www.jneurosci.org/content/26/4/1314) ）。 每个神经元群体节点(即每个 NMM)内的动态因此反映了局部群体活动加上来自远端区域(其他节点)和随机波动的影响。这种大规模的脑网络模型(BNMs)是一个多规模的系综的系综，在不同的尺度上有不同的组织规则。
+		- 将NMM耦合成更大的系统需要依靠解剖连接，即连接组。在动物模型上，侵入式的纤维追踪构建了细致的连接组（[Spatial Embedding and Wiring Cost Constrain the Functional Layout of the Cortical Network of Rodents and Primates](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002512)）。对于人脑，DTI成像可以提供解剖连接。由此得到的全脑动力学模型在局部NMM、节点间的传导时延、混沌或随机动力学的选择上各有不同（[Biophysical network models and the human connectome - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811913003091)）。这是一个强有力的方法，将数十年来有关 NMMs 的工作与复杂脑网络的研究结合起来（[Towards the Virtual Brain: Network Modeling of the Intact and the Damaged Brain | Jirsa | Archives Italiennes de Biologie](http://architalbiol.org/index.php/aib/article/view/148189)；[Feedforward and feedback frequency-dependent interactions in a large-scale laminar network of the primate cortex | Science Advances](https://www.science.org/doi/full/10.1126/sciadv.1601335)）。BNMs 在静息态 fMRI 数据中的应用是一个非常活跃的领域，我们将在下面进行回顾。
+	- ### Neural field models
+		- BNMs 将大脑皮层视为通过连接体耦合的动态节点组成的离散网络。但是在宏观尺度上，皮层也可以被视为一个由密集的短程连接组成的连续薄片，这些短程连接随着区域间距迅速(指数)减少。大规模神经模型将大脑皮层视为一个连续的片状结构ーー神经场模型(NFMs)ーー借鉴了其他复杂系统中成熟的场模型，并在计算神经科学中有着丰富的历史。
+		- NFM中，最一般的公式使用微分方程(用于处理时间)和积分(用于处理空间耦合和时间延迟)的组合。对于关于突触核|synaptic kernel（the local connectivity footprint）的biologically realistic assumption，可以将其建模为波动方程（[Phys. Rev. E 76, 051901 (2007)  -  Modeling electrocortical activity through improved local approximations of integral neural field equations](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.76.051901)）。其他解剖特征也可纳入NFM模型（[Phys. Rev. E 65, 041924 (2002)  -  Dynamics of large-scale brain activity in normal arousal states and epileptic seizures](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.65.041924)；[Waves in Spatially-Disordered Neural Fields: A Case Study in Uncertainty Quantification | SpringerLink](https://link.springer.com/chapter/10.1007%2F978-3-319-21296-8_14)）。
+		- NFM对很多问题都提供了见解（[Unifying Explanation of Primary Generalized Seizures Through Nonlinear Brain Modeling and Bifurcation Analysis | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/16/9/1296/276340?login=true)；[Just a moment...](https://journals.sagepub.com/doi/abs/10.1177/0748730406297512)；[Eigenmodes of brain activity: Neural field theory predictions and comparison with experiment - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811916300908)）。 全脑神经电场模型的激发模式ーー捕获系统大部分能量的少量时空模式ーー与典型的静息态网络显示出惊人的匹配。
+		- NFM常用来解释波形的数据（[The stimulus-evoked population response in visual cortex of awake monkey is a propagating wave | Nature Communications](https://www.nature.com/articles/ncomms4675)）
+		- 最近高分辨率的示踪剂和基于跟踪记录的连接体为突触足迹提供了聚合的证据，这种足迹在很大程度上是不变的(类似于整个大脑皮层) ，创造了一种平滑的连接，这种连接由特定的远程网络连接调制（[Spatial Embedding and Wiring Cost Constrain the Functional Layout of the Cortical Network of Rodents and Primates](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002512)；[The contribution of geometry to the human connectome - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S105381191500806X)）。这突出了皮层连通性的几何学属性，并支持了神经纤维瘤的基本假设。将 BNMs 和 NFMs 整合到一个单一的框架中是一个活跃的研究领域，旨在调和这些大规模脑模型明显相互矛盾的方面（[Phys. Rev. E 99, 012313 (2019)  -  Next-generation neural field model: The evolution of synchrony within patterns and waves](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.012313)；[Next Generation Neural Mass Models | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-319-71048-8_1)）。
+		-
+-
+- ## Large-scale neural activity: empirical findings
+	- 大规模脑动力学模型源自于对神经族群动态的详细的理论处理。然而，大脑动态模型的有效性最终是一个经验性的问题: 这些模型能够解释、预测和统一神经生理学数据的证据是什么？评价这个问题需要什么工具？
+	- ### The rise and fall of chaos theory
+		- 对于与高增益和强突触输入相对应的参数值，NMM和NFM产生高度非线性的动力学。极限环吸引子被提出作为大脑大规模振荡的基础，混沌吸引子也出现在NMM中。   这种非线性波形在宏观信号如脑电图中的出现将为这些模型提供强有力的支持，并且更深入地支持它们所依赖的隐含假设: 即，通过同步，集体神经元动力学保留了微观尺度上存在的非线性。
+		- 但，在有噪声的、不平稳的、相对短的经验数据中，混沌的检测受到了限制。仅仅是经过滤波的线性噪声也可以产生过去被认为是混沌的数值结果。
+		- 重采样算法给出了混沌检验的零假设对应的抽样分布。
+	- ### Bifurcations and multistability in human cortex
+		- 利用零假设检验对大规模神经生理数据中的非线性结构进行了重新评价， 给出了不一样的结果。对静息态EEG数据的重新分析认为，静息态大脑是在高振幅的非线性振荡和低振幅的噪声之间不规则地跳跃，也就是处在极限环和不动点组成的多稳态（[Human Brain Mapping | Neuroimaging Journal | Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.10011)）。  一个受噪声驱动的皮质丘脑 NFM 再现这种多稳态和不规则切换（[Biophysical Mechanisms of Multistability in Resting-State Cortical Rhythms | Journal of Neuroscience](https://www.jneurosci.org/content/31/17/6353.short)）。
+		- 在癫痫发作期间持续的非线性动力学的最初报告确实通过了替代数据测试。也就是说，癫痫发作的开始被认为与持续的高振幅非线性振荡的出现相对应，提示从静息态到极限环或混沌吸引子的分岔（[Unifying Explanation of Primary Generalized Seizures Through Nonlinear Brain Modeling and Bifurcation Analysis | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/16/9/1296/276340?login=true)）。 这一观察结果再次得到 NMMs（[Just a moment...](https://onlinelibrary.wiley.com/doi/full/10.1111/j.0013-9580.2003.12005.x)）和 NFMs（[Phys. Rev. E 65, 041924 (2002)  -  Dynamics of large-scale brain activity in normal arousal states and epileptic seizures](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.65.041924)）的支持，它们预测大规模皮质（[On the nature of seizure dynamics | Brain | Oxford Academic](https://academic.oup.com/brain/article/137/8/2210/2847958?login=true)）和皮质丘脑（[Unifying Explanation of Primary Generalized Seizures Through Nonlinear Brain Modeling and Bifurcation Analysis | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/16/9/1296/276340?login=true)）动力学的分叉导致原发性全身性癫痫发作。
+		- 虽然还存在进一步的挑战，但对健康中的多重稳定性和癫痫发作中的分叉现象的观察证实了大规模模型的核心假设: 即动力学过程可能发生在大脑的最大规模，而不是被动地被噪音冲走。
+	- **Figure 4: Multistable large-scale brain rhythms.**
+		- ![Figure 4](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnn.4497/MediaObjects/41593_2017_Article_BFnn4497_Fig4_HTML.jpg){:height 752, :width 875}
+		- (a)人体静息状态(闭眼)头皮脑电图的实验记录显示了特征性的波动10hz 阿尔法节律(中间)。功率(振幅波动的平方)在低功率(黑色)模式和高功率(红色)模式之间不规则地跳跃。因此，功率波动的直方图(右)不是单峰(蓝色虚线) ，而是由两个不同的模式(红色和黑色以匹配时间序列)组成。
+		- (b)示例多稳定动力系统包括一个定点吸引子(红点)和一个极限循环吸引子(红圈) ，由一个圆形盆地边界(黑圈)分开。对于弱噪声，系统被困在不动点(左)或周期吸引子(中)的盆边界上。对于强噪声，这个多稳态系统在吸引子盆地之间不规则地跳跃。时间序列面板在状态变量中显示相应的波动。
+		- (c)当具有生理上的现实参数时，皮质丘脑 NFM 表现出类似的多重稳定性。对于真实振幅噪声，该模型的动力学特性与经验数据的高阶统计特性(中、右面板，与 a 面板相比)极为吻合。
+		- [A Canonical Model of Multistability and Scale-Invariance in Biological Systems](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002634)
+-
+- ## Emerging topics in large-scale neuronal models
+	- ### Testing, comparing and refuting models
+		- 对大规模神经活动模型的推断依赖于有效的观测模型。神经模型预测潜在的神经状态(放电率、膜电位等)，这些状态并不直接可测。生成EEG模拟数据需要生物电磁模型，而生成fMRI模拟数据需要血流动力学模型。通过各自的前馈模型实现多种数据流的预测，这种方法也允许多模态数据的融合，如同时获得的 EEG 和 fMRI（[Just a moment...](https://onlinelibrary.wiley.com/doi/10.1002/hbm.20704)）。
+		- **Figure 5: Technical and conceptual framework for empirical testing of NMMs and NFMs.**
+			- ![Figure 5](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnn.4497/MediaObjects/41593_2017_Article_BFnn4497_Fig5_HTML.jpg)
+			- (a)大规模动力学模型是从详细的神经生理学抽象出来的。数学分析和数值模拟的结合可以用来理解这些模型所支持的涌现动力学。这一步骤可以通过确保神经生理学参数被限制在现实值范围内来约束。然后需要一个正向模型(生物磁性或血液动力学; 后者举例说明)从这些模型中预测经验数据。
+			- (b)利用脑成像技术进行的经验性实验产生了一系列空间和时间孔径的经验数据。可以同时获得高质量的功能磁共振成像和脑电图以检验模型预测。从神经模型到经验数据相当于模型预测。利用变分格式和适当的模型复杂度惩罚，预测和观测之间的不匹配可用于模型反演和比较。
+			- [Hemodynamic Traveling Waves in Human Visual Cortex](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002435)
+		- 模型的具体预测还取决于其参数的选择: 增益、输入、耦合强度和噪声等。手工进行微调通常是不切实际的，而且容易造成过度拟合; 也就是说，得到可迁移性很差的复杂参数组合。从技术上讲，模型预测取决于参数的选择。可以在贝叶斯框架内集成这种依赖关系，该框架允许在给定模型参数值的可能(先验)分布的情况下估计模型预测的概率。通过引入惩罚模型复杂性的术语，可以通过反演估计特定模型的似然函数。不同的模型，包含了关于大脑的不同假设，因此可以根据它们的似然函数进行比较和排序。
+		- 这种贝叶斯方法现在已经在动态因果模型的框架内为脑磁图、脑电图和功能磁共振成像数据建立了良好的基础（[Dynamic causal modelling - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811903002027)；[Nonlinear dynamic causal models for fMRI - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811908005983)）。虽然动态因果建模依赖于上述的平均场假设，它已经被最广泛地应用于简单的，线性稳定的 NMMs。系统估计的最新进展促进了它在诸如分岔和多稳定等非线性现象中的应用（[Stochastic dynamic causal modelling of fMRI data: Should we care about neural noise? - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811912004697)）。
+	- ### Whole brain dynamics
+		- 高时间解析度和易获取性使得EEG数据成为大规模神经元动力学模型的选择模态。目前，人们对 MEG（[elifesciences.org/articles/1867](https://elifesciences.org/articles/1867)）和静息态 fMRI 数据（[Time–frequency dynamics of resting-state brain connectivity measured with fMRI - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811909012981)）的动力学结构产生了浓厚的兴趣，它们提供了全脑的信息。虽然一个单一的时间平均的功能连接矩阵被经典地用来总结静息状态的活动，最近的工作强调了非平稳性的时间依赖活动的特点。这些非平稳性被归因于皮层网络活动的时间动力学，例如高低神经同步的交替序列（[Time-resolved resting-state brain networks | PNAS](https://www.pnas.org/doi/10.1073/pnas.1400181111)；[Functional connectivity dynamics: Modeling the switching behavior of the resting state - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811914009033)）。这种观点并不认为“休息”的大脑反映的是一种消极的闲置状态，而是支持积极的束缚| binding 和不束缚的整合活动的概念，以便对动态的外部环境能够取得先机（[Frontiers | Perception and self-organized instability | Frontiers in Computational Neuroscience](https://www.frontiersin.org/articles/10.3389/fncom.2012.00044/full)）。
+		- 大规模模型目前最活跃的用途是为这些动态提供候选机制（[Exploring the network dynamics underlying brain activity during rest - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0301008213001457)；[Functional connectivity dynamics: Modeling the switching behavior of the resting state - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811914009033)）。 这些机制的不同，取决于所分析数据的性质(脑电图、脑磁图、皮层脑电图或功能磁共振成像)和所使用模型的细节。 大多数模型都会引发某种形式的不稳定性，如多稳态（[Biophysical Mechanisms of Multistability in Resting-State Cortical Rhythms | Journal of Neuroscience](https://www.jneurosci.org/content/31/17/6353.short)；[A Canonical Model of Multistability and Scale-Invariance in Biological Systems](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002634)）、亚稳态的混沌吸引子（[Just a moment...](https://www.pnas.org/doi/10.1073/pnas.1400181111)）和极限环（[The frustrated brain: from dynamics on motifs to communities and networks | Philosophical Transactions of the Royal Society B: Biological Sciences](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0532)）、鬼吸引子（[Ongoing Cortical Activity at Rest: Criticality, Multistability, and Ghost Attractors | Journal of Neuroscience](https://www.jneurosci.org/content/32/10/3366.short)）等。
+		- 静息态功能磁共振成像非平稳性的原因仍然是经验性争论的话题: 它们是神经元还是生理起源？ 如果所有生理上的混乱(如心脏和呼吸活动)和人为因素(如头部运动)都被大力“清除”，那么非平稳性就会大大减少，并可能完全消失（[On the Stability of BOLD fMRI Correlations | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/27/10/4719/3060865)）。 抛开对进一步实证分析的需要不谈，这里仍然存在一个未解决的困境: 考虑到大脑和身体之间的密切耦合，在研究皮质活动的波动时，有多少生理学可以被认为是混淆的？ 生理波动对认知能力有微妙但重要的影响，例如对做决定的信心（[Unexpected arousal modulates the influence of sensory noise on confidence | eLife](https://elifesciences.org/articles/18103)）。尽管一级生理信号ー呼吸和心率ー在血氧水平依赖信号(BOLD)中产生实质性混淆（[Relationship between respiration, end-tidal CO2, and BOLD signals in resting-state fMRI - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811909004121)），但二级效应(如心率变异分析)与脑岛等脑皮层的特异性活动共同作用，预示着预期等重要认知过程（[The integration of the internal and external milieu in the insula during dynamic emotional experiences - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811915008174)）。
+		- 脑电非线性动力学的历史也为这种努力提供了警示。首先， 时间序列数据中的线性相关性会在时间窗口统计中引起(虚假的)波动，关于时间分辨的函数连通性的推论应该建立在适当地使用零假设检验的基础上（[Phys. Rev. Lett. 73, 951 (1994)  -  Generating surrogate data for time series with several simultaneously measured variables](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.73.951)）。 其次，“动态”这个术语应该指的是产生数据的神经元过程而不是观察到的数据本身: 将功能连接中的非平凡的波动称为“时间分辨的”或“非平稳的”而不是“动态的”功能连接更有原则性，关于生成数据的动态过程的推断，理想情况下应该参考通过模型反转恢复的模型（[Dynamic causal modelling - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1053811903002027)）。 第三，如上所述，许多动态不稳定机制被用来解释这些非平稳性，多重稳定性只是能够产生复杂的流动动态的许多动态场景之一，临界性出现在分岔的尖端，产生重尾波动(幂律) ，是另一个rs-fMRI数据的波动相关的候选过程（[Phys. Rev. Lett. 110, 178101 (2013)  -  Brain Organization into Resting State Networks Emerges at Criticality on a Model of the Human Connectome](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.178101)）， 亚稳性是指系统没有稳定的吸引子，而是包含一系列不稳定的鞍点，同样在考虑范围（[Exploring the network dynamics underlying brain activity during rest - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0301008213001457)）。虽然这些术语经常可以互换使用，但每个术语都来自不同的机制，有独特的系综统计量，应注意仔细量化大规模脑活动的统计数据，以便区分这些机制（[The heavy tail of the human brain - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0959438814002141)）。
+		-
+	- ### Clinical applications
+		- 动态情景的广度为动态脑模型的临床应用提供了巨大的机会。我们已经看到癫痫发作是如何在NFMs和NMMs中被模拟为分叉的。最近的模型包括发作前的低频神经生理过程(漂移) ，提供了快速发作动力学和缓慢代谢过程之间的关系的洞察力（[On the nature of seizure dynamics | Brain | Oxford Academic](https://academic.oup.com/brain/article/137/8/2210/2847958?login=true)；[The Virtual Epileptic Patient: Individualized whole-brain models of epilepsy spread - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811916300891)）。 这种见解为治疗干预提供了机会，包括利用闭环反馈控制癫痫发作，以减少与健康的静息状态吸引子之间的分歧。
+		- **Figure 6: Application of neural field model to human epilepsy**[**11**](https://www.nature.com/articles/nn.4497#ref-CR11)**. **
+			- ![Figure 6](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnn.4497/MediaObjects/41593_2017_Article_BFnn4497_Fig6_HTML.jpg)
+			- （a）人类头皮脑电图记录显示特征性的3赫兹absence发作。声谱图显示了基频3hz 以及高次谐波，反映了非线性时间序列的特性。相空间重构(右)显示轨道从静止状态(固定点，蓝色箭头)吸引子到高振幅复杂极限环(红色箭头)的快速发散。
+			- (b)左侧，通过3 Hz 霍普夫分岔摄动的皮质丘脑神经电场模型与 a (中间)的经验数据显示惊人的匹配，包括整体对称的癫痫发作形态，起始和偏移时的尖峰和波形，以及点画谱图。右侧，癫痫发作的开始表现为通过分岔将非线性不稳定性引入神经元模型后，轨道从不动点(蓝色箭头)到极限环(红色箭头)的发散。
+			- [Unifying Explanation of Primary Generalized Seizures Through Nonlinear Brain Modeling and Bifurcation Analysis | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/16/9/1296/276340?login=true)
+		- 早产或缺氧生产后出现的不稳定的高振幅电活动爆发（burst suppression）具有临界的特征: 即，它们具有幂律、无标度的统计数据（[Cortical burst dynamics predict clinical outcome early in extremely preterm infants | Brain | Oxford Academic](https://academic.oup.com/brain/article/138/8/2206/329885?login=true)）。 在这种情况下，突发抑制被建模为一个近似于分叉的现象学神经模型，耦合到一个有限的(可耗尽的)代谢池上。 在异丙酚麻醉过程中也会出现突发抑制。有趣的是，麻醉中突发抑制的频谱指纹显示了特征性的节律性（[A neurophysiological–metabolic model for burst suppression | PNAS](https://www.pnas.org/doi/abs/10.1073/pnas.1121461109)）。在这种情况下，抑制突发事件的神经场模型假定了一个快慢系统: 一个复杂的极限环吸引子，由一个慢恢复相隔开一系列周期性的高振幅振荡（[Frontiers | The Mesoscopic Modeling of Burst Suppression during Anesthesia | Frontiers in Computational Neuroscience](https://www.frontiersin.org/articles/10.3389/fncom.2013.00046/full)）。新生儿突发抑制与麻醉之间的差异是一个非线性模型如何可以剖析一个明显单一的临床现象成为不同的动力学机制的说明。
+		- 在临床神经生理学数据中应用 NMMs 和 NFMs 代表了一个丰富的领域，在许多其他神经系统疾病，从帕金森氏症到痴呆症等方面的应用正在兴起。在动态因果建模的框架内，网络中的扰动动态也被报道在精神病条件下，将精神分裂症定位为“联系障碍”综合症是这种方法的一个自然目标（[Dysconnection in Schizophrenia: From Abnormal Synaptic Plasticity to Failures of Self-monitoring | Schizophrenia Bulletin | Oxford Academic](https://academic.oup.com/schizophreniabulletin/article/35/3/509/1870881?login=true)）。 精神分裂症中皮质和额丘脑系统的动态连接障碍已被报道（[Structural and functional dysconnectivity of the fronto-thalamic system in schizophrenia: A DCM-DTI study - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0010945215000611)）。重度抑郁症患者的忧郁症特征表现为关键的注意力网络和内感网络之间的动态失调（[Disrupted Effective Connectivity of Cortical Systems Supporting Attention and Interoception in Melancholia | Depressive Disorders | JAMA Psychiatry | JAMA Network](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2119327)）。以动态机制为基础的疾病分类学在这个正在寻找比症状群更有原则的方法的领域具有相当大的概念吸引力（[Translational Perspectives for Computational Neuroimaging - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0896627315006303)）。
+		- 除了对成像数据的动态模型进行反演之外，大尺度神经元模型可能在计算精神病学中发挥另一种作用（[Translational Perspectives for Computational Neuroimaging - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0896627315006303)）。包含均值和方差(即 FPEs)的种群模型可以解释大脑皮层如何(通过其均值)对其表征值进行编码，以及(通过状态方差)这些表征的精确性。通过与精确加权编码的链接，FPEs 代表了神经活动的生物物理模型和认知功能的贝叶斯解释之间的候选链接（[Charting the landscape of priority problems in psychiatry, part 2: pathogenesis and aetiology - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S2215036615003600)）。 非线性系统理论增加了对大脑大系统之间动态相互作用的见解（[Linking Microcircuit Dysfunction to Cognitive Impairment: Effects of Disinhibition Associated with Schizophrenia in a Cortical Working Memory Model | Cerebral Cortex | Oxford Academic](https://academic.oup.com/cercor/article/24/4/859/321897?login=true)）。
+	-
+- ## Discussion
+	- 大规模神经元动力学模型在解释、预测和整合感知、行为和功能成像数据宏观的神经元活动方面是独一无二的。这些模型的概念基础越来越多地得到经验数据分析的支持。通过将不同的经验发现整合到一个可以反复精炼(或者驳斥)的统一框架中，动态模型也可以帮助解决神经科学中的“再现性危机”。这些论点表明，大规模脑活动模型在理解功能成像数据的神经起源(如振荡和网络动力学)在健康和疾病方面的作用日益重要。
+	- 一个复杂动态系统的集体活动不一定是其组成部分的平凡和: 在一个尺度上的动态相互作用可能在一个更粗的尺度上产生意外活动，这种现象被定义为涌现（[More Is Different | Science](https://www.science.org/doi/10.1126/science.177.4047.393)）。 NMMs 的发展源于对宏观神经系统输入-反应特性的经验观察（[Nonlinear gain mediating cortical stimulus-response relations | SpringerLink](https://link.springer.com/article/10.1007/BF00337412)）。脑刺激技术ーー经颅磁刺激和经颅直流电刺激ーー使大规模神经系统受到干扰。这些技术可能促进测试全脑模型的新时代的到来（[Concurrent TMS-fMRI and Psychophysics Reveal Frontal Influences on Human Retinotopic Visual Cortex - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0960982206018185)；[elifesciences.org/articles/15252](https://elifesciences.org/articles/15252)；[Transcranial direct current stimulation changes resting state functional connectivity: A large-scale brain network modeling study - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811916001221)；[Mapping how local perturbations influence systems-level brain dynamics - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811917300666?via%3Dihub)）。
+	- ### Frontiers in models of large-scale neural systems
+		- 大脑动力学模型的进一步发展可能正好出现在他们目前所依赖的假设被打破的地方。我们勾勒出两个相反的情景，允许神经元动力学的平均场近似: 当系统规模的相关性足够弱，个别尖峰可以忽略(导致 FPE) ，反之，当相干性足够强，方差可以被认为是小和常数(导致电导为基础的 NMMs)。来自各种神经元记录的汇聚证据表明，许多神经元集群的统计数据可能是无标度的（[Spontaneous cortical activity in awake monkeys composed of neuronal avalanches | PNAS](https://www.pnas.org/doi/abs/10.1073/pnas.0904089106)）。 这样的系统拒绝平均场简化(因为方差是无界的) ，并且可能需要备选的集合模型（[Neurobiologically Realistic Determinants of Self-Organized Criticality in Networks of Spiking Neurons](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002038)；[Dynamical synapses causing self-organized criticality in neural networks | Nature Physics](https://www.nature.com/articles/nphys758)；[Self-organized criticality occurs in non-conservative neuronal networks during ‘up’ states | Nature Physics](https://www.nature.com/articles/nphys1757)）。未来的大规模大脑活动模型可能需要灵活性，以适应所有三种情况: 弱连贯性、强连贯性和介于这些极端情况之间的无标度波动。
+		- 大规模模型假定感知和认知需要协调的整体神经元活动。然而，确实存在着依赖于精确的动作电位时间的重要过程。脉冲-时间相关可塑性(STDP)是一个典型的例子。虽然 NMMs 能够同化突触可塑性的概率形式，例如频率适应（[A neural mass model of spectral responses in electrophysiology - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811907004314)）和电压依赖的突触门控（[Nonlinear dynamic causal models for fMRI - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811908005983)），但 STDP 依赖于精确的脉冲序列计时，不容易适应。STDP 已被证明对集体行为的脉冲模型有实质性的影响， 因此需要进一步的工作（[Neurobiologically Realistic Determinants of Self-Organized Criticality in Networks of Spiking Neurons](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002038)）。 类似地，尽管 NMMs 和 NFMs 包含了突触相互作用的基本细节和它们的生物化学基础(主要是 AMPA，NMDA 和 GABA 受体)，但在保持模型可控和易于验证的前提下，在多大程度上可以包含细节还有一个实际的界限（[A Recurrent Network Mechanism of Time Integration in Perceptual Decisions | Journal of Neuroscience](https://www.jneurosci.org/content/26/4/1314.short)）。 尽管有这个警告，药理学上的挑战仍然是检验模型预测的一个关键手段（[Losing Control Under Ketamine: Suppressed Cortico-Hippocampal Drive Following Acute Ketamine in Rats | Neuropsychopharmacology](https://www.nature.com/articles/npp2014184)）。
+		- 一个大胆的预测是，神经科学最终将由一个综合的非线性模型来锚定，该模型将认知和成像数据融合在一个框架中（[The free-energy principle: a unified brain theory? | Nature Reviews Neuroscience](https://www.nature.com/articles/nrn2787)）。因此，研究将在包括受过必要的数学和物理培训的科学家在内的多学科小组中进行。要实现这一目标还有很长的路要走，包括更深入地理解复杂系统中集体行为的起起落落。处于动态模型中心的维度减化是一个方便的但是现象学的工具，还是一个被大脑用来促进其适应动态环境的核心过程，这仍然有待观察。对该领域更近似的预测包括验证一系列相关模型，这些模型的目标是“低垂的果实”: 癫痫发作的预测和控制，决策实验的设计和分析，以及对精神病分类系统的贡献（[A Recurrent Network Mechanism of Time Integration in Perceptual Decisions | Journal of Neuroscience](https://www.jneurosci.org/content/26/4/1314.short)）。要实现这些近似的目标，需要在实验设计和随后的数据分析中更多地使用计算模型。
+-
