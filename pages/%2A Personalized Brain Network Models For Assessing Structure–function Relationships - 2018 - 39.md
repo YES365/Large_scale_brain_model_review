@@ -1,0 +1,104 @@
+- [Personalized brain network models for assessing structure–function relationships - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0959438818300059)
+-
+- ## 总结
+	- 个性化大脑网络模型基于个体的结构连接模拟个体静息态神经活动的动力学，并使用个体的功能数据进行优化。模型得到的优化结果/参数区间往往是对于当前科学问题特化的，并不总是能够得到推广。
+	- 模型需要选择节点、连接的构建方案，脑区的模板，节点动力学方程，以及参数优化方法。到目前为止，在构造 BNM 时，在具体关注的科学问题、研究人员的背景和可用数据的类型方面，存在着大量的主观性因素。
+	- BNM 模型对数据的个体差异足够敏感，当区域刺激应用于只有结构连接不同的模型时，结果活动模式在个体之间不同，受试者之间的变异性大于单个受试者多次扫描的变异性（+* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168）。
+	- 个性化脑网络模型可以用于脑刺激、脑损伤的研究（+* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168），也可以用于脑疾病的研究（-* The Virtual Epileptic Patient: Individualized Whole-brain Models Of Epilepsy Spread - 2017 - 150）。
+-
+- ## Highlight
+	- 个性化大脑网络模型将大脑结构与数学建模相结合。
+	- 模型的构建涉及到多种不同的策略和假设。
+	- 计算模型允许进行其他形式所不允许的模拟实验。
+	- 模型有望在个性化医疗策略发展中发挥作用。
+	-
+- ## Abstract
+	- 许多最近在宏观大脑动力学计算建模方面的努力已经开始采用数据驱动的方法，将来自被试数据的结构和/或功能信息结合起来。
+	- 在这里，我们讨论最近的工作使用个性化的大脑网络模型来研究人类大脑的结构-功能关系。我们描述了建立这些模型的必要步骤，并展示了这种计算方法如何通过执行虚拟实验的能力提供以前无法获得的信息。
+	- 最后，我们提出个性化脑网络模型的例子，可以用来深入了解局部刺激的影响和改善癫痫的手术结果。
+	- ![](https://ars.els-cdn.com/content/image/1-s2.0-S0959438818300059-fx1_lrg.jpg)
+-
+- ## Introduction
+	- 了解结构与功能的联系是网络神经科学的一个关键目标。网络神经科学是一个迅速发展的领域，它依靠复杂的网络理论来建模和研究大脑的多种尺度和交互方式（Network neuroscience | Nature Neuroscience）。
+	- 研究表明，虽然大脑网络结构的某些特征在个体之间是保守的，但网络结构的差异可以在人群之间观察到（Quantifying Differences and Similarities in Whole-Brain White Matter Architecture Using Local Connectome Fingerprints）。 人类工作表现的个体差异（Functional alignment with anatomical networks is associated with cognitive flexibility | Nature Human Behaviour）以及健康个体与患病个体之间的差异（The connectomics of brain disorders | Nature Reviews Neuroscience）也与大脑潜在结构连接的差异有关。这些发现推动了数据驱动的大脑活动计算模型的形成。
+	- 这些个性化大脑网络模型(BNM)结合了个体的结构连通性和神经元活动的数学方程，以产生一个特定主题的时空大脑活动模拟。 由于测量人脑的宏观结构连接的非侵入性成像技术的最新进展（Measuring macroscopic brain connections in vivo | Nature Neuroscience），这样的模型已获得普及，以研究大规模的脑动力学。
+	- ### Box 1  Personalized brain network models (BNM)
+		- ‘Everything should be made as simple as possible, but not simpler’ — Albert Einstein.
+		- 个性化的 BNM 模拟大脑动态，使用生物启发的数学方程模拟区域活动，并通过观察到的大脑结构耦合。 将个人数据纳入模型的结构和动态，需要根据手头的问题做出多种假设和选择。与模型设计相关的灵活性使其有助于在不同应用范围内进行电子实验，但也意味着在解释模型预测和/或进行概括时必须谨慎。
+		- Applications：
+			- 产生模拟静息状态活动模式的动力学。
+			- 预测目标刺激的效果。
+			- 用于研究大脑损伤。
+			- 提供癫痫发作的可能性，并预测手术效果。
+		- Limitations：
+			- 模型通常是基于手头的科学问题进行优化的，并不总是可以推广的。
+			- 不一定能产生描述真实大脑活动的波形。
+			- 可以提供预测结果，但可能缺乏许多神经生理学细节和/或机制的解释。
+	- 这些计算模型对底层网络结构很敏感（Stimulation-Based Control of Dynamic Brain Networks），在研究结构-功能关系时提供了许多优势。
+		- 例如，一个人可以在电子实验中扰乱潜在的大脑结构，如损伤(去除边缘【Brain networks under attack: robustness properties and the impact of lesions | Brain | Oxford Academic】)或切除(去除节点【Virtual Cortical Resection Reveals Push-Pull Network Control Preceding Seizure Evolution - ScienceDirect】) ，并研究这种扰动对模拟大脑活动的影响。
+		- 或者，人们可以通过修改数学方程来影响局部大脑动力学，比如应用刺激或修改大脑兴奋性，并研究这些局部扰动对整体大脑功能的影响（The Virtual Epileptic Patient: Individualized whole-brain models of epilepsy spread - ScienceDirect）。
+		- 重要的是，由于模型对特定个体的特殊性，人们可以研究相似的扰动对一组个体的不同影响。因此，这种方法有可能导致个性化治疗策略的发展，以对抗疾病或提高人类的表现（A new neuroinformatics approach to personalized medicine in neurology: The Virtual Brain - PMC）。
+-
+- ## Building data-driven brain network models
+	- 建立个性化的 BNM 需要根据网络的规模、结构连接的类型以及构成模型的数学方程的神经生理学复杂程度作出决定。  节点与连接的定义、脑区模板的选择，都会影响模拟结果（Network and Multilayer Network Approaches to Understanding Human Brain Dynamics | Philosophy of Science: Vol 83, No 5；How do parcellation size and short-range connectivity affect dynamics in large-scale brain network models? - ScienceDirect）。
+	- ![](https://ars.els-cdn.com/content/image/1-s2.0-S0959438818300059-gr1_lrg.jpg)
+	- 到目前为止，在构造 BNM 时，对于选择特定类型的连通性或数学方程还没有统一的规则。事实上，在手头的具体问题、研究人员的背景和可用数据的类型方面，存在着大量的主观性因素。
+-
+- ## The incorporation of personal data
+	- 构建个性化的 BNM 需要模型对数据的个体差异足够敏感。最近有研究表明，利用扩散频谱成像数据得到的人脑连接体建立脑动力学模型时，受试者之间的变异性大于单个受试者多次扫描的变异性（Stimulation-Based Control of Dynamic Brain Networks）。   当区域刺激应用于只有结构连接不同的模型时，结果活动模式在个体之间不同。
+		- ![](https://ars.els-cdn.com/content/image/1-s2.0-S0959438818300059-gr2_lrg.jpg)
+	- 此外，如上所述，该模型包含了结构性和动态的信息和假设，并且这些信息都可以是个性化的。 一般而言，是否有能力整合个人资料取决于这些资料的可用性，而且每项研究通常都在数据和模型的使用上有所不同。
+	-
+- ## Applications: regional brain stimulation
+	- 建立个人大脑计算模型的一个好处是，人们可以进行由于实验/伦理约束而不可能进行的虚拟实验。例如，使用非侵入性的大脑刺激，如经颅磁刺激(TMS)或经颅直流电刺激(tDCS)作为临床治疗选择（Non-invasive Human Brain Stimulation in Cognitive Neuroscience: A Primer - ScienceDirect）。 个性化的 BNM 使人们能够系统地研究刺激对不同人群不同脑区的影响（Transcranial direct current stimulation changes resting state functional connectivity: A large-scale brain network modeling study - ScienceDirect；Stimulation-Based Control of Dynamic Brain Networks）。
+	-
+- ## Applications: informing surgical decisions in epilepsy
+	- 个性化的 BNM 在模拟诸如精神分裂症（Just a moment...；Structural connectivity in schizophrenia and its impact on the dynamics of spontaneous functional networks: Chaos: An Interdisciplinary Journal of Nonlinear Science: Vol 23, No 4）、帕金森病（Uncovering the underlying mechanisms and whole-brain dynamics of deep brain stimulation for Parkinson’s disease | Scientific Reports；Neural Plasticity in Human Brain Connectivity: The Effects of Long Term Deep Brain Stimulation of the Subthalamic Nucleus in Parkinson’s Disease）和癫痫（The Virtual Epileptic Patient: Individualized whole-brain models of epilepsy spread - ScienceDirect）等疾病的影响时也提供了优势。
+	- 其他的研究工作使用个性化的大脑模型进行虚拟切除实验，以便预测哪些脑区应该作为手术切除的目标（Predicting Surgery Targets in Temporal Lobe Epilepsy through Structural Connectome Based Simulations）。
+-
+- ## Conclusion
+	- 个性化的 BNM 对于探索结构-功能关系是必不可少的，因为它们允许人们进行其他形式无法实现的控制虚拟实验。虽然这些模型可能缺乏机械解释，但它们提供了强大的预测结果，有可能极大地影响和推进医疗策略。此外，这些模型可以回答一些基本问题，例如人脑如何在结构上受到限制，以产生功能性活动模式，或者是什么结构/动力学特征驱动个体表现的差异。未来的工作还必须集中于分类和理解这个个体在大脑活动和表现上的变异性。随着研究人员能够将更多的个人信息纳入模型结构和动态，个性化 BNM 将日益成为评估结构-功能关系和设计个性化医疗策略的重要工具。
+-
+- Citation
+	- 综述
+		- -* The Connectomics Of Brain Disorders - 2015 - 768
+		- -# A New Neuroinformatics Approach To Personalized Medicine In Neurology: The Virtual Brain - 2016 - 40
+		- -# Network And Multilayer Network Approaches To Understanding Human Brain Dynamics - 2016 - 60
+		- -# Non-invasive Human Brain Stimulation In Cognitive Neuroscience: A Primer - 2015 - 156
+	- 个体差异
+		- -# Functional Alignment With Anatomical Networks Is Associated With Cognitive Flexibility - 2018 - 61
+		- -# Quantifying Differences And Similarities In Whole-Brain White Matter Architecture Using Local Connectome Fingerprints - 2016 - 73
+	- 脑网络测量
+		- Measuring Macroscopic Brain Connection In Vivo - 2015 - 195
+	- 大尺度建模案例
+		- +* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168
+			- 计算模型对底层网络结构很敏感
+			- 受试者之间的变异性大于单个受试者多次扫描的变异性
+			- 个性化的 BNM 使人们能够系统地研究刺激对不同人群不同脑区的影响
+		- -* The Virtual Epileptic Patient: Individualized Whole-brain Models Of Epilepsy Spread - 2017 - 150
+			- 人们可以通过修改数学方程来影响局部大脑动力学，比如应用刺激或修改大脑兴奋性，并研究这些局部扰动对整体大脑功能的影响
+	- 网络扰动的建模
+		- -* Brain Networks Under Attack: Robustness Properties And The Impact Of Lesions - 2016 - 132
+		- -# Virtual Cortical Resection Reveals Push-Pull Network Control Preceding Seizure Evolution - 2016 - 126
+	- 建模技术探讨
+		- -# How Do Parcellation Size And Short-range Connectivity Affect Dynamics In Large-scale Brain Network Models? - 2016 - 49
+	- 脑刺激研究
+		- -* Transcranial Direct Current Stimulation Changes Resting State Functional Connectivity: A Large-scale Brain Network Modeling Study - 2016 - 72
+	- 疾病研究
+		- -* Functional Hierarchy Underlies Preferential Connectivity Disturbances In Schizophrenia - 2015 - 64
+		- -# Structural Connectivity In Schizophrenia And Its Impact On The Dynamics Of Spontaneous Functional Networks - 2013 - 40
+		- -* Uncovering The Underlying Mechanisms And Whole-brain Dynamics Of Deep Brain Stimulation For Parkinson’s Disease - 2017 - 46
+		- -# Neural Plasticity In Human Brain Connectivity: The Effects Of Long Term Deep Brain Stimulation Of The Subthalamic Nucleus In Parkinson’s Disease - 2014 - 71
+		- -# Predicting Surgery Targets In Temporal Lobe Epilepsy Through Structural Connectome Based Simulations - 2015 - 61
+-
+- Cited by
+	- -* Cognitive Chimera States In Human Brain Networks - 2019 - 61
+	- -# Homeostatic Plasticity And Emergence Of Functional Networks In A Whole-brain Model At Criticality - 2018 - 17
+	- -# Targeting Brain Networks With Multichannel Transcranial Current Stimulation (tCS) - 2018 - 20
+	- -* Dynamic Representations In Networked Neural Systems - 2020 - 14
+	- -* The Bayesian Virtual Epileptic Patient: A Probabilistic Framework Designed To Infer The Spatial Map Of Epileptogenicity In A Personalized Large-scale Brain Model Of Epilepsy Spread - 2020 - 18
+	- -* Models Of Communication And Control For Brain Networks: Distinctions, Convergence, And Future Outlook - 2020 - 6
+	- Control Of Brain Network Dynamics Across Diverse Scales Of Space And Time - 2020
+	- -* Data-driven Brain Network Models Differentiate Variability Across Language Tasks - 2018 - 15
+	- -* Personalization Of Hybrid Brain Models From Neuroimaging And Electrophysiology Data - 2018
+	- -* Multi-modal And Multi-subject Modular Organization Of Human Brain Networks - 2022

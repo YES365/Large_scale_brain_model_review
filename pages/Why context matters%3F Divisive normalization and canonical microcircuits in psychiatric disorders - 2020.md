@@ -1,0 +1,14 @@
+- [Why context matters? Divisive normalization and canonical microcircuits in psychiatric disorders - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016801021930536X)
+-
+- ## Highlights
+	- 神经元活动的上下文依赖性。
+	- 除法归一化| Divisive normalization 可以解释上下文依赖性。
+		- Divisive normalization（除法归一化）是一种神经科学中常用的技术，用于调节神经元对于输入的响应。它包括在神经元的激活中除以一个归一化的项，以调节神经元对输入的敏感度。这种机制有助于平衡神经元对于不同输入之间的响应，使得神经网络的活动更加稳定和准确。 from GPT
+	- 上下文依赖性是由规范微电路介导的。
+	- 规范的微电路包括抑制和激发。
+	- 在精神分裂症和抑郁症等精神疾病中，抑制和兴奋是异常的。
+-
+- ## Abstract
+	- 细胞、区域和行为水平上的神经活动显示出上下文依赖性。在这里，我们建议用除法归一化（DN）来处理输入-输出关系，包括（i）求和/平均输入和（ii）根据输入阶段归一化输出，作为一种计算机制，作为上下文依赖性的基础。输入求和和输出归一化由规范微电路 （CM） 中的输入输出关系介导。DN/CM 在精神分裂症或抑郁症等精神疾病中发生改变，其各种症状可通过异常的环境依赖性来表征。
+-
+-

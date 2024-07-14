@@ -3,21 +3,32 @@
 	- ### Reviews
 		- [[mathematical framework for large-scale brain network modeling in The Virtual Brain - 2015]] - TVB建模框架
 		- [[* Dynamic Models Of Large-scale Brain Activity - Michael Breakspear - 2017 - 336]] - 大尺度建模经典综述
+		  collapsed:: true
+			- 使用非线性动态系统理论模型对大规模大脑活动进行建模，可以将来自多种模式的实验数据整合到一个通用框架中，从而促进预测、测试和可能的反驳。
+			- 本文总结了大尺度计算建模路径的核心假设，促进理论转化为实践的方法论框架，以及正在出现的支持大尺度建模的证据。
+			- 虽然仍然存在大量的挑战，有证据表明，神经元集群的非线性动态是适应性皮层活动的核心。同样，异常的动态过程似乎是许多大脑疾病的基础。
+		- [[Functional connectivity dynamically evolves on multiple time-scales over a static structural connectome: Models and mechanisms]] - 功能连接产生机制建模
+		  collapsed:: true
+			- 在过去的十年中，我们观察到大脑结构和功能连接组学的革命。 一方面，我们对大脑白质结构连接组有了更详细的描述。另一方面，我们拥有一系列一致的功能网络，这些网络在休息期间随着时间的推移而形成和消散。尽管结构连通性和功能连通性之间存在明显的空间相似性，但要理解不同的时间演化功能网络如何从单个结构网络自发地出现，需要从复杂网络动力学和动力系统理论的角度来分析问题。在这个方向上，自下而上的计算模型是测试理论场景和描述静息态活动起源机制的有用工具。
+			- 在这里，我们通过计算模型概述了过去十年提出的不同机制场景。重要的是，我们强调需要结合额外的模型约束，考虑到 MEG 在更精细的时间尺度上观察到的属性和 FC 的动态属性，以便刷新候选场景列表。
 		- [[Neurological Biomarkers and Neuroinformatics : The Role of The Virtual Brain - 2018]] - 神经信息学背景下介绍TVB
-		- [[+* Personalized Brain Network Models For Assessing Structure–function Relationships - 2018 - 39]]
-		- [[+* Biophysical Modeling Of Large-Scale Brain Dynamics And Applications For Computational Psychiatry - 2018 - 20]]
-		- [[-* Computational models link cellular mechanisms of neuromodulation to large-scale neural dynamics - 2021]] - 模型结合**神经调节系统**综述
+		- [[* Biophysical Modeling Of Large-Scale Brain Dynamics And Applications For Computational Psychiatry - 2018 - 20]]
+		- [[* Computational models link cellular mechanisms of neuromodulation to large-scale neural dynamics - 2021]] - 模型结合**神经调节系统**综述
+		  collapsed:: true
+			- 数十年的神经生物学研究揭示了神经元响应特性被动态调节以支持适应性认知功能的不同方式。这种神经调节是通过改变神经元的生物物理特性来实现的。然而，认知功能的改变并非直接由个别神经元的调节引起，而是由介观神经系统的族群动态介导的。理解这种多尺度映射是一个重要但不容忽视的问题。在这里，我们通过展示计算模型如何参数化地将经典的神经调节过程映射到神经活动的系统级模型，从而将这些不同层次的描述连接起来。随之而来的系统级活动的关键平衡支持认知和行动，尽管我们对这种映射的了解仍然不完整。通过这种方式，将微尺度神经元调节与系统级大脑功能联系起来的定量模型突出了知识上的差距，并为理论和实验工作的整合提出了新的方向。
 		- [[Toward Mapping Neurobehavioral Heterogeneity of Psychedelic Neurobiology in Humans - 2022]] - 使用结合受体密度数据的模型模拟迷幻药的全脑水平神经反应 综述
 		- [[Generative Models of Brain Dynamics - 2022]] - 大脑动力学生成模型总结
 		- [[Multiscale modeling of brain network organization - 2022]] - 多层次大脑网络
 		- [[The quest for multiscale brain modeling - 2022]] - 多尺度大脑建模
 		- [[Dynamic sensitivity analysis: Defining personalised strategies to drive brain state transitions via whole brain modelling - 2023]] - BNM用于评估大脑状态切换
+		  collapsed:: true
+			- 传统上，在神经影像学中，无模型分析用于通过信号检测理论发现大脑状态之间的显着差异。根据对基础数据的先验假设，可以分析不同的时空特征。或者，基于模型的技术从数据推断特征并比较模型参数的显着性。然而，评估从一种大脑状态到另一种大脑状态的转变在当前范式中仍然是一个挑战。在这里，我们引入了一个“动态敏感性分析”框架，该框架根据刺激能力来量化大脑状态之间的转变，以重新平衡时空大脑活动以达到目标状态，例如健康的大脑动态。在实践中，这意味着建立一个适合大脑动力学时空描述的全脑模型，并在计算机中应用系统刺激来评估驱动大脑动力学达到目标状态的最佳策略。此外，我们展示了动态敏感性分析如何扩展到各种脑刺激范例，最终有助于提高个性化临床干预的效果。
 		- [[Virtual brain twins: from basic neuroscience to clinical use - 2024]] - TVB最新框架
 		  collapsed:: true
 			- 虚拟孪生脑是基于个人大脑数据的个性化、生成性和适应性大脑模型，用于科学和临床用途。 在描述虚拟孪生脑的关键要素之后，我们介绍了个性化全脑网络模型的标准模型。 通过三种方式实现个性化，即使用受试者的脑成像数据：(1)将皮层和皮层下区域组装到特定受试者的脑空间中；(2)将连接性直接映射到大脑模型中，并可以推广到其他参数；(3)通过模型反演来估计相关参数，通常使用概率机器学习。 我们介绍了个性化全脑网络模型在健康老龄化和五种临床疾病中的应用：癫痫、阿尔茨海默病、多发性硬化症、帕金森病和精神障碍。 具体来说，我们介绍了相关参数的空间掩模，并根据生理和病理假设展示了它们的应用。 最后，我们指出了关键挑战和未来方向。
 	- ### 模型比较与检验
-		- [[-* Predicting Functional Connectivity From Structural Connectivity Via Computational Models Using MRI: An Extensive Comparison Study - 2015 - 49]]
-		- [[-* Multi-modal and multi-model interrogation of large-scale functional brain networks - 2022]] - SL模型与WC模型的静态、动态比较
+		- [[Predicting Functional Connectivity From Structural Connectivity Via Computational Models Using MRI: An Extensive Comparison Study - 2015 - 49]]
+		- [[Multi-modal and multi-model interrogation of large-scale functional brain networks - 2022]] - SL模型与WC模型的静态、动态比较
 		- ### Simon B. Eickhoff & Oleksandr V. Popovych
 			- [[What Can Computational Models Contribute to Neuroimaging Data Analytics? - 2019]] - 观点：经过适当验证和优化的数学模型可用于机械解释从神经成像数据中观察到的大脑结构和神经元动力学的特性。
 			- [[Inter-subject and inter-parcellation variability of resting-state whole-brain dynamical modeling - 2021]] - 模板对建模的影响
@@ -27,11 +38,11 @@
 			- [Frontiers | Editorial: From Structure to Function in Neuronal Networks: Effects of Adaptation, Time-Delays, and Noise (frontiersin.org)](https://www.frontiersin.org/articles/10.3389/fnsys.2022.871165/full)
 	- ### 模型应用
 		- ### 虚拟实验
-			- [[-* The modulation of neural gain facilitates a transition between functional segregation and integration in the brain - 2018 - 80]] —— 模型中发现**神经元增益促进网络整合**
-			- [[+* The Virtual Aging Brain: A Model-driven Explanation For Cognitive Decline In Older Subjects - 2022]] - 虚拟老化
+			- [[* The modulation of neural gain facilitates a transition between functional segregation and integration in the brain - 2018 - 80]] —— 模型中发现**神经元增益促进网络整合**
+			- [[* The Virtual Aging Brain: A Model-driven Explanation For Cognitive Decline In Older Subjects - 2022]] - 虚拟老化
 			- [Modeling brain dynamics after tumor resection using The Virtual Brain - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811920302251?dgcid=raven_sd_recommender_email) - 模拟手术
 		- ### 疾病研究
-			- [[-* Whole-brain dynamical modelling for classification of Parkinson’s disease - 2023]]- PD分类，方法或许可迁移到AD上
+			- [[Whole-brain dynamical modelling for classification of Parkinson’s disease - 2023]]- PD分类，方法或许可迁移到AD上
 			  collapsed:: true
 				- 根据数据处理和建模方法，**模拟的全脑连接体显示个体间变异性增强**。通过将人脑连接体视为个体化属性，我们研究如何根据不同的数据处理和模型验证，利用经验和模拟的全脑连接体衍生的特征来将帕金森病患者与健康对照进行分类。为此，我们应用模拟血氧水平依赖性信号来源于一个全脑动力学模型，模拟神经元群体的电信号，以揭示患者和对照之间的差异。**除了通过将动力学模型拟合到经验性神经影像学数据的广泛使用的模型验证之外，我们还发明了针对行为数据(如受试者类别)的模型验证，我们称之为行为模型拟合，并显示它可以有益于帕金森病患者分类。**此外，本研究报告的机器学习结果也表明，当经验数据与模拟结果互补时，患者分类的性能可以得到改善。我们还表明，**血氧水平相关信号的时间滤波影响预测结果，其中低频段的滤波对于帕金森病患者分类是明智的。**此外，通过构造来自多个大脑分块方案的经验数据和模拟数据的特征空间，提供了改善预测性能的互补特征。基于我们的研究结果，**我们认为结合模拟结果与实证数据对个体间研究及其临床应用是有效的**。
 	- ### New Model
@@ -39,9 +50,9 @@
 			- [A Nonlinear Fokker-Planck Description of Continuous Neural Network Dynamics | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-30487-4_4)
 			- [Nonlinear, Nonequilibrium Landscape Approach to Neural Network Dynamics | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-61616-8_15)
 	- ### New Tech
-		- [[-* The Bayesian Virtual Epileptic Patient: A probabilistic framework designed to infer the spatial map of epileptogenicity in a personalized large-scale brain model of epilepsy spread - 2020 - 35]] - 贝叶斯参数推断
+		- [[The Bayesian Virtual Epileptic Patient: A probabilistic framework designed to infer the spatial map of epileptogenicity in a personalized large-scale brain model of epilepsy spread - 2020 - 35]] - 贝叶斯参数推断
 		- [[Virtual deep brain stimulation: Multiscale co-simulation of a spiking basal ganglia model and a whole-brain mean-field model with The Virtual Brain - 2022]] - 神经元网络与脑网络联合建模并施加外部刺激
-		- [[-* Co-Evolving Dynamics and Topology in a Coupled Oscillator Model of Resting Brain Function - 2023]] - **大脑不会以相同的方式或同时使用其所有连接** 动态使用结构连接的BNM
+		- [[Co-Evolving Dynamics and Topology in a Coupled Oscillator Model of Resting Brain Function - 2023]] - **大脑不会以相同的方式或同时使用其所有连接** 动态使用结构连接的BNM
 		- [High-resolution virtual brain modeling personalizes deep brain stimulation for treatment-resistant depression: Spatiotemporal response characteristics following stimulation of neural fiber pathways - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811921011198?dgcid=raven_sd_recommender_email) - 高分辨率虚拟脑模型
 		- [Frontiers | Experimental and Computational Study on Motor Control and Recovery After Stroke: Toward a Constructive Loop Between Experimental and Virtual Embodied Neuroscience (frontiersin.org)](https://www.frontiersin.org/articles/10.3389/fnsys.2020.00031/full) - 结合脊髓建模和大脑建模的中风后运动恢复的实验与计算研究
 		  collapsed:: true
@@ -51,42 +62,17 @@
 		- [Next-generation neural mass and field modeling | Journal of Neurophysiology](https://journals.physiology.org/doi/full/10.1152/jn.00406.2019)
 	- ### New Idea
 		- [Bifurcation in space: Emergence of function modularity in the neocortex | bioRxiv](https://www.biorxiv.org/content/10.1101/2023.06.04.543639v1.full)
-		-
 	- ### 异质性建模
-		- [[-* A Large-Scale Circuit Mechanism For Hierarchical Dynamical Processing In The Primate Cortex - 2015 - 271]] - 猴脑异质性模型，产生了时间尺度梯度 - Wang Xiaojing
-		- [[-* Functional Hierarchy Underlies Preferential Connectivity Disturbances In Schizophrenia - 2015 - 64]] - E/I比层次结构预测精神分裂症的局部特性 - Wang Xiaojing & Murray
-		- [[+* Inversion of a large-scale circuit model reveals a cortical hierarchy in the dynamic resting human brain - Peng Wang et al. - 2019 - 109]] - DCM优化方法搜索区域异质参数 - Yeo
-		- [[-* Hierarchical Heterogeneity Across Human Cortex Shapes Large-Scale Neural Dynamics - 2019 - 104]] - 髓鞘化图谱作为区域异质性约束 - Murray
-		- [[-* Dynamical Consequences Of Regional Heterogeneity In The Brain’s Transcriptional Landscape - 2021]] - 基因表达图谱作为异质性约束 - Deco
-		- [[-* Sensory-motor Cortices Shape Functional Connectivity Dynamics In The Human Brain - 2021 - 5]] - 功能梯度作为模型区域异质约束 - Yeo
-		- [[-* The impact of regional heterogeneity in whole-brain dynamics in the presence of oscillations - 2023]] - 当考虑到结构和功能区域的异质性时，具有**振荡的模型**表现得更好。在**AD数据**上有应用。 - Deco
-		- [[-* Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics - 2023]] - **数据驱动**选择神经群体模型以及区域异质参数 - Jirsa
+		- [[A Large-Scale Circuit Mechanism For Hierarchical Dynamical Processing In The Primate Cortex - 2015 - 271]] - 猴脑异质性模型，产生了时间尺度梯度 - Wang Xiaojing
+		- [[Functional Hierarchy Underlies Preferential Connectivity Disturbances In Schizophrenia - 2015 - 64]] - E/I比层次结构预测精神分裂症的局部特性 - Wang Xiaojing & Murray
+		- [[* Inversion of a large-scale circuit model reveals a cortical hierarchy in the dynamic resting human brain - Peng Wang et al. - 2019 - 109]] - DCM优化方法搜索区域异质参数 - Yeo
+		- [[Hierarchical Heterogeneity Across Human Cortex Shapes Large-Scale Neural Dynamics - 2019 - 104]] - 髓鞘化图谱作为区域异质性约束 - Murray
+		- [[Dynamical Consequences Of Regional Heterogeneity In The Brain’s Transcriptional Landscape - 2021]] - 基因表达图谱作为异质性约束 - Deco
+		- [[Sensory-motor Cortices Shape Functional Connectivity Dynamics In The Human Brain - 2021 - 5]] - 功能梯度作为模型区域异质约束 - Yeo
+		- [[The impact of regional heterogeneity in whole-brain dynamics in the presence of oscillations - 2023]] - 当考虑到结构和功能区域的异质性时，具有**振荡的模型**表现得更好。在**AD数据**上有应用。 - Deco
+		- [[Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics - 2023]] - **数据驱动**选择神经群体模型以及区域异质参数 - Jirsa
 	- ### 网络刺激与控制
-		- [[+* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168]]
-	- ### 理解大脑功能
-		- [[+* What We Can Do And What We Cannot Do With FMRI - 2008 - 2170]] - 兴奋抑制网络与fMRI的生理解释
-		  collapsed:: true
-			- [Regional variation in neurovascular coupling and why we still lack a Rosetta Stone | Philosophical Transactions of the Royal Society B: Biological Sciences (royalsocietypublishing.org)](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2019.0634)
-			- [Non-Neural Factors Influencing BOLD Response Magnitudes within Individual Subjects | Journal of Neuroscience (jneurosci.org)](https://www.jneurosci.org/content/42/38/7256.abstract)
-			- [Causal mapping of human brain function | Nature Reviews Neuroscience](https://www.nature.com/articles/s41583-022-00583-8)
-			- [Challenges and future directions for representations of functional brain organization | Nature Neuroscience](https://www.nature.com/articles/s41593-020-00726-z)
-			- [Graph Neural Networks in Network Neuroscience | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9903566)
-		- [[-* The dark matter of the brain - 2019]] - 大脑存在大量沉默神经元
-		  collapsed:: true
-			- [How silent is the brain: is there a “dark matter” problem in neuroscience? | SpringerLink](https://link.springer.com/article/10.1007/s00359-006-0117-6)
-		- [[-* Human cognition involves the dynamic integration of neural activity and neuromodulatory systems - 2019 - 212]] —— **神经活动的低维流形**
-		- [[-* Brain Activity Is Not Only For Thinking  - 2021 - 14]] - BOLD可能与固有的生理过程而非认知活动更相关
-		- [Why context matters? Divisive normalization and canonical microcircuits in psychiatric disorders - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S016801021930536X) - 上下文依赖性的计算机制
-		- #### Collection
-			-
-	- ### 理解大脑动力学
-		- [[-* Is temporo-spatial dynamics the “common currency” of brain and mind? In Quest of “Spatiotemporal Neuroscience” - 2020 - 114]] - 时空动力学沟通神经活动与心理表征
-		- [[-* How critical is brain criticality? - 2022]] - 大脑临界性综述
-		- [[+* Entropy, Free Energy, Symmetry And Dynamics In The Brain - 2022]] - 对称性破缺
-		  collapsed:: true
-			- [Symmetry Breaking in Space-Time Hierarchies Shapes Brain Dynamics and Behavior - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0896627317304142)
-		- [[-# The free energy principle made simpler but not too simple - 2023]] - 最小自由能原理
-		-
+		- [[* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168]]
 -
 - ### Other Topics
 	- [Parcels and particles: Markov blankets in the brain | Network Neuroscience | MIT Press](https://direct.mit.edu/netn/article/5/1/211/97535/Parcels-and-particles-Markov-blankets-in-the-brain)

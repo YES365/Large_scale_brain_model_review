@@ -1,0 +1,6 @@
+- [Dynamic sensitivity analysis: Defining personalised strategies to drive brain state transitions via whole brain modelling - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2001037022005530)
+-
+- ## Abstract
+	- 传统上，在神经影像学中，无模型分析用于通过信号检测理论发现大脑状态之间的显着差异。根据对基础数据的先验假设，可以分析不同的时空特征。或者，基于模型的技术从数据推断特征并比较模型参数的显着性。然而，评估从一种大脑状态到另一种大脑状态的转变在当前范式中仍然是一个挑战。在这里，我们引入了一个“动态敏感性分析”框架，该框架根据刺激能力来量化大脑状态之间的转变，以重新平衡时空大脑活动以达到目标状态，例如健康的大脑动态。在实践中，这意味着建立一个适合大脑动力学时空描述的全脑模型，并在计算机中应用系统刺激来评估驱动大脑动力学达到目标状态的最佳策略。此外，我们展示了动态敏感性分析如何扩展到各种脑刺激范例，最终有助于提高个性化临床干预的效果。
+-
+-
