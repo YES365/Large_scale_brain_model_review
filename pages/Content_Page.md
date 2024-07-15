@@ -6,7 +6,7 @@
 		- ### Main Researchers
 			- ### [[Viktor Jirsa]]
 			- ### [[Gustavo Deco]]
-			- ### [[Wang Xiaojing]]
+			- ### [[Wang Xiao-jing]]
 			- ### [[Joana Cabral]]
 			- ### [[Pedro A. Valdes-Sosa]]
 		- ### Topics
