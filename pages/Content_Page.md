@@ -1,5 +1,5 @@
 # Neuron-based/AI-related Models
--
+	- ### [[Digital Twin Brain]]
 - # Population-based Models
 	- ## Brain Network Model
 		- ### [[References of BNM]]
@@ -9,16 +9,27 @@
 			- ### [[Wang Xiao-jing]]
 			- ### [[Joana Cabral]]
 			- ### [[Pedro A. Valdes-Sosa]]
+			- ### [[John D. Murray]]
+			- ### [[Thomas Yeo]]
+			- ### [[Daniel Bassett]]
+			- ### [[Olaf Sporns]]
 		- ### Topics
 			- ### [[Heterogenous Modeling]]
 			- ### [[Modeling Neuromodulation]]
 			- ### [[Spatial-temporal Hierarchy]]
 			- ### [[Comparison And Validation of BNM]]
 			- ### [[Model Under Stimulation]]
+			- ### [[Model for Other Modal]]
 			- ### Application to Diseases
 				- ### [[Schizophrenia]]
 				- ### [[Epilepsy]]
 				- ### [[Alzheimer's Disease]]
+		- ### Neural Mass Model
+			- ### Biophysical Model
+				- ### [[Wong-Wang Model]]
+				- ### [[Wilson-Cowan Model]]
+			- ### Phenomenal Model
+				- ### [[Kuramoto Model]]
 		- ### Novel Ideas
 			-
 	- ## Neural Field Model
@@ -91,6 +102,7 @@
 		- [[Brain Activity Is Not Only For Thinking  - 2021 - 14]] - BOLD可能与固有的生理过程而非认知活动更相关
 		  collapsed:: true
 			- 人脑是一个复杂的器官，具有多个竞争性使命。它必须感知和解释世界，吸收新信息，并在整个寿命中保持其功能完整性。神经活动与所有这些过程相关联。自发的BOLD信号被引用为代表与所有这些过程相关联的神经活动。然而，它们在这些过程中的确切作用仍然备受争议。在这里，我们回顾学习机理论、突触可塑性和稳态的分子机制，以及最近的实验证据，以暗示自发的BOLD活动可能与离线可塑性和稳态过程更密切相关，而不是在线认知内容的波动。
+-
 -
 -
 -

@@ -1,4 +1,5 @@
 - [Entropy, free energy, symmetry and dynamics in the brain - IOPscience](https://iopscience.iop.org/article/10.1088/2632-072X/ac4bec)
+- #[[Viktor Jirsa]]
 -
 - ## Abstract
 	- 神经科学是概念和理论的发源地，这些概念和理论根植于各种领域，包括信息理论、动态系统理论和认知心理学。

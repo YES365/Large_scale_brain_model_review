@@ -1,5 +1,5 @@
 - [Dynamic models of large-scale brain activity | Nature Neuroscience](https://www.nature.com/articles/nn.4497)
--
+- #[[Micheal Breakspear]]
 - ## 总结
 	- 神经元群体建模：弱相关的neural ensemble approach - **Fokker-Planck equation(FPE)**； 强相关的 **neural mass model(NMM)。**NMM既有神经元动力的均值简化模型（突触动力学模型），也有大尺度的经验模型。
 	- 全脑大尺度动力学建模： 网络形态的 brain network model（**BNM**）；时变的连续二维场模型 neural field model（**NFM**）

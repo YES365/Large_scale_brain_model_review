@@ -33,7 +33,7 @@
 			- [[What Can Computational Models Contribute to Neuroimaging Data Analytics? - 2019]] - 观点：经过适当验证和优化的数学模型可用于机械解释从神经成像数据中观察到的大脑结构和神经元动力学的特性。
 			- [[Inter-subject and inter-parcellation variability of resting-state whole-brain dynamical modeling - 2021]] - 模板对建模的影响
 			- [[Tractography density affects whole-brain structural architecture and resting-state dynamical modeling - 2021]] - 纤维密度对建模的影响
-			- [[-* Reliability and subject specificity of personalized whole-brain dynamical models - 2022 - 7]] - 模型的个体特异性与可靠性
+			- [[Reliability and subject specificity of personalized whole-brain dynamical models - 2022 - 7]] - 模型的个体特异性与可靠性
 			- [[Towards an efficient validation of dynamical whole-brain models - 2022]] - 参数估计方法的比较
 			- [Frontiers | Editorial: From Structure to Function in Neuronal Networks: Effects of Adaptation, Time-Delays, and Noise (frontiersin.org)](https://www.frontiersin.org/articles/10.3389/fnsys.2022.871165/full)
 	- ### 模型应用
@@ -73,6 +73,9 @@
 		- [[Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics - 2023]] - **数据驱动**选择神经群体模型以及区域异质参数 - Jirsa
 	- ### 网络刺激与控制
 		- [[* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168]]
+-
+-
+-
 -
 - ### Other Topics
 	- [Parcels and particles: Markov blankets in the brain | Network Neuroscience | MIT Press](https://direct.mit.edu/netn/article/5/1/211/97535/Parcels-and-particles-Markov-blankets-in-the-brain)
