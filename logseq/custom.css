@@ -54,7 +54,7 @@ html[data-theme=dark] {
   --ls-quaternary-background-color: var(--cp-lighter);
   --ls-top-bar-background: var(--cp-darker);
   --ls-main-content-background: var(--cp-darker);
-  --ls-left-sidebar-background: var(--cp-darkest);
+  --ls-left-sidebar-background: var(--cp-blue);
   --ls-scrollbar-foreground-color: #8a8a8a3d;
   --ls-scrollbar-background-color: #fff0;
   --ct-scrollbar-thumb-hover-color: #8a8a8a61;
@@ -101,9 +101,9 @@ html[data-theme=dark] {
   --ls-left-sidebar-hover-background: var(--ls-quaternary-background-color);
   --ls-right-sidebar-content-background: var(--ls-primary-background-color);
   --ls-right-ridebar-color: var(--cp-darker);
-  --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-page-properties-background-color: var(--cp-darkest);
-  --ls-block-properties-background-color: var(--cp-darkest);
+  --ls-table-tr-even-background-color: var(--ls-quaternary-background-color);
+  --ls-page-properties-background-color: var(--cp-grey);
+  --ls-block-properties-background-color: var(--cp-grey);
   --ls-page-inline-code-color: var(--cp-white);
   --ls-page-inline-code-bg-color: var(--cp-darker);
   --ls-page-blockquote-color: var(--cp-white);
