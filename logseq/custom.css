@@ -102,7 +102,7 @@ html[data-theme=dark] {
   --ls-right-sidebar-content-background: var(--ls-primary-background-color);
   --ls-right-ridebar-color: var(--cp-darker);
   --ls-table-tr-even-background-color: var(--ls-quaternary-background-color);
-  --ls-page-properties-background-color: var(--cp-darkest);
+  --ls-page-properties-background-color: #FFFFFF;
   --ls-block-properties-background-color: #FFFFFF;
   --ls-page-inline-code-color: var(--cp-white);
   --ls-page-inline-code-bg-color: var(--cp-darker);
