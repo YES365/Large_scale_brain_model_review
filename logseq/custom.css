@@ -54,7 +54,7 @@ html[data-theme=dark] {
   --ls-quaternary-background-color: var(--cp-lighter);
   --ls-top-bar-background: var(--cp-darker);
   --ls-main-content-background: var(--cp-darker);
-  --ls-left-sidebar-background: var(--cp-darkest);
+  --ls-left-sidebar-background: var(--cp-blue);
   --ls-scrollbar-foreground-color: #8a8a8a3d;
   --ls-scrollbar-background-color: #fff0;
   --ct-scrollbar-thumb-hover-color: #8a8a8a61;
