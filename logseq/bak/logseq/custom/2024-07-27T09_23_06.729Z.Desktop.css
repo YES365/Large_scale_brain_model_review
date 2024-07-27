@@ -185,7 +185,7 @@ html[data-theme=light] {
   --ls-header-button-hover: #D3D6DF;
   --lx-gray-02: #f7f7f7;
   --ls-left-sidebar-border-color: #D3D6DF;
-  --ls-left-sidebar-text-color: #000000;
+  --ls-left-sidebar-text-color: #FFFFFF;
   --ls-left-sidebar-bg-color: #f7f7f7;
   --ls-right-sidebar-content-background: var(--ls-primary-background-color);
   --lx-gray-01: var(--ls-main-content-background);
