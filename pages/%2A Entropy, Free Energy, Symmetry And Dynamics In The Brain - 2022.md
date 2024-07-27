@@ -48,7 +48,7 @@
 	-
 	- **Time-scales separation**
 		- 自组织系统的涌现要求一些典型的低维吸引子的稳定性发生改变。所考虑的系统是高维 N 自由度非线性系统。在这些自由度张成的空间中，每个点都是状态向量，代表整个系统的潜在状态。随着时间的发展，系统的状态会发生变化，从而在状态空间中描绘出一条轨迹。系统遵循的规则可以理解为引起状态向量变化的力，这些力可以定义流。为了使这个系统能够产生低维行为，即 M 维，$M\ll N$，必须有一个机制能够将高维空间中的轨迹指向低维的 M 维子空间。在数学上，这转化为两个与不同时间尺度相关的流分量: 首先，低维吸引子空间包含一个流形 M，它吸引快速时间尺度上的所有轨迹; 其次，在流形上有一个结构流 F(.)规定了一个缓慢时间尺度上的动力学，这里的缓慢是相对于快速动力学向着吸引流形的崩塌过程的，如图2所示。为了紧凑和清晰，假设系统的状态是由 n 维状态向量 Q(t)在时间 t 的任意给定时刻描述的。然后我们将全部的状态变量分解为 q 和 s 两部分，其中 q 中的状态变量定义了与低维子空间(功能网络)中涌现行为相关联的 M 个任务特定变量，而 s 中的 N-M 个变量定义了剩余的自由度。当然，N 要比 M 大得多，而且变量q的子空间中的流形必须满足一定的约束条件才能局部稳定，在这种情况下，所有的动力学都被吸引到这里。
-		- ![](https://content.cld.iop.org/journals/2632-072X/3/1/015007/revision2/jpcomplexac4becf2_hr.jpg?Expires=1697182079&Signature=LRmmYsOTB-Z3qCN17Vg-sv4DtlsXXdbqN9CGWVvYOWsPsSJpyCMCx1~dMnv8APB1-sAqhpQ6ljtybb1G-9G10cwv-KZprlFlyT6eoLXJv8wn6NAA1KoOrjyCWRphHQ3JDFgBJFcb6f6t8i2l~~wl9smSYT4kMCSYI2jw8GTAb-mITsyCKlH5AJ~hPWlr35mhhK6z~kkMPgme8sywuADitS2IDLQCOY0za3uqgNkO42W4DTBz~EfZXCCK8ZMLdJ7pZaH9wjpqbrjZ2FyWdjweURBfMOqzTXdm0jdp2ARYndDg4-DwGbJo64S7v6cVMmjydi7n4QDA7sAZHtL52h5H6g__&Key-Pair-Id=KL1D8TIY3N7T8)
+		- ![](https://content.cld.iop.org/journals/2632-072X/3/1/015007/revision2/jpcomplexac4becf2_hr.jpg?Expires=1697182079&Signature=LRmmYsOTB-Z3qCN17Vg-sv4DtlsXXdbqN9CGWVvYOWsPsSJpyCMCx1~dMnv8APB1-sAqhpQ6ljtybb1G-9G10cwv-KZprlFlyT6eoLXJv8wn6NAA1KoOrjyCWRphHQ3JDFgBJFcb6f6t8i2l~~wl9smSYT4kMCSYI2jw8GTAb-mITsyCKlH5AJ~hPWlr35mhhK6z~kkMPgme8sywuADitS2IDLQCOY0za3uqgNkO42W4DTBz~EfZXCCK8ZMLdJ7pZaH9wjpqbrjZ2FyWdjweURBfMOqzTXdm0jdp2ARYndDg4-DwGbJo64S7v6cVMmjydi7n4QDA7sAZHtL52h5H6g__&Key-Pair-Id=KL1D8TIY3N7T8){:height 619, :width 873}
 			- **Figure 2.**     自组织动力系统的涌现。外部输入推动系统脱离由控制参数k控制的平衡。系统中的非线性相互作用导致在控制参数的临界值处出现少量宏观模式(序参数)。剩余的自由度被奴役，并遵循序参量的演化。
 		-
 	- **Synergetics**
@@ -69,7 +69,11 @@
 		- 虽然协同学在概念上并不局限于状态空间中的局部工作点，但实际上情况一直如此。在生物学中，这对协同框架的效用造成了巨大的限制，因为探索状态空间中的流似乎是生物体的一项基本活动。为此，对称性提供了另一个指导原则来定义参数空间中的工作点（[Symmetry Breaking in Space-Time Hierarchies Shapes Brain Dynamics and Behavior - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0896627317304142)；[Structured Flows on Manifolds as guiding concepts in brain science | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-658-29906-4_6)），目的是克服局限于状态空间局部区域的局限性。具有对称性的动力系统称为等变动力系统（[The Symmetry Perspective | SpringerLink](https://link.springer.com/book/10.1007/978-3-0348-8167-8)） ，其中群论方法提供了一种自然语言。为了证明这一点，让我们考虑方程(1)的状态变量正式表示为 q(t) 而不是 Q(t) ，原因是。我们在第4.2节的末尾回到这一点。进一步，为了简单起见，我们只考虑一个控制参数 k，设 γ 是作用于其解的群。如果 f 与 γ 的群作用相交，则方程为 γ 等变方程，即对于所有 $\gamma\in\Gamma,F(\gamma\cdot q)=\hat{\gamma}$。对于临界控制参数值 k0，应该存在这种对称性。Γ 等变的一个重要结果是，如果解 q(t)是常微分方程的解，那么对于所有 γ ∈ γ，γ · q (t)也是。如果对称性是连续的，即 γ · q = q + δq，则对应的群是李群，其元素在状态空间中具有 m 维光滑流形的拓扑，其群运算是元素的光滑函数。然后，方程(1)的稳态解跨越一个光滑流形 m，该流形 m 定义为
 			- $\dot{q}=F(\gamma\cdot q_0)=F(q_0+\delta q)=\hat{\gamma}\cdot F(q_0)=0$
 		- 允许一个连续的位移 δq 沿着流形。在对称性破缺的情况下，k = k0 + μ，其中 μ 很小，系统的解可以通过完全对称解的扰动来近似.
-			- ![image.png](../assets/image_1696579311288_0.png)
+			- $$\begin{equation}
+			  \dot{q} = F(q, \{k\}) = \underbrace{F(q_0, k_0)}_{=0} + \underbrace{\left. \frac{\partial F}{\partial q} (q, k) \right|_{q_0, k_0}}_{M} \cdot (q - q_0) + \underbrace{\left. \frac{\partial F}{\partial k} (q, k) \right|_{q_0, k_0}}_{N} \cdot \underbrace{(k - k_0)}_{\mu} + \cdots
+			  \end{equation}
+			  $$
+			-
 		- 其中 M 是平稳解的光滑不变流形。一个零特征值与 M 的切空间相关联，该切空间建立了与其他自由度相关的时间尺度层次结构，这是协同学通常所知道的。对于完全对称，k = k0，流形上的所有点是稳定不动点，如果 m 是稳定的。对于小对称性破缺，μ something 1，一个缓慢的流动出现沿歧管，这是相对于正交于歧管的快速动力学缓慢。这两种情况如图4所示，用于圆形流形 m: 0 = 1-x2-y2。
 		- ![](https://content.cld.iop.org/journals/2632-072X/3/1/015007/revision2/jpcomplexac4becf4_hr.jpg?Expires=1697182079&Signature=oJhFbxes5K4BuKJCVfz6A5rrEjg1gyfQLCNpef6laSytSQJVMOnXhoM8FPD0j0cp5SFQWiJ0HXtHjLxJNzFvFP5Jr3FBVjR46b9QV2hLAqgOKugS~36LqPwHF1NFXddfVWIhPX56P7AhLo4R2ywHD1Un2w2jeoIaVU9QJvqUkf34rGfAQRe6VoQdzV5S2TGdM~slSejXVV20uPRkBMnpMjEo3MwJYndEO1yvB4ju-Z9t3uDMKYLyVhRvo6Lb4yWD3CvgvKTcEKtdd~4VLudFnIPaCjmHeGcBMetdIXSMex6~fQSBlxFWn35JECFoglVIE8SS8SeFk5Trw-jaHoWKRA__&Key-Pair-Id=KL1D8TIY3N7T8)
 			- ** Figure 4.**    圆形流形上的结构化流图示。上：由于两个子系统完全对称，x,y方向上零流的两个零线重叠。圆形流形由稳定不动点组成。下：对称性破缺，如通过x和y的耦合形成，使得两个零线移开，在流形上形成一个由稳定和不稳定固定点组成的结构化流的狭窄通道。
