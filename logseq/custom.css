@@ -102,8 +102,8 @@ html[data-theme=dark] {
   --ls-right-sidebar-content-background: var(--ls-primary-background-color);
   --ls-right-ridebar-color: var(--cp-darker);
   --ls-table-tr-even-background-color: var(--ls-quaternary-background-color);
-  --ls-page-properties-background-color: var(--cp-white);
-  --ls-block-properties-background-color: var(--cp-white);
+  --ls-page-properties-background-color: var(--cp-grey);
+  --ls-block-properties-background-color: var(--cp-grey);
   --ls-page-inline-code-color: var(--cp-white);
   --ls-page-inline-code-bg-color: var(--cp-darker);
   --ls-page-blockquote-color: var(--cp-white);
