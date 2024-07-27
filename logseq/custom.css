@@ -93,7 +93,7 @@ html[data-theme=dark] {
   --lx-gray-11: #999;
   --ls-header-button-text-color-hover: var(--cp-white);
   --lx-gray-12: var(--cp-white);
-  --ls-header-button-background: var(--ls-quaternary-background-color);
+  --ls-header-button-background: var(--ls-secondary-background-color);
   --ls-header-button-hover: #1D2026;
   --lx-gray-04: var(--cp-darker);
   --ls-left-sidebar-text-color: #ffffff;
@@ -102,8 +102,8 @@ html[data-theme=dark] {
   --ls-right-sidebar-content-background: var(--ls-primary-background-color);
   --ls-right-ridebar-color: var(--cp-darker);
   --ls-table-tr-even-background-color: var(--ls-quaternary-background-color);
-  --ls-page-properties-background-color: #FFFFFF;
-  --ls-block-properties-background-color: var(--cp-grey);
+  --ls-page-properties-background-color: var(--cp-darkest);
+  --ls-block-properties-background-color: #FFFFFF;
   --ls-page-inline-code-color: var(--cp-white);
   --ls-page-inline-code-bg-color: var(--cp-darker);
   --ls-page-blockquote-color: var(--cp-white);
