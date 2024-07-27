@@ -97,7 +97,7 @@ html[data-theme=dark] {
   --ls-header-button-hover: #1D2026;
   --lx-gray-04: var(--cp-darker);
   --ls-left-sidebar-text-color: #ffffff;
-  --ls-left-sidebar-active-background: #ffffff;
+  --ls-left-sidebar-active-background: #393e47;
   --ls-left-sidebar-hover-background: var(--ls-quaternary-background-color);
   --ls-right-sidebar-content-background: var(--ls-primary-background-color);
   --ls-right-ridebar-color: var(--cp-darker);
@@ -1538,4 +1538,8 @@ a.tooltip-priority {
 */
 .content hr {
   border-color: #32363e;
+}
+
+.sidebar {
+    color: #FFFFFF;
 }
