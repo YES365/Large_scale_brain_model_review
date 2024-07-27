@@ -1539,3 +1539,7 @@ a.tooltip-priority {
 .content hr {
   border-color: #32363e;
 }
+
+.sidebar {
+    color: #FFFF00;
+}
