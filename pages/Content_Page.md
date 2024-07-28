@@ -24,13 +24,15 @@
 				- ### [[Schizophrenia]]
 				- ### [[Epilepsy]]
 				- ### [[Alzheimer's Disease]]
-		- ### Neural Mass Model
+		- ### Neural Mass Models
 			- ### Biophysical Model
 				- ### [[Wong-Wang Model]]
 				- ### [[Wilson-Cowan Model]]
 			- ### Phenomenal Model
 				- ### [[Kuramoto Model]]
 		- ### Novel Ideas
+			-
+		- ### Questions
 			-
 	- ## Neural Field Model
 		- ### [[References of NFM]]
@@ -41,6 +43,8 @@
 			- ### [[Cortical Waves]]
 			- ### Application to Diseases
 		- ### Novel Ideas
+			-
+		- ### Questions
 			-
 -
 - ## Works Related to Neural Dynamics
