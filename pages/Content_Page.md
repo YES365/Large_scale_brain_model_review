@@ -18,7 +18,7 @@
 			- ### [[Modeling Neuromodulation]]
 			- ### [[Spatial-temporal Hierarchy]]
 			- ### [[Comparison And Validation of BNM]]
-			- ### [[Model Under Stimulation]]
+			- ### [[Model Stimulation And Control]]
 			- ### [[Model for Other Modal]]
 			- ### Application to Diseases
 				- ### [[Schizophrenia]]
@@ -79,6 +79,7 @@
 		- [[* Entropy, Free Energy, Symmetry And Dynamics In The Brain - 2022]] - 对称性破缺
 		  collapsed:: true
 			- [Symmetry Breaking in Space-Time Hierarchies Shapes Brain Dynamics and Behavior - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0896627317304142)
+		- [[When Causality meets Inference: complexity in neuroscience - 2022]]
 		- [[The free energy principle made simpler but not too simple - 2023]] - 最小自由能原理
 	- ### 理解大脑功能
 		- [[* What we can do and what we cannot do with fMRI - 2008 - 2209]] - 兴奋抑制网络与fMRI的生理解释

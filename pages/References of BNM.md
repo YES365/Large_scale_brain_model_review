@@ -26,7 +26,20 @@
 		- [[Virtual brain twins: from basic neuroscience to clinical use - 2024]] - TVB最新框架
 		  collapsed:: true
 			- 虚拟孪生脑是基于个人大脑数据的个性化、生成性和适应性大脑模型，用于科学和临床用途。 在描述虚拟孪生脑的关键要素之后，我们介绍了个性化全脑网络模型的标准模型。 通过三种方式实现个性化，即使用受试者的脑成像数据：(1)将皮层和皮层下区域组装到特定受试者的脑空间中；(2)将连接性直接映射到大脑模型中，并可以推广到其他参数；(3)通过模型反演来估计相关参数，通常使用概率机器学习。 我们介绍了个性化全脑网络模型在健康老龄化和五种临床疾病中的应用：癫痫、阿尔茨海默病、多发性硬化症、帕金森病和精神障碍。 具体来说，我们介绍了相关参数的空间掩模，并根据生理和病理假设展示了它们的应用。 最后，我们指出了关键挑战和未来方向。
-	- ### 模型比较与检验
+		-
+	- ### [[Heterogenous Modeling]]
+	- ###  [[Modeling Neuromodulation]]
+		- [[* The modulation of neural gain facilitates a transition between functional segregation and integration in the brain - 2018 - 80]] —— 模型中展示神经元增益促进网络整合
+		- [[A Large-Scale Circuit Mechanism For Hierarchical Dynamical Processing In The Primate Cortex - 2015 - 271]] - 猴脑异质性模型，产生了时间尺度梯度 - Wang Xiaojing
+		- [[Functional Hierarchy Underlies Preferential Connectivity Disturbances In Schizophrenia - 2015 - 64]] - E/I比层次结构预测精神分裂症的局部特性 - Wang Xiaojing & Murray
+		- [[* Inversion of a large-scale circuit model reveals a cortical hierarchy in the dynamic resting human brain - Peng Wang et al. - 2019 - 109]] - DCM优化方法搜索区域异质参数 - Yeo
+		- [[Hierarchical Heterogeneity Across Human Cortex Shapes Large-Scale Neural Dynamics - 2019 - 104]] - 髓鞘化图谱作为区域异质性约束 - Murray
+		- [[Dynamical Consequences Of Regional Heterogeneity In The Brain’s Transcriptional Landscape - 2021]] - 基因表达图谱作为异质性约束 - Deco
+		- [[Sensory-motor Cortices Shape Functional Connectivity Dynamics In The Human Brain - 2021 - 5]] - 功能梯度作为模型区域异质约束 - Yeo
+		- [[The impact of regional heterogeneity in whole-brain dynamics in the presence of oscillations - 2023]] - 当考虑到结构和功能区域的异质性时，具有**振荡的模型**表现得更好。在**AD数据**上有应用。 - Deco
+		- [[Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics - 2023]] - **数据驱动**选择神经群体模型以及区域异质参数 - Jirsa
+	- ### [[Spatial-temporal Hierarchy]]
+	- ### 模型比较与检验 [[Comparison And Validation of BNM]]
 		- [[Predicting Functional Connectivity From Structural Connectivity Via Computational Models Using MRI: An Extensive Comparison Study - 2015 - 49]]
 		- [[Multi-modal and multi-model interrogation of large-scale functional brain networks - 2022]] - SL模型与WC模型的静态、动态比较
 		- ### Simon B. Eickhoff & Oleksandr V. Popovych
@@ -36,20 +49,20 @@
 			- [[Reliability and subject specificity of personalized whole-brain dynamical models - 2022 - 7]] - 模型的个体特异性与可靠性
 			- [[Towards an efficient validation of dynamical whole-brain models - 2022]] - 参数估计方法的比较
 			- [Frontiers | Editorial: From Structure to Function in Neuronal Networks: Effects of Adaptation, Time-Delays, and Noise (frontiersin.org)](https://www.frontiersin.org/articles/10.3389/fnsys.2022.871165/full)
-	- ### 模型应用
-		- ### 虚拟实验
-			- [[* The modulation of neural gain facilitates a transition between functional segregation and integration in the brain - 2018 - 80]] —— 模型中发现神经元增益促进网络整合
-			- [[* The Virtual Aging Brain: A Model-driven Explanation For Cognitive Decline In Older Subjects - 2022]] - 虚拟老化
-			- [Modeling brain dynamics after tumor resection using The Virtual Brain - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811920302251?dgcid=raven_sd_recommender_email) - 模拟手术
-		- ### 疾病研究
-			- [[Whole-brain dynamical modelling for classification of Parkinson’s disease - 2023]]- PD分类，方法或许可迁移到AD上
-			  collapsed:: true
-				- 根据数据处理和建模方法，**模拟的全脑连接体显示个体间变异性增强**。通过将人脑连接体视为个体化属性，我们研究如何根据不同的数据处理和模型验证，利用经验和模拟的全脑连接体衍生的特征来将帕金森病患者与健康对照进行分类。为此，我们应用模拟血氧水平依赖性信号来源于一个全脑动力学模型，模拟神经元群体的电信号，以揭示患者和对照之间的差异。**除了通过将动力学模型拟合到经验性神经影像学数据的广泛使用的模型验证之外，我们还发明了针对行为数据(如受试者类别)的模型验证，我们称之为行为模型拟合，并显示它可以有益于帕金森病患者分类。**此外，本研究报告的机器学习结果也表明，当经验数据与模拟结果互补时，患者分类的性能可以得到改善。我们还表明，**血氧水平相关信号的时间滤波影响预测结果，其中低频段的滤波对于帕金森病患者分类是明智的。**此外，通过构造来自多个大脑分块方案的经验数据和模拟数据的特征空间，提供了改善预测性能的互补特征。基于我们的研究结果，**我们认为结合模拟结果与实证数据对个体间研究及其临床应用是有效的**。
-	- ### New Model
+	- ### 网络刺激与调控 [[Model Stimulation And Control]]
+		- [* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168]]
+	- ### [[Model for Other Modal]]
+	- ### 模型应用 Application to Diseases
+		- [[Whole-brain dynamical modelling for classification of Parkinson’s disease - 2023]]- PD分类，方法或许可迁移到AD上
+		  collapsed:: true
+			- 根据数据处理和建模方法，**模拟的全脑连接体显示个体间变异性增强**。通过将人脑连接体视为个体化属性，我们研究如何根据不同的数据处理和模型验证，利用经验和模拟的全脑连接体衍生的特征来将帕金森病患者与健康对照进行分类。为此，我们应用模拟血氧水平依赖性信号来源于一个全脑动力学模型，模拟神经元群体的电信号，以揭示患者和对照之间的差异。**除了通过将动力学模型拟合到经验性神经影像学数据的广泛使用的模型验证之外，我们还发明了针对行为数据(如受试者类别)的模型验证，我们称之为行为模型拟合，并显示它可以有益于帕金森病患者分类。**此外，本研究报告的机器学习结果也表明，当经验数据与模拟结果互补时，患者分类的性能可以得到改善。我们还表明，**血氧水平相关信号的时间滤波影响预测结果，其中低频段的滤波对于帕金森病患者分类是明智的。**此外，通过构造来自多个大脑分块方案的经验数据和模拟数据的特征空间，提供了改善预测性能的互补特征。基于我们的研究结果，**我们认为结合模拟结果与实证数据对个体间研究及其临床应用是有效的**。
+		- [[* The Virtual Aging Brain: A Model-driven Explanation For Cognitive Decline In Older Subjects - 2022]] - 虚拟老化
+		- [Modeling brain dynamics after tumor resection using The Virtual Brain - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811920302251?dgcid=raven_sd_recommender_email) - 模拟手术
+	- ### Other Models
 		- #### Fokker-Planck Equation
 			- [A Nonlinear Fokker-Planck Description of Continuous Neural Network Dynamics | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-30487-4_4)
 			- [Nonlinear, Nonequilibrium Landscape Approach to Neural Network Dynamics | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-61616-8_15)
-	- ### New Tech
+	- ### New Technques
 		- [[The Bayesian Virtual Epileptic Patient: A probabilistic framework designed to infer the spatial map of epileptogenicity in a personalized large-scale brain model of epilepsy spread - 2020 - 35]] - 贝叶斯参数推断
 		- [[Virtual deep brain stimulation: Multiscale co-simulation of a spiking basal ganglia model and a whole-brain mean-field model with The Virtual Brain - 2022]] - 神经元网络与脑网络联合建模并施加外部刺激
 		- [[Co-Evolving Dynamics and Topology in a Coupled Oscillator Model of Resting Brain Function - 2023]] - **大脑不会以相同的方式或同时使用其所有连接** 动态使用结构连接的BNM
@@ -63,16 +76,6 @@
 	- ### New Idea
 		- [Bifurcation in space: Emergence of function modularity in the neocortex | bioRxiv](https://www.biorxiv.org/content/10.1101/2023.06.04.543639v1.full)
 	- ### 异质性建模
-		- [[A Large-Scale Circuit Mechanism For Hierarchical Dynamical Processing In The Primate Cortex - 2015 - 271]] - 猴脑异质性模型，产生了时间尺度梯度 - Wang Xiaojing
-		- [[Functional Hierarchy Underlies Preferential Connectivity Disturbances In Schizophrenia - 2015 - 64]] - E/I比层次结构预测精神分裂症的局部特性 - Wang Xiaojing & Murray
-		- [[* Inversion of a large-scale circuit model reveals a cortical hierarchy in the dynamic resting human brain - Peng Wang et al. - 2019 - 109]] - DCM优化方法搜索区域异质参数 - Yeo
-		- [[Hierarchical Heterogeneity Across Human Cortex Shapes Large-Scale Neural Dynamics - 2019 - 104]] - 髓鞘化图谱作为区域异质性约束 - Murray
-		- [[Dynamical Consequences Of Regional Heterogeneity In The Brain’s Transcriptional Landscape - 2021]] - 基因表达图谱作为异质性约束 - Deco
-		- [[Sensory-motor Cortices Shape Functional Connectivity Dynamics In The Human Brain - 2021 - 5]] - 功能梯度作为模型区域异质约束 - Yeo
-		- [[The impact of regional heterogeneity in whole-brain dynamics in the presence of oscillations - 2023]] - 当考虑到结构和功能区域的异质性时，具有**振荡的模型**表现得更好。在**AD数据**上有应用。 - Deco
-		- [[Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics - 2023]] - **数据驱动**选择神经群体模型以及区域异质参数 - Jirsa
-	- ### 网络刺激与控制
-		- [[* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168]]
 -
 -
 -
