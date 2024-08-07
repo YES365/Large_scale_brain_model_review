@@ -19,6 +19,11 @@
 		- [[Generative Models of Brain Dynamics - 2022]] - 大脑动力学生成模型总结
 		- [[Multiscale modeling of brain network organization - 2022]] - 多层次大脑网络
 		- [[The quest for multiscale brain modeling - 2022]] - 多尺度大脑建模
+		- [[Neural Field Continuum Limits and the Structure–Function Partitioning of Cognitive–Emotional Brain Networks - 2022]] - 神经场的连续体理论 - 挑战图论观点
+		  collapsed:: true
+			- [Biology | Free Full-Text | Neural Field Continuum Limits and the Structure&ndash;Function Partitioning of Cognitive&ndash;Emotional Brain Networks (mdpi.com)](https://www.mdpi.com/2079-7737/12/3/352)
+			- Pessoa 假设，与处理和表达充满情绪的内容（如杏仁核和边缘皮质）相关的麸皮解剖结构是资源容量有限的。因此，大脑需要多通道或平行的结构-功能连接，以有效地感知、激励、整合、表示、回忆和执行认知-情感关系。Pessoa利用二维图网络理论来支持他对分布式大脑组织和操作的观点，得出的结论是，大脑通过双过程竞争和合作进化，形成高度嵌入的计算架构，几乎没有结构-功能划分。低维图论已成为一种流行的数学工具，用于建模、模拟和可视化不断发展的复杂、有时难以处理的大脑网络。图论为研究和理解各种生物和技术网络行为提供了优势，对于Pessoa来说，它允许一个框架来解释结构-功能特征，到目前为止，“传统”观点可能很难解释，这些观点主张将结构-功能关系映射到定位良好的大脑区域。尽管如此，Pessoa未能充分理解弱到强的结构-功能相关性对大脑动力学的重要性，以及为什么这些由差异控制参数（如Hebbian和antiHebbian神经元可塑性）引起的相关性最好使用神经场理论进行评估。神经场表明，在呈现健康的认知情感功能时，嵌入式大脑网络在奇异的计算阶段和连续体限制之间最佳地进化，伴随着一些网络分区，而不是不受约束的嵌入性。
+			- 在*The cognitive-emotional brain*中 Pessoa 通过回避神经场理论和代表神经元可塑性的生理衍生结构，忽视了对非线性脑网络连接的连续体效应。这些内容对于理解大脑的动态结构-功能嵌入和划分非常重要，它的缺失削弱了神经网络丰富的竞争和合作性质，并使Pessoa的论点以及其他作者的类似论点变得微不足道，这些论点是关于充满可变强度神经连接的最佳整合大脑的系统发育和操作意义。黎曼神经流形包含极限强加的 Hebbian 和反 Hebbian 类型控制变量，模拟了可扩展的网络行为，而这种行为很难从 Pessoa 和其他神经科学家喜欢的更简单的图论分析中捕获。场理论表明，嵌入式认知情感网络的分区和性能优势在奇特的经典计算阶段和量子计算阶段之间最佳地演变，其中矩阵奇点和凝聚产生退化的结构-功能同质性，这对健康大脑来说是不现实的。因此，与无约束的嵌入性相反，一些网络分区是有效执行认知情感网络功能所必需的，并且在我们神经科学的新时代，应该被视为正确大脑组织和操作的关键方面。
 		- [[Dynamic sensitivity analysis: Defining personalised strategies to drive brain state transitions via whole brain modelling - 2023]] - BNM用于评估大脑状态切换
 		  collapsed:: true
 			- 传统上，在神经影像学中，无模型分析用于通过信号检测理论发现大脑状态之间的显着差异。根据对基础数据的先验假设，可以分析不同的时空特征。或者，基于模型的技术从数据推断特征并比较模型参数的显着性。然而，评估从一种大脑状态到另一种大脑状态的转变在当前范式中仍然是一个挑战。在这里，我们引入了一个“动态敏感性分析”框架，该框架根据刺激能力来量化大脑状态之间的转变，以重新平衡时空大脑活动以达到目标状态，例如健康的大脑动态。在实践中，这意味着建立一个适合大脑动力学时空描述的全脑模型，并在计算机中应用系统刺激来评估驱动大脑动力学达到目标状态的最佳策略。此外，我们展示了动态敏感性分析如何扩展到各种脑刺激范例，最终有助于提高个性化临床干预的效果。
@@ -143,5 +148,7 @@
 		- [Learning function from structure in neuromorphic networks | Nature Machine Intelligence](https://www.nature.com/articles/s42256-021-00376-1)
 		- [Brain connectivity meets reservoir computing | PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010639)
 		- [Connectome-based reservoir computing with the conn2res toolbox | Nature Communications](https://www.nature.com/articles/s41467-024-44900-4)
+	- ### Brain for AI
+		- [[2301.08382] AI of Brain and Cognitive Sciences: From the Perspective of First Principles (arxiv.org)](https://arxiv.org/abs/2301.08382)
 		-
 -
