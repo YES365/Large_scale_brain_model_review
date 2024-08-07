@@ -1,9 +1,6 @@
 - [-# Controllability Of Structural Brain Networks - 2015 - 329](_# Controllability Of Structural Brain Networks - 2015 - 329.md)
 - [Stimulation-Based Control of Dynamic Brain Networks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005076)
--
--
--
--
+- #[[Daniel Bassett]] #[[Model Stimulation And Control]]
 - 总结
 	- 模型： Wilson-Cowan  ，数据：DSI测量得到的结构连接流线密度矩阵，和时间延迟矩阵。
 	- 使用网络从低稳定点到极限环分叉的全局耦合系数值，来度量被试内、被试间差异。
