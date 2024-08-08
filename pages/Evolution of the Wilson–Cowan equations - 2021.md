@@ -1,0 +1,5 @@
+- [Evolution of the Wilson–Cowan equations | Biological Cybernetics (springer.com)](https://link.springer.com/article/10.1007/s00422-021-00912-7)
+- #[[Wilson-Cowan Model]]
+- ## Abstract
+	- Wilson-Cowan 方程的开发是为了提供对神经网络动力学的简化而强大的描述。因此，他们接受了非线性动力学，但以可解释的形式。最重要的是，它是第一个强调兴奋性和抑制性神经群体之间相互作用重要性的数学公式，从而将合作和竞争都纳入其中。许多人随后的研究已经记录了威尔逊-考恩在视觉幻觉、记忆、双眼对抗和癫痫等不同领域的重要性。事实上，这些方程仍然被用来阐明各种现象，这证明了它们作为对复杂神经计算的更详细描述的动态近似的有效性。
+-

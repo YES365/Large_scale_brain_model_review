@@ -1,0 +1,6 @@
+- [Before and beyond the Wilson–Cowan equations | Journal of Neurophysiology](https://journals.physiology.org/doi/full/10.1152/jn.00404.2019)
+- #[[Wilson-Cowan Model]]
+- ## Abstract
+	- Wilson–Cowan 方程代表了计算神经科学史上的一个里程碑。除了 Wilson 和 Cowan 为神经科学提供的见解之外，他们还具体化了一种神经动力学和大脑功能建模方法。尽管他们的标志性方程如今以各种形式使用，但导致其公式化的想法以及与其他方法的关系并不为人所知。在这里，我们给出一些导致威尔逊-考恩方程的生物学和理论概念的背景知识，并讨论如何超越它们。
+-
+-

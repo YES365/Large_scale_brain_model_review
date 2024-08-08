@@ -15,6 +15,7 @@
 		- [[* Computational models link cellular mechanisms of neuromodulation to large-scale neural dynamics - 2021]] - 模型结合**神经调节系统**综述
 		  collapsed:: true
 			- 数十年的神经生物学研究揭示了神经元响应特性被动态调节以支持适应性认知功能的不同方式。这种神经调节是通过改变神经元的生物物理特性来实现的。然而，认知功能的改变并非直接由个别神经元的调节引起，而是由介观神经系统的族群动态介导的。理解这种多尺度映射是一个重要但不容忽视的问题。在这里，我们通过展示计算模型如何参数化地将经典的神经调节过程映射到神经活动的系统级模型，从而将这些不同层次的描述连接起来。随之而来的系统级活动的关键平衡支持认知和行动，尽管我们对这种映射的了解仍然不完整。通过这种方式，将微尺度神经元调节与系统级大脑功能联系起来的定量模型突出了知识上的差距，并为理论和实验工作的整合提出了新的方向。
+		- [[Whole-Brain Modelling: Past, Present, and Future - 2021]] - 全脑建模长文综述
 		- [[Toward Mapping Neurobehavioral Heterogeneity of Psychedelic Neurobiology in Humans - 2022]] - 使用结合受体密度数据的模型模拟迷幻药的全脑水平神经反应 综述
 		- [[Generative Models of Brain Dynamics - 2022]] - 大脑动力学生成模型总结
 		- [[Multiscale modeling of brain network organization - 2022]] - 多层次大脑网络
@@ -51,7 +52,7 @@
 			- [Bifurcation in space: Emergence of function modularity in the neocortex | bioRxiv](https://www.biorxiv.org/content/10.1101/2023.06.04.543639v1.full)
 			- 功能模块化如何在由规范局部电路架构的重复组成的多区域皮层中出现？我们通过关注工作记忆的神经编码（一种核心认知功能）来研究这个问题。在这里，我们报告了一种被称为“空间分叉”的机制，并表明其显着特征是空间局部的“临界减速”，导致工作记忆期间沿皮质层次结构的神经元时间常数呈现倒V形轮廓。这种现象在基于连接组的小鼠和猴子皮质的大规模模型中得到证实，提供了一个可通过实验测试的预测来评估工作记忆表示是否是模块化的。空间中的许多分叉可以解释可能针对不同认知功能部署的不同活动模式的出现。这项工作表明，由于整个皮层神经生物学特性的宏观梯度，分布式心理表征与功能特异性兼容，这提出了一个通用原则了解大脑的模块化组织。
 	- ## 模型比较与检验 [[Comparison And Validation of BNM]]
-		- [[Predicting Functional Connectivity From Structural Connectivity Via Computational Models Using MRI: An Extensive Comparison Study - 2015 - 49]]
+		- [[Predicting Functional Connectivity From Structural Connectivity Via Computational Models Using MRI: An Extensive Comparison Study - 2015 - 49]] - 比较多个模型对FC的预测能力
 		- [[Multi-modal and multi-model interrogation of large-scale functional brain networks - 2022]] - SL模型与WC模型的静态、动态比较
 		- ### Simon B. Eickhoff & Oleksandr V. Popovych
 			- [[What Can Computational Models Contribute to Neuroimaging Data Analytics? - 2019]] - 观点：经过适当验证和优化的数学模型可用于机械解释从神经成像数据中观察到的大脑结构和神经元动力学的特性。
@@ -63,27 +64,55 @@
 	- ## 网络刺激与调控 [[Model Stimulation And Control]]
 		- [[* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168]]
 	- ## 面向fMRI以外的模型 [[Model for Other Modal]]
-	- ## 模型应用 Application to Diseases
+	- ## 模型应用 Model Application
 		- [[Whole-brain dynamical modelling for classification of Parkinson’s disease - 2023]]- PD分类，方法或许可迁移到AD上
 		  collapsed:: true
 			- 根据数据处理和建模方法，**模拟的全脑连接体显示个体间变异性增强**。通过将人脑连接体视为个体化属性，我们研究如何根据不同的数据处理和模型验证，利用经验和模拟的全脑连接体衍生的特征来将帕金森病患者与健康对照进行分类。为此，我们应用模拟血氧水平依赖性信号来源于一个全脑动力学模型，模拟神经元群体的电信号，以揭示患者和对照之间的差异。**除了通过将动力学模型拟合到经验性神经影像学数据的广泛使用的模型验证之外，我们还发明了针对行为数据(如受试者类别)的模型验证，我们称之为行为模型拟合，并显示它可以有益于帕金森病患者分类。**此外，本研究报告的机器学习结果也表明，当经验数据与模拟结果互补时，患者分类的性能可以得到改善。我们还表明，**血氧水平相关信号的时间滤波影响预测结果，其中低频段的滤波对于帕金森病患者分类是明智的。**此外，通过构造来自多个大脑分块方案的经验数据和模拟数据的特征空间，提供了改善预测性能的互补特征。基于我们的研究结果，**我们认为结合模拟结果与实证数据对个体间研究及其临床应用是有效的**。
 		- [[* The Virtual Aging Brain: A Model-driven Explanation For Cognitive Decline In Older Subjects - 2022]] - 虚拟老化
 		- [Modeling brain dynamics after tumor resection using The Virtual Brain - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811920302251?dgcid=raven_sd_recommender_email) - 模拟手术
-	- ## Other Models
-		- ### Fokker-Planck Equation
-			- [A Nonlinear Fokker-Planck Description of Continuous Neural Network Dynamics | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-30487-4_4)
-			- [Nonlinear, Nonequilibrium Landscape Approach to Neural Network Dynamics | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-61616-8_15)
-		- ### Next-generation neural mass model
-			- [[Next-generation neural mass and field modeling - 2020]] - “二阶”的神经群体模型
-			  collapsed:: true
-				- [Next-generation neural mass and field modeling | Journal of Neurophysiology](https://journals.physiology.org/doi/full/10.1152/jn.00406.2019)
-				- 神经活动的 Wilson-Cowan 群体模型极大地影响了我们对大脑节律产生机制和结构化大脑活动出现的理解。除了从数学分析中获得的许多见解之外，它现在还广泛用于计算神经科学界，用于构建大规模的计算机模拟大脑网络，该网络可以整合来自人类连接组计划的越来越多的知识。在这里，我们本着 Wilson 和 Cowan 最初开发的精神来考虑神经群体模型，它还有一个额外的优点，即它可以解释与事件相关的同步和去同步现象。这种导出的平均场模型为通过 Kuramoto 序参量测量的大量二阶积分发放神经元中的同步演化提供了动态描述。与最初的 Wilson-Cowan 框架一样，群体发放率是我们新模型的核心；然而，与 S 形发放率函数方法有很大不同，群体发射率现在是作为复值群体同步度量的实值函数获得的。为了强调下一代 Wilson-Cowan 型模型的实用性，我们将其部署在许多神经生物学背景中，提供对运动过程中运动皮层脑电图和脑磁图神经影像研究中观察到的功率谱变化的理解，深入了解运动模式休息期间观察到的功能连接及其被经颅磁刺激破坏的情况，并描述波在皮层的传播。
-				- [Frontiers | Next generation neural population models (frontiersin.org)](https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2023.1128224/full)
-				- [Next Generation Neural Mass Models | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-319-71048-8_1)
-			- [[Macroscopic Description for Networks of Spiking Neurons - 2015 - 408]]
-			  collapsed:: true
-				- [Phys. Rev. X 5, 021028 (2015) - Macroscopic Description for Networks of Spiking Neurons (aps.org)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.021028)
-				- 神经科学、统计物理学和非线性动力学的一个主要目标是理解大脑功能是如何从脉冲神经元网络的集体动力学中产生的。这一挑战主要通过大规模数值模拟得到解决。或者，研究人员已经制定了平均场理论，以深入了解大型神经元网络的宏观状态，即神经元的集体放电活动或放电率。然而，这些理论并没有成功地在网络的发射率和脉冲神经元的潜在微观状态之间建立精确的对应关系。这在很大程度上限制了这种宏观描述的适用范围，特别是在试图描述神经元同步时。在这里，我们为脉冲神经元网络提供了一组精确的宏观方程的推导。我们的研究结果表明，单个神经元的尖峰产生机制在两个生物物理相关的宏观量（放电率和平均膜电位）之间引入了有效的耦合，它们共同控制着神经元网络的进化。得到的方程准确地描述了网络所有可能的宏观动态状态，包括同步尖峰活动的状态。最后，我们通过共形图证明了发射率描述与Kuramoto序参量的低维描述有关，称为Ott-Antonsen理论。我们预计，我们的研究结果将成为研究大型脉冲神经元网络如何及时自我组织以处理和编码大脑中的信息的重要工具。
+		- ###  Application to Diseases
+			- ### [[Schizophrenia]]
+			- ### [[Epilepsy]]
+			- ### [[Alzheimer's Disease]]
+	- ## Neural Mass Models
+		- ### Biophysical Model
+			- ### [[Wong-Wang Model]]
+				- [How Local Excitation–Inhibition Ratio Impacts the Whole Brain Dynamics | Journal of Neuroscience (jneurosci.org)](https://www.jneurosci.org/content/34/23/7886)
+				- [[Hierarchical Heterogeneity Across Human Cortex Shapes Large-Scale Neural Dynamics - 2019 - 104]] - 髓鞘化图谱作为区域异质性约束 - Murray
+				- [[Dynamical Consequences Of Regional Heterogeneity In The Brain’s Transcriptional Landscape - 2021]] - 基因表达图谱作为异质性约束 - Deco
+				- [[Sensory-motor Cortices Shape Functional Connectivity Dynamics In The Human Brain - 2021 - 5]] - 功能梯度作为模型区域异质约束 - Yeo
+			- ### [[Wilson-Cowan Model]]
+				- [[Evolution of the Wilson–Cowan equations - 2021]] - 来自原作者的回顾 from [Hugh R. Wilson](https://link.springer.com/article/10.1007/s00422-021-00912-7#auth-Hugh_R_-Wilson) &[Jack D. Cowan](https://link.springer.com/article/10.1007/s00422-021-00912-7#auth-Jack_D_-Cowan)
+				- [[Before and beyond the Wilson–Cowan equations - 2020]] - WC模型的背景与推广
+				- [[Critical behaviour of the stochastic Wilson-Cowan model - 2021]] - 系统行为作为神经元总数的函数
+				- [[* Stimulation-Based Control Of Dynamic Brain Networks - 2016 - 168]]
+				- [Wilson-Cowan Model | SpringerLink](https://link.springer.com/referenceworkentry/10.1007/978-1-0716-1006-0_80) - WC模型的简介
+			- ### Jansen-Rit Model
+				- [Modeling the Generation of Phase-Amplitude Coupling in Cortical Circuits: From Detailed Networks to Neural Mass Models (hindawi.com)](https://www.hindawi.com/journals/bmri/2015/915606/)
+				- [#9228 - Neural Field Models: A mathematical overview and unifying framework (episciences.org)](https://mna.episciences.org/9228)
+				- [A Stochastic Version of the Jansen and Rit Neural Mass Model: Analysis and Numerics | The Journal of Mathematical Neuroscience | Full Text (springeropen.com)](https://mathematical-neuroscience.springeropen.com/articles/10.1186/s13408-017-0046-4)
+			- ### Next-generation neural mass model
+				- [[Next-generation neural mass and field modeling - 2020]] - “二阶”的神经群体模型
+				  collapsed:: true
+					- [Next-generation neural mass and field modeling | Journal of Neurophysiology](https://journals.physiology.org/doi/full/10.1152/jn.00406.2019)
+					- 神经活动的 Wilson-Cowan 群体模型极大地影响了我们对大脑节律产生机制和结构化大脑活动出现的理解。除了从数学分析中获得的许多见解之外，它现在还广泛用于计算神经科学界，用于构建大规模的计算机模拟大脑网络，该网络可以整合来自人类连接组计划的越来越多的知识。在这里，我们本着 Wilson 和 Cowan 最初开发的精神来考虑神经群体模型，它还有一个额外的优点，即它可以解释与事件相关的同步和去同步现象。这种导出的平均场模型为通过 Kuramoto 序参量测量的大量二阶积分发放神经元中的同步演化提供了动态描述。与最初的 Wilson-Cowan 框架一样，群体发放率是我们新模型的核心；然而，与 S 形发放率函数方法有很大不同，群体发射率现在是作为复值群体同步度量的实值函数获得的。为了强调下一代 Wilson-Cowan 型模型的实用性，我们将其部署在许多神经生物学背景中，提供对运动过程中运动皮层脑电图和脑磁图神经影像研究中观察到的功率谱变化的理解，深入了解运动模式休息期间观察到的功能连接及其被经颅磁刺激破坏的情况，并描述波在皮层的传播。
+					- [Frontiers | Next generation neural population models (frontiersin.org)](https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2023.1128224/full)
+					- [Next Generation Neural Mass Models | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-319-71048-8_1)
+				- [[Macroscopic Description for Networks of Spiking Neurons - 2015 - 408]]
+				  collapsed:: true
+					- [Phys. Rev. X 5, 021028 (2015) - Macroscopic Description for Networks of Spiking Neurons (aps.org)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.021028)
+					- 神经科学、统计物理学和非线性动力学的一个主要目标是理解大脑功能是如何从脉冲神经元网络的集体动力学中产生的。这一挑战主要通过大规模数值模拟得到解决。或者，研究人员已经制定了平均场理论，以深入了解大型神经元网络的宏观状态，即神经元的集体放电活动或放电率。然而，这些理论并没有成功地在网络的发射率和脉冲神经元的潜在微观状态之间建立精确的对应关系。这在很大程度上限制了这种宏观描述的适用范围，特别是在试图描述神经元同步时。在这里，我们为脉冲神经元网络提供了一组精确的宏观方程的推导。我们的研究结果表明，单个神经元的尖峰产生机制在两个生物物理相关的宏观量（放电率和平均膜电位）之间引入了有效的耦合，它们共同控制着神经元网络的进化。得到的方程准确地描述了网络所有可能的宏观动态状态，包括同步尖峰活动的状态。最后，我们通过共形图证明了发射率描述与Kuramoto序参量的低维描述有关，称为Ott-Antonsen理论。我们预计，我们的研究结果将成为研究大型脉冲神经元网络如何及时自我组织以处理和编码大脑中的信息的重要工具。
+		- ### Phenomenal Model
+			- ### [[Kuramoto Model]]
+			- ### Kuramoto model
+				- [Modelling on the very large-scale connectome - IOPscience](https://iopscience.iop.org/article/10.1088/2632-072X/ac266c/meta)
+				- [Comparison of fluctuations in global network topology of modeled and empirical brain functional connectivity | PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006497)
+			- ### Hopf model
+				- [The dynamics of resting fluctuations in the brain: metastability and its dynamical cortical core | Scientific Reports (nature.com)](https://www.nature.com/articles/s41598-017-03073-5#Sec6)
+		- ### Other Models
+			- ### Fokker-Planck Equation
+				- [A Nonlinear Fokker-Planck Description of Continuous Neural Network Dynamics | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-30487-4_4)
+				- [Nonlinear, Nonequilibrium Landscape Approach to Neural Network Dynamics | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-61616-8_15)
 	- ## New Technques
 		- [[The Bayesian Virtual Epileptic Patient: A probabilistic framework designed to infer the spatial map of epileptogenicity in a personalized large-scale brain model of epilepsy spread - 2020 - 35]] - 贝叶斯参数推断
 		- [[Virtual deep brain stimulation: Multiscale co-simulation of a spiking basal ganglia model and a whole-brain mean-field model with The Virtual Brain - 2022]] - 神经元网络与脑网络联合建模并施加外部刺激
@@ -95,8 +124,6 @@
 		- [Transcriptomics-informed large-scale cortical model captures topography of pharmacological neuroimaging effects of LSD | eLife (elifesciences.org)](https://elifesciences.org/articles/69320) - 结合转录组信息探究药物作用
 		- [Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics | Science Advances](https://www.science.org/doi/10.1126/sciadv.abq7547) - 数据驱动的参数估计方法
 		- [Next-generation neural mass and field modeling | Journal of Neurophysiology](https://journals.physiology.org/doi/full/10.1152/jn.00406.2019)
--
--
 -
 - ## Other Topics
 	- [Parcels and particles: Markov blankets in the brain | Network Neuroscience | MIT Press](https://direct.mit.edu/netn/article/5/1/211/97535/Parcels-and-particles-Markov-blankets-in-the-brain)
@@ -137,6 +164,8 @@
 	- ### Parkinson disease
 		- [Parkinson disease | Nature Reviews Disease Primers](https://www.nature.com/articles/nrdp201713)
 		- [Parkinson disease - Balestrino - 2020 - European Journal of Neurology - Wiley Online Library](https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14108)
+	- ### 意识障碍
+		- [Low-dimensional organization of global brain states of reduced consciousness: Cell Reports](https://www.cell.com/cell-reports/fulltext/S2211-1247(23)00502-8)
 	- ### Dopamine system
 		- [Mechanisms and regulation of dopamine release - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0959438818302587#bib0045)
 		- [Spatial and temporal scales of dopamine transmission | Nature Reviews Neuroscience](https://www.nature.com/articles/s41583-021-00455-7)
@@ -150,5 +179,5 @@
 		- [Connectome-based reservoir computing with the conn2res toolbox | Nature Communications](https://www.nature.com/articles/s41467-024-44900-4)
 	- ### Brain for AI
 		- [[2301.08382] AI of Brain and Cognitive Sciences: From the Perspective of First Principles (arxiv.org)](https://arxiv.org/abs/2301.08382)
-		-
+-
 -
