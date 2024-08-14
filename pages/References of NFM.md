@@ -1,7 +1,12 @@
 ### Reviews
-	- [[Neural Field Models: A mathematical overview and unifying framework - 2022]]
+	- [[Neural Field Models: A mathematical overview and unifying framework - 2022]] - 神经场模型的发展历史和框架总结
 	  collapsed:: true
 		- 大脑宏观电活动的数学建模非常不容易，不仅需要对相关的数学技术有深入的理解，还需要了解基础的生理学和解剖学。神经场理论是一种在保持一定数学可行性的同时对大量神经元群体的非线性动力学建模的方法。这类模型为神经组织的基本过程提供了坚实的理论视角，比如在癫痫或睡眠中观察到的不同脑活动之间的状态转换。各种解剖学、生理学和数学假设是必不可少的，以推导出一组能在生物物理现实性和数学可行性之间找到平衡的方程。然而，这些假设并没有始终在文献中得到明确阐述。尽管神经场模型（NFMs）最早出现在20世纪70年代初的文献中，但它们之间的关系还没有得到系统地解决。这在一定程度上可以解释为这些模型之间的相互依赖通常是隐含的且复杂的。在这里，我们回顾了神经场理论的历史和发展的关键阶段，以及这一数学神经科学分支的当代用途。首先，通过对Wilson和Cowan、Amari和Nunez等开创性模型的讨论，总结了该理论的原则。在对这些模型进行深入审查之后，我们提出了一个统一的数学框架，可以通过应用不同的假设来推导出所有神经场模型。然后，我们使用这个框架来：i)推导出Robinson、Jansen和Rit、Wendling、Liley和Steyn-Ross等当代模型；ii)明确阐述当前文献中存在的许多重要继承的假设。
+	- [[Neural Field Continuum Limits and the Structure–Function Partitioning of Cognitive–Emotional Brain Networks - 2022]] - 神经场的连续体理论 - **挑战图论观点**
+	  collapsed:: true
+		- [Biology | Free Full-Text | Neural Field Continuum Limits and the Structure&ndash;Function Partitioning of Cognitive&ndash;Emotional Brain Networks (mdpi.com)](https://www.mdpi.com/2079-7737/12/3/352)
+		- Pessoa 假设，与处理和表达充满情绪的内容（如杏仁核和边缘皮质）相关的麸皮解剖结构是资源容量有限的。因此，大脑需要多通道或平行的结构-功能连接，以有效地感知、激励、整合、表示、回忆和执行认知-情感关系。Pessoa利用二维图网络理论来支持他对分布式大脑组织和操作的观点，得出的结论是，大脑通过双过程竞争和合作进化，形成高度嵌入的计算架构，几乎没有结构-功能划分。低维图论已成为一种流行的数学工具，用于建模、模拟和可视化不断发展的复杂、有时难以处理的大脑网络。图论为研究和理解各种生物和技术网络行为提供了优势，对于Pessoa来说，它允许一个框架来解释结构-功能特征，到目前为止，“传统”观点可能很难解释，这些观点主张将结构-功能关系映射到定位良好的大脑区域。尽管如此，Pessoa未能充分理解弱到强的结构-功能相关性对大脑动力学的重要性，以及为什么这些由差异控制参数（如Hebbian和antiHebbian神经元可塑性）引起的相关性最好使用神经场理论进行评估。神经场表明，在呈现健康的认知情感功能时，嵌入式大脑网络在奇异的计算阶段和连续体限制之间最佳地进化，伴随着一些网络分区，而不是不受约束的嵌入性。
+		- 在*The cognitive-emotional brain*中 Pessoa 通过回避神经场理论和代表神经元可塑性的生理衍生结构，忽视了对非线性脑网络连接的连续体效应。这些内容对于理解大脑的动态结构-功能嵌入和划分非常重要，它的缺失削弱了神经网络丰富的竞争和合作性质，并使Pessoa的论点以及其他作者的类似论点变得微不足道，这些论点是关于充满可变强度神经连接的最佳整合大脑的系统发育和操作意义。黎曼神经流形包含极限强加的 Hebbian 和反 Hebbian 类型控制变量，模拟了可扩展的网络行为，而这种行为很难从 Pessoa 和其他神经科学家喜欢的更简单的图论分析中捕获。场理论表明，嵌入式认知情感网络的分区和性能优势在奇特的经典计算阶段和量子计算阶段之间最佳地演变，其中矩阵奇点和凝聚产生退化的结构-功能同质性，这对健康大脑来说是不现实的。因此，与无约束的嵌入性相反，一些网络分区是有效执行认知情感网络功能所必需的，并且在我们神经科学的新时代，应该被视为正确大脑组织和操作的关键方面。
 - ### Brain Eigenmode
 	- [[Eigenmodes of brain activity: Neural field theory predictions and comparison with experiment - 2016]]
 	  collapsed:: true

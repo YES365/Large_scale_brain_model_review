@@ -1,0 +1,6 @@
+- https://academic.oup.com/braincomms/article/5/1/fcac331/6905429
+- ## Abstract
+	- 根据数据处理和建模方法，**模拟的全脑连接体显示个体间变异性增强**。通过将人脑连接体视为个体化属性，我们研究如何根据不同的数据处理和模型验证，利用经验和模拟的全脑连接体衍生的特征来将帕金森病患者与健康对照进行分类。为此，我们应用模拟血氧水平依赖性信号来源于一个全脑动力学模型，模拟神经元群体的电信号，以揭示患者和对照之间的差异。**除了通过将动力学模型拟合到经验性神经影像学数据的广泛使用的模型验证之外，我们还发明了针对行为数据(如受试者类别)的模型验证，我们称之为行为模型拟合，并显示它可以有益于帕金森病患者分类。**此外，本研究报告的机器学习结果也表明，当经验数据与模拟结果互补时，患者分类的性能可以得到改善。我们还表明，**血氧水平相关信号的时间滤波影响预测结果，其中低频段的滤波对于帕金森病患者分类是明智的。**此外，通过构造来自多个大脑分块方案的经验数据和模拟数据的特征空间，提供了改善预测性能的互补特征。基于我们的研究结果，**我们认为结合模拟结果与实证数据对个体间研究及其临床应用是有效的**。
+- ## Graphical abstract
+	- ![Graphical abstract](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/braincomms/5/1/10.1093_braincomms_fcac331/5/m_fcac331_ga1.jpeg?Expires=1724507019&Signature=LnK9B3vuPdqeCIV34yX68wFxv1dPBFZvrpzV2D1SyEC6VwtR49h4Bblb3ATPcQ-Rpzu5P80hZhW7TOnxxxb8BPCBAGaoJoxEOqMZg4u-LVvLsEnCsC6WiJI~pgo-HsoMNgF6OHK0v4CTLpHAblNJmUrVNn52c8VieKvYe7~Ae2IAvuI5Mo5JEjY7vR6j46UjaVwIN479xXxE3O2Z5FeaYXrsosnwc-1ts9jNh6sX9I4G4GMDeFS2LyFzKeG-vVU7qA2l3uchV1oxpNI1hwLaOXfR-zo4lQk8GA8PjV3LddynfzwR-efsfRPMu~9noE6X6Qhs8z0QMXGb94GJbapDnA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+-
