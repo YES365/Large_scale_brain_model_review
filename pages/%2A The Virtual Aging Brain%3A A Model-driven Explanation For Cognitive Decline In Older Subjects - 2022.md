@@ -1,5 +1,12 @@
 - [The virtual aging brain: Causal inference supports interhemispheric dedifferentiation in healthy aging - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811923005542)
 -
+- ## Highlights
+	- VAB 从机制上证实了半球间 SC 作为同伦 FC 的关键基础的假设。
+	- 整体神经调节随着年龄和 SC 恶化而增加，但与言语记忆和概念转换呈负相关。
+	- SC-FC 束缚的增加可能表明动态灵活性的损失更大，尤其是对于认知表现不佳的人。
+	- 高表现组似乎不会出现全局调节的增加，这可能是由于更好的大脑维护。
+	- SBI 证实了 SC 神经调节随着年龄的增长而增加，并恢复了具有相同年龄下降的 FC 和 FCD 特征的工作点。
+-
 - ## Abstract
 	- 健康老龄化是伴随着个人认知能力的异质性下降，特别是在衰老过程中。这种变异性的机制尚不清楚，但已经与白质纤维束的重组和大脑区域的功能共同激活有关。
 	- 在这里，我们建立了一个因果推理框架，通过大脑成像数据和网络建模，提供对结构连接性和大脑功能之间联系的机械洞察力。

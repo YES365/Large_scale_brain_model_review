@@ -1,0 +1,19 @@
+## Large scale brain model framework
+	-
+	- ### Local model
+		-
+	- ### Parameter
+		-
+	- ### Connectome
+		-
+	- ### Optimization
+		-
+-
+- ## Group work
+	- ### Group 1 Stiff-sloppy Analysis
+		-
+	- ### Group 2 Large Scale Modelling
+		-
+	- ### Group 3 Inverse Modelling
+		-
+	-

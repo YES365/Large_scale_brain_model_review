@@ -31,13 +31,9 @@
 		- [[Generative Models of Brain Dynamics - 2022]] - 大脑动力学生成模型总结
 		- [[Multiscale modeling of brain network organization - 2022]] - 多层次大脑网络
 		- [[The quest for multiscale brain modeling - 2022]] - 多尺度大脑建模
-		- [[* Entropy, Free Energy, Symmetry And Dynamics In The Brain - 2022]] - Jirsa的基于**协同学**的低维流形的对称性破缺脑动力学理论
-		  collapsed:: true
-			- [Symmetry Breaking in Space-Time Hierarchies Shapes Brain Dynamics and Behavior - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0896627317304142)
 		- [[Dynamic sensitivity analysis: Defining personalised strategies to drive brain state transitions via whole brain modelling - 2023]] - BNM用于评估大脑状态切换
 		  collapsed:: true
 			- 传统上，在神经影像学中，无模型分析用于通过信号检测理论发现大脑状态之间的显着差异。根据对基础数据的先验假设，可以分析不同的时空特征。或者，基于模型的技术从数据推断特征并比较模型参数的显着性。然而，评估从一种大脑状态到另一种大脑状态的转变在当前范式中仍然是一个挑战。在这里，我们引入了一个“动态敏感性分析”框架，该框架根据刺激能力来量化大脑状态之间的转变，以重新平衡时空大脑活动以达到目标状态，例如健康的大脑动态。在实践中，这意味着建立一个适合大脑动力学时空描述的全脑模型，并在计算机中应用系统刺激来评估驱动大脑动力学达到目标状态的最佳策略。此外，我们展示了动态敏感性分析如何扩展到各种脑刺激范例，最终有助于提高个性化临床干预的效果。
-		- [[A synergetic turn in cognitive neuroscience of brain diseases - 2024]] - Deco的基于**协同学**的疾病动力学框架
 		- [[Virtual brain twins: from basic neuroscience to clinical use - 2024]] - TVB最新框架
 		  collapsed:: true
 			- 虚拟孪生脑是基于个人大脑数据的个性化、生成性和适应性大脑模型，用于科学和临床用途。 在描述虚拟孪生脑的关键要素之后，我们介绍了个性化全脑网络模型的标准模型。 通过三种方式实现个性化，即使用受试者的脑成像数据：(1)将皮层和皮层下区域组装到特定受试者的脑空间中；(2)将连接性直接映射到大脑模型中，并可以推广到其他参数；(3)通过模型反演来估计相关参数，通常使用概率机器学习。 我们介绍了个性化全脑网络模型在健康老龄化和五种临床疾病中的应用：癫痫、阿尔茨海默病、多发性硬化症、帕金森病和精神障碍。 具体来说，我们介绍了相关参数的空间掩模，并根据生理和病理假设展示了它们的应用。 最后，我们指出了关键挑战和未来方向。
@@ -45,7 +41,21 @@
 		  collapsed:: true
 			- [Whole-brain modelling: an essential tool for understanding brain dynamics | Nature Reviews Methods Primers](https://www.nature.com/articles/s43586-024-00336-0)
 			- **全脑建模是一种重要的工具，它为神经科学家提供相关的见解，因为他们正在努力发现健康大脑功能的基本原理。**
-		- [[The Thermodynamics of Mind - 2024]] - 全脑建模+热力学 解释大脑认知层次结构
+		- ### Theory of the brain
+			- [[* Entropy, Free Energy, Symmetry And Dynamics In The Brain - 2022]] - Jirsa的基于**协同学**的低维流形的对称性破缺脑动力学理论
+			  collapsed:: true
+				- [Symmetry Breaking in Space-Time Hierarchies Shapes Brain Dynamics and Behavior - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0896627317304142)
+				- 神经科学是概念和理论的发源地，这些概念和理论根植于各种领域，包括信息理论、动态系统理论和认知心理学。并不是所有这些概念都能被一致地关联起来，有些概念是不可通约的，而领域特定语言对整合构成了障碍。尽管如此，概念整合是一种提供直觉和巩固的理解形式，没有这种理解和巩固，进步仍然是没有指导的。这篇论文是关于在信息理论框架内确定性和随机过程的整合，将信息熵和自由能与涌现动力学机制和脑网络中的自组织联系起来。我们确定了神经元群的基本性质，从而^^得到一个网络中的等变矩阵^^，其中复杂的行为可以通过流形上的结构化流自然地表示出来，从而建立了与脑功能理论相关的内部模型。我们提出了一种神经机制，用于从对称性破缺中生成大脑网络连接的内部模型。涌现视角说明了自由能是如何与^^内部模型（内在模式、模态？）^^联系起来的，以及它们是如何从^^神经基质^^中产生的。
+			- [[Neural Field Continuum Limits and the Structure–Function Partitioning of Cognitive–Emotional Brain Networks - 2022]] - 神经场的连续体理论 - **挑战图论观点**
+			  collapsed:: true
+				- [Biology | Free Full-Text | Neural Field Continuum Limits and the Structure&ndash;Function Partitioning of Cognitive&ndash;Emotional Brain Networks (mdpi.com)](https://www.mdpi.com/2079-7737/12/3/352)
+				- Pessoa 假设，与处理和表达充满情绪的内容（如杏仁核和边缘皮质）相关的麸皮解剖结构是资源容量有限的。因此，大脑需要多通道或平行的结构-功能连接，以有效地感知、激励、整合、表示、回忆和执行认知-情感关系。Pessoa利用二维图网络理论来支持他对分布式大脑组织和操作的观点，得出的结论是，大脑通过双过程竞争和合作进化，形成高度嵌入的计算架构，几乎没有结构-功能划分。低维图论已成为一种流行的数学工具，用于建模、模拟和可视化不断发展的复杂、有时难以处理的大脑网络。图论为研究和理解各种生物和技术网络行为提供了优势，对于Pessoa来说，它允许一个框架来解释结构-功能特征，到目前为止，“传统”观点可能很难解释，这些观点主张将结构-功能关系映射到定位良好的大脑区域。尽管如此，Pessoa未能充分理解弱到强的结构-功能相关性对大脑动力学的重要性，以及为什么这些由差异控制参数（如Hebbian和antiHebbian神经元可塑性）引起的相关性最好使用神经场理论进行评估。神经场表明，在呈现健康的认知情感功能时，嵌入式大脑网络在奇异的计算阶段和连续体限制之间最佳地进化，伴随着一些网络分区，而不是不受约束的嵌入性。
+				- 在*The cognitive-emotional brain*中 Pessoa 通过回避神经场理论和代表神经元可塑性的生理衍生结构，忽视了对非线性脑网络连接的连续体效应。这些内容对于理解大脑的动态结构-功能嵌入和划分非常重要，它的缺失削弱了神经网络丰富的竞争和合作性质，并使Pessoa的论点以及其他作者的类似论点变得微不足道，这些论点是关于充满可变强度神经连接的最佳整合大脑的系统发育和操作意义。黎曼神经流形包含极限强加的 Hebbian 和反 Hebbian 类型控制变量，模拟了可扩展的网络行为，而这种行为很难从 Pessoa 和其他神经科学家喜欢的更简单的图论分析中捕获。场理论表明，嵌入式认知情感网络的分区和性能优势在奇特的经典计算阶段和量子计算阶段之间最佳地演变，其中矩阵奇点和凝聚产生退化的结构-功能同质性，这对健康大脑来说是不现实的。因此，与无约束的嵌入性相反，一些网络分区是有效执行认知情感网络功能所必需的，并且在我们神经科学的新时代，应该被视为正确大脑组织和操作的关键方面。
+			- [[A synergetic turn in cognitive neuroscience of brain diseases - 2024]] - Deco的基于**协同学**的疾病动力学框架
+			- [[The Thermodynamics of Mind - 2024]] - 全脑建模+热力学 解释大脑认知层次结构
+			  collapsed:: true
+				- [The Thermodynamics of Mind: Trends in Cognitive Sciences (cell.com)](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00075-5)
+				- 为了不仅生存，而且繁荣，大脑必须有效地协调跨空间和时间的分布式计算。这需要分层组织，以尽可能低的代谢成本促进快速信息传输和处理。量化大脑层次结构很困难，但可以根据信息流的不对称性进行估计。热力学已经成功地表征了许多其他复杂系统的层次结构。在这里，我们提出“心灵热力学”框架作为量化分层大脑编排及其底层机制的自然方式。这已经为大脑状态下的层次结构的编排提供了新的见解，包括看电影时，大脑的层次结构比休息时更平坦。总的来说，这个框架对于揭示认知的编排有着巨大的希望。
 	- ## 异质性建模 [[Heterogenous Modeling]]
 		- [[A Large-Scale Circuit Mechanism For Hierarchical Dynamical Processing In The Primate Cortex - 2015 - 271]] - 猴脑异质性模型，产生了时间尺度梯度 - Wang Xiaojing
 		- [[Functional Hierarchy Underlies Preferential Connectivity Disturbances In Schizophrenia - 2015 - 64]] - E/I比层次结构预测精神分裂症的局部特性 - Wang Xiaojing & Murray
@@ -58,12 +68,10 @@
 	- ## 模拟神经调控  [[Modeling Neuromodulation]]
 		- [[* The modulation of neural gain facilitates a transition between functional segregation and integration in the brain - 2018 - 80]] - 模型中展示神经元增益促进网络整合
 		- [[Dynamic coupling of whole-brain neuronal and neurotransmitter systems - 2020 - 84]] - 在模型中模拟裸盖菇素调节五羟色胺受体的功能效应
-		  collapsed:: true
 			- [Dynamic coupling of whole-brain neuronal and neurotransmitter systems | PNAS](https://www.pnas.org/doi/full/10.1073/pnas.1921475117)
 			- 连接解剖学和功能的全脑模型取得了显着的进展。矛盾的是，目前尚不清楚在固定的人体解剖学连接组中运行的神经元动力系统如何引起与人脑功能相关的功能库的丰富变化，而这不可能通过长期可塑性来解释。神经调节通过动态更新固定解剖连接的有效性而发展到允许这种灵活性。在这里，我们介绍了一个模拟神经元和神经递质系统之间动态相互耦合的理论框架。我们证明，通过结合多模态神经影像数据（扩散磁共振成像 [dMRI]、功能磁共振成像 [fMRI] 和正电子断层扫描 [fMRI]），通过两个系统的双向耦合，该框架对于增进我们对全脑动力学的理解至关重要。 PET]）解释裸盖菇素刺激特定血清素受体（5-HT2A R）对健康人的功能影响。这一进展让我们了解了为什么裸盖菇素作为治疗抑郁症、焦虑症和成瘾等神经精神疾病的治疗干预措施显示出巨大的前景。总的来说，这些见解表明，神经元和神经传递系统之间的全脑相互耦合对于理解人脑功能的显着灵活性至关重要，尽管必须依赖于固定的解剖连接性。
 	- ## 皮层时空梯度 [[Spatial-temporal Hierarchy]]
 		- [[Bifurcation in space: Emergence of function modularity in the neocortex - 2023]] - 分岔边缘的临界慢化导致的皮层时间梯度
-		  collapsed:: true
 			- [Bifurcation in space: Emergence of function modularity in the neocortex | bioRxiv](https://www.biorxiv.org/content/10.1101/2023.06.04.543639v1.full)
 			- 功能模块化如何在由规范局部电路架构的重复组成的多区域皮层中出现？我们通过关注工作记忆的神经编码（一种核心认知功能）来研究这个问题。在这里，我们报告了一种被称为“空间分叉”的机制，并表明其显着特征是空间局部的“临界减速”，导致工作记忆期间沿皮质层次结构的神经元时间常数呈现倒V形轮廓。这种现象在基于连接组的小鼠和猴子皮质的大规模模型中得到证实，提供了一个可通过实验测试的预测来评估工作记忆表示是否是模块化的。空间中的许多分叉可以解释可能针对不同认知功能部署的不同活动模式的出现。这项工作表明，由于整个皮层神经生物学特性的宏观梯度，分布式心理表征与功能特异性兼容，这提出了一个通用原则了解大脑的模块化组织。
 	- ## 模型比较与检验 [[Comparison And Validation of BNM]]
@@ -71,23 +79,18 @@
 		- [[Multi-modal and multi-model interrogation of large-scale functional brain networks - 2022]] - SL模型与WC模型的静态、动态比较
 		- ### Simon B. Eickhoff & Oleksandr V. Popovych
 			- [[Inter-subject and inter-parcellation variability of resting-state whole-brain dynamical modeling - 2021]] - 模板对建模的影响
-			  collapsed:: true
 				- [Inter-subject and inter-parcellation variability of resting-state whole-brain dynamical modeling - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S105381192100478X)
 				- 研究复杂大脑动力学的现代方法建议将大脑表示为由大脑图谱定义的大脑区域的功能网络，而边缘表示它们之间的结构或功能连接。这种方法还用于静息态大脑动力学的数学建模，其中应用的大脑分区在推导模型网络和控制建模结果方面发挥着重要作用。然而，对于给定的大脑图谱如何影响模型结果，还没有达成共识和经验证据，并且分割的选择仍然相当任意。因此，我们探讨了大脑分区对模型拟合经验数据的受试者间和分区间变异性的影响。我们的目标是提供分区选择对静息态全脑动力学建模的潜在影响的全面经验证据。我们表明，**大脑图谱强烈影响模型验证的质量**，并提出了根据经验数据计算的几个变量，以解释观察到的变异性。可以根据其主体间和分区间的解释力来区分几类此类数据变量。
 			- [[Tractography density affects whole-brain structural architecture and resting-state dynamical modeling - 2021]] - 纤维密度对建模的影响 **Q: 对建模最优的结构连接处理流程会是最真实的吗？**
-			  collapsed:: true
 				- [Tractography density affects whole-brain structural architecture and resting-state dynamical modeling - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811921004535)
 				- 静息态大脑动力学的动力学建模本质上依赖于用于模型推导和验证的经验神经影像数据。然而，磁共振成像管道以及模型中涉及的结构和功能连接体仍然没有标准化的数据处理。因此，在本研究中，我们探讨了结构连接 (SC) 的扩散加权数据处理参数如何影响 SC 提供的全脑数学模型的验证结果。为此，我们引入了一组模拟条件，包括用于提取 SC 的全脑束成像 (WBT) 的不同数量的总流线、基于功能和解剖脑特性的皮质分区以及不同的模型拟合方式。本研究的主要目的是探索模型验证的质量在所考虑的模拟条件下如何变化。我们观察到，结构连接组的图论网络特性可能会受到不同纤维束成像密度的影响，并且与模型性能密切相关。我们还发现，对于不同的大脑图谱，WBT 总流线的最佳数量可能有所不同。因此，我们提出了一种基于网络特性和多个 WBT 条件下的最佳参数配置来提高模型性能的方法。此外，受试者群体可以分层为具有由不同的 WBT 密度引起的不同行为的亚组，以便可以针对个体受试者和大脑分区的数据处理提出不同的建议。
 			- [[Parcellation-induced variation of empirical and simulated brain connectomes at group and subject levels - 2021]] - 模板对个体化建模的影响
-			  collapsed:: true
 				- [Parcellation-induced variation of empirical and simulated brain connectomes at group and subject levels | Network Neuroscience | MIT Press](https://direct.mit.edu/netn/article/5/3/798/102384/Parcellation-induced-variation-of-empirical-and)
 				- 全脑模型的最新发展已经证明了它们在研究静息态大脑活动时的潜力。然而，尚未系统地研究 MRI 数据作为模型输入的经验结构和功能连接的交替推导如何影响建模结果。在这里，我们研究了一个主要因素的影响：通过将数千个体素分组为几百个大脑区域来降低大脑网络的维度的大脑分区方案。我们展示了从经验数据和建模结果中得出的图论统计数据，显示出跨分区的高度异质性。此外，经验大脑连接组的网络特性解释了建模结果中与分区变化相关的大部分方差。在每个分区的主题解析级别上没有观察到这种明确的关系。最后，模拟连接组的图论统计与跨分区的经验功能连接的统计相关。然而，这种关系不是一对一的，并且其精度可能因模型而异。我们的结果表明，两种经验连接组的网络特性可以解释全脑模型与全球群体水平上的经验数据的拟合优度，但不能解释单个受试者水平上的经验数据，这为全脑模型的个性化提供了进一步的见解。
 			- [[Reliability and subject specificity of personalized whole-brain dynamical models - 2022 - 7]] - 模型的个体特异性与可靠性 - **其结果同样指出在模拟效果上，非线性模型并不显著优于线性模型**
-			  collapsed:: true
 				- [Reliability and subject specificity of personalized whole-brain dynamical models - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811922004402)
 				- 开发动态全脑模型将结构连接（SC）和功能连接（FC）连接到一个框架中。如今，它们被用来研究大脑的动态机制以及它们与行为、临床和人口特征的关系。然而，考虑到经验 FC 的可变性，目前还没有关于建模结果的可靠性和被试特定性的全面调查。在这项研究中，我们表明，根据建模范式的具体实现，这些模型的参数可以具有“差”到“好”的可靠性。我们发现，**作为一般经验法则，增强的模型个性化会导致模型参数越来越可靠**。此外，我们观察到通过线性、相位振荡器和神经群体网络模型的单独采样结果评估的模型复杂性没有明显影响。事实上，**最复杂的神经质量模型通常会产生与简单线性模型相比可靠性“差”的建模结果，但在模型相似性图谱上表现出增强的被试特异性**。随后，我们证明这些模型模拟的 FC 在可靠性和被试特异性方面都优于经验 FC。对于结构-功能关系，可以从与经验 SC 的相关性中识别个体受试者的模拟 FC，准确度高达 70%，但对于非线性模型反之则不然。我们对 8 个不同的大脑分区和 6 个建模条件的所有发现进行了采样，结果表明，分区引起的效应对于建模结果比经验数据更为明显。总之，这项研究为动态全脑模型的可靠性和学科特异性提供了探索性的解释，并可能与其进一步的开发和应用相关。特别是，我们的研究结果表明，**动态全脑建模的应用应与结果可靠性的估计紧密相关**。
 			- [[Towards an efficient validation of dynamical whole-brain models - 2022]] - 适用于高维情形的参数估计方法的比较
-			  collapsed:: true
 				- [Towards an efficient validation of dynamical whole-brain models | Scientific Reports (nature.com)](https://www.nature.com/articles/s41598-022-07860-7)
 				- 通过数学全脑模型模拟静息态大脑动力学需要对参数进行最佳选择，这决定了模型复制经验数据的能力。由于通过网格搜索（GS）进行参数优化对于高维模型来说是不可行的，因此我们评估了几种替代方法来最大化模拟和经验功能连接之间的对应关系。密集的 GS 作为评估四种优化方案性能的基准：**Nelder-Mead 算法（NMA）、粒子群优化（PSO）、协方差矩阵适应进化策略（CMAES）和贝叶斯优化（BO）**。为了比较它们，我们采用了一组耦合相位振荡器，这些振荡器建立在 105 名健康受试者的个体经验结构连接之上。我们从二维和三维参数空间确定最佳模型参数，并表明测试方法的整体拟合质量可以与 GS 相媲美。然而，所需的计算资源和稳定性属性之间存在显着差异，我们在提出 CMAES 和 BO 作为高维 GS 的有效替代方案之前也对此进行了研究。对于三维情况，这些方法生成了与 GS 类似的结果，但计算时间不到 6%。我们的结果有助于有效验证大脑动力学个性化模拟的模型。
 			- [Frontiers | Editorial: From Structure to Function in Neuronal Networks: Effects of Adaptation, Time-Delays, and Noise (frontiersin.org)](https://www.frontiersin.org/articles/10.3389/fnsys.2022.871165/full)
@@ -99,6 +102,8 @@
 	- ## 模型应用 Model Application
 		- ### Human Lifespan
 			- [[* The Virtual Aging Brain: A Model-driven Explanation For Cognitive Decline In Older Subjects - 2022]] - 虚拟老化
+				- [The virtual aging brain: Causal inference supports interhemispheric dedifferentiation in healthy aging - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811923005542)
+				  id:: 66bf2846-cf2a-49a9-bd41-1c26093ba7bb
 			- [[Adolescent maturation of cortical excitation-inhibition balance based on individualized biophysical network modeling - 2024]] - 模型反演估计青春期兴奋抑制平衡发育规律
 			  collapsed:: true
 				- [Adolescent maturation of cortical excitation-inhibition balance based on individualized biophysical network modeling | bioRxiv](https://www.biorxiv.org/content/10.1101/2024.06.18.599509v1.full)
@@ -107,17 +112,14 @@
 			- [Modeling brain dynamics after tumor resection using The Virtual Brain - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1053811920302251?dgcid=raven_sd_recommender_email) - 模拟手术
 			- ### Simon B. Eickhoff & Oleksandr V. Popovych - PD
 				- [[Whole-brain dynamical modelling for classification of Parkinson’s disease - 2023]]- PD分类，方法或许可迁移到AD上
-				  collapsed:: true
 					- https://academic.oup.com/braincomms/article/5/1/fcac331/6905429
 					- 根据数据处理和建模方法，**模拟的全脑连接体显示个体间变异性增强**。通过将人脑连接体视为个体化属性，我们研究如何根据不同的数据处理和模型验证，利用经验和模拟的全脑连接体衍生的特征来将帕金森病患者与健康对照进行分类。为此，我们应用模拟血氧水平依赖性信号来源于一个全脑动力学模型，模拟神经元群体的电信号，以揭示患者和对照之间的差异。**除了通过将动力学模型拟合到经验性神经影像学数据的广泛使用的模型验证之外，我们还发明了针对行为数据(如受试者类别)的模型验证，我们称之为行为模型拟合，并显示它可以有益于帕金森病患者分类。**此外，本研究报告的机器学习结果也表明，当经验数据与模拟结果互补时，患者分类的性能可以得到改善。我们还表明，**血氧水平相关信号的时间滤波影响预测结果，其中低频段的滤波对于帕金森病患者分类是明智的。**此外，通过构造来自多个大脑分块方案的经验数据和模拟数据的特征空间，提供了改善预测性能的互补特征。基于我们的研究结果，**我们认为结合模拟结果与实证数据对个体间研究及其临床应用是有效的**。
 				- [[Simulated brain networks reflecting progression of Parkinson’s disease - 2024]] - 模拟PD病程
-				  collapsed:: true
 					- [Simulated brain networks reflecting progression of Parkinson’s disease | Network Neuroscience | MIT Press](https://direct.mit.edu/netn/article/doi/10.1162/netn_a_00406/123699)
 					- 帕金森病的神经退行性进展会影响大脑的结构和功能，并随之改变大脑网络的拓扑特性。伴随运动障碍的网络改变和疾病持续时间在疾病进展中尚未得到明确证明。在这项研究中，我们的目标是通过一种建模方法来解决这个问题，该方法使用简化的 Jansen-Rit 模型，应用于从横截面 MRI 数据导出的大规模脑网络。优化全脑模拟模型使我们能够发现大脑网络，这些网络显示出与临床变量之间尚未探索的关系。我们观察到，模拟的大脑网络在健康对照组 (n = 51) 和帕金森病患者 (n = 60) 之间表现出显着差异，并且与患者的疾病严重程度和病程密切相关。此外，在这些临床测量中，建模结果优于经验大脑网络。因此，这项研究表明，利用模拟大脑网络可以更好地了解运动障碍进展中的网络变化，并确定临床指标的潜在生物标志物。
 			- ### [[Schizophrenia]]
 			- ### [[Epilepsy]]
 				- [[Personalised virtual brain models in epilepsy - 2023]] - 癫痫模型临床应用 - 柳叶刀 - **当与机器学习相结合时，虚拟大脑可用于估计致癫痫区的程度和组织**
-				  collapsed:: true
 					- [Personalised virtual brain models in epilepsy - The Lancet Neurology](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(23)00008-X/fulltext)
 					- 耐药性局灶性癫痫患者是手术治疗的候选者，可作为治愈选择。在进行手术之前，患者必须进行术前评估，以确定手术治疗是否以及如何在不引起神经功能缺损的情况下阻止癫痫发作。虚拟大脑是一种新的数字建模技术，它使用来自MRI的数据绘制癫痫患者的大脑网络。该技术产生癫痫发作和脑成像信号的计算机模拟，例如那些将用颅内脑电图记录的信号。**当与机器学习相结合时，虚拟大脑可用于估计致癫痫区的程度和组织**（即，与癫痫发作期间的癫痫发作相关的大脑区域和时空动态）。在未来，虚拟大脑可以用于临床决策，以提高癫痫发作活动定位的精确度，以及用于手术计划，但目前这些模型有一些局限性，**例如空间分辨率低**。随着支持个性化虚拟大脑模型预测能力的证据不断积累，以及随着方法在临床试验中得到测试，虚拟大脑可能会在不久的将来为临床实践提供信息。
 				-
@@ -227,8 +229,10 @@
 		- [Connectome-based reservoir computing with the conn2res toolbox | Nature Communications](https://www.nature.com/articles/s41467-024-44900-4)
 	- ### Brain for AI
 		- [[2301.08382] AI of Brain and Cognitive Sciences: From the Perspective of First Principles (arxiv.org)](https://arxiv.org/abs/2301.08382)
+		- [Network model with internal complexity bridges artificial intelligence and neuroscience | Nature Computational Science](https://www.nature.com/articles/s43588-024-00674-9) - 更复杂的神经元动力学等效于更大的网络
 	- ### Data-driven dynamics interpretation
 		- [Stochastic dynamics and data science (worldscientific.com)](https://www.worldscientific.com/doi/epdf/10.1142/S0219493723400026)
 		- [Learning interpretable dynamics of stochastic complex systems from experimental data | Nature Communications](https://www.nature.com/articles/s41467-024-50378-x)
+-
 -
 -

@@ -1,0 +1,2 @@
+- 总体而言，异质性建模可以分为 with prior 和 without prior 两类
+-
