@@ -77,6 +77,7 @@
 	- ## 模型比较与检验 [[Comparison And Validation of BNM]]
 		- [[Predicting Functional Connectivity From Structural Connectivity Via Computational Models Using MRI: An Extensive Comparison Study - 2015 - 49]] - 比较多个模型对FC的预测能力
 		- [[Multi-modal and multi-model interrogation of large-scale functional brain networks - 2022]] - SL模型与WC模型的静态、动态比较
+		- [On the intersection between data quality and dynamical modelling of large-scale fMRI signals - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S105381192200180X)
 		- ### Simon B. Eickhoff & Oleksandr V. Popovych
 			- [[Inter-subject and inter-parcellation variability of resting-state whole-brain dynamical modeling - 2021]] - 模板对建模的影响
 				- [Inter-subject and inter-parcellation variability of resting-state whole-brain dynamical modeling - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S105381192100478X)

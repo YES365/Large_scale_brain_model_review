@@ -91,6 +91,7 @@
 		- [[The coming decade of digital brain research: A vision for neuroscience at the intersection of technology and computing - 2024]] - **数字大脑研究的未来十年：技术与计算交叉点的神经科学愿景**
 		  collapsed:: true
 			- 近年来，在方法论的重大进步以及从分子到整个大脑的多个尺度的数字化数据集成和建模的推动下，大脑研究无疑进入了一个新纪元。神经科学与技术和计算的交叉领域正在取得重大进展。这种新的大脑科学结合了高质量的研究、跨多个尺度的数据集成、多学科大规模协作的新文化以及转化为应用。正如欧洲人脑计划 (HBP) 所倡导的那样，系统性方法对于应对未来十年紧迫的医疗和技术挑战至关重要。本文的目的是：为未来十年的数字大脑研究制定一个概念，与广大研究界讨论这个新概念，确定共识点，并从中得出科学的共同目标；为 EBRAINS 当前和未来的发展提供科学框架，EBRAINS 是 HBP 工作产生的研究基础设施；向利益相关者、资助组织和研究机构通报未来数字大脑研究并让其参与其中；识别并解决人工智能综合大脑模型的变革潜力，包括机器学习和深度学习；概述了一种协作方法，将道德和社会机遇与挑战的反思、对话和社会参与结合起来，作为未来神经科学研究的一部分。
+		- [Big data and the industrialization of neuroscience: A safe roadmap for understanding the brain? | Science](https://www.science.org/doi/abs/10.1126/science.aan8866#bibliography)
 	- ### 理解大脑动力学
 		- [[Emergent complex neural dynamics - 2010 - 681]] - 二阶相变临界点附近的动力系统中的涌现复杂现象作为大脑功能的产生机制
 		  collapsed:: true
