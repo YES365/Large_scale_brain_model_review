@@ -1,0 +1,2 @@
+- [Functional hierarchy underlies preferential connectivity disturbances in schizophrenia | PNAS](https://www.pnas.org/doi/full/10.1073/pnas.1508436113)
+-

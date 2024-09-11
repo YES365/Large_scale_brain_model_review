@@ -1,0 +1,182 @@
+- [Hierarchical Heterogeneity across Human Cortex Shapes Large-Scale Neural Dynamics - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0896627319300443)
+- [GitHub - murraylab/hbnm: Hierarchical brain network model (Demirtas et al., 2019)](https://github.com/murraylab/hbnm)
+- 总结
+	- 异质化方案
+		- 突触动力学模型
+			- %LOCAL_FILE%tWT73G2tVBJ1PcliXPD5rfooZX9qK_kiMMMgp4DGqhBZhTNWiFu2llMSQzzUhBXkLp8jEpz8l0gC_wgft-sMEYPbrUPl-0whN0qulu1koxEh3EqHQnGhUsNGxpVY5piF.png
+			- %LOCAL_FILE%fqqCn49OR9fmtpeTt6Pk7dVEc9q4JeF1xJWCc1w2COP8-bzX62ZIsi3iYnJ5tzDc_9YmccR5-WSn8zT0k-rE8mSOo9FysUVMiQ2WRRWMCRP_fHrV5MdSfU3Gv5D9tQjJ.png
+			- %LOCAL_FILE%3YLXDAsoUNbdmiFWygKTtB_mglA3reOjnEGMS0ixNX2qHWFd5pOs0AFGofvsv5ciPoS5QaLnzCdKbvOvPedzT41CjOEKvhy1r4fyIUZi8LiMwWMb3XypRRZ2hhcq27W-.png
+			- 实施 Deco 等人提出的反馈抑制控制 (FIC)。 (2014)，对于每个参数集，抑制兴奋强度 wIE 被调整以满足条件 riE≈3 Hz。这是通过解析求解 wIE 来完成的，以满足 (4), (5), (6), (7), (8) 在 riE≈3 Hz 的稳态条件下的自洽性，这对应于 < SE>≈0.164757 和 <IE>≈0.37738 nA：  %LOCAL_FILE%QtGa3ZVyHdw2x_6-2x6_n8ZiDvefyG3UL55YPl9CQ6OeI3jGHoCTu8EGVBvOvOrHB0KvIuDxQPd2l0ZjtC7jbBVU2Oa0QesoLabtK0rdb9CbCULL85fWZ_cUQ_BaM-Pa.png
+			- 其中稳态抑制性突触门控变量 <SII>=φ(<IiI>)τI 是通过求解 <IiI> 数值估计的：  %LOCAL_FILE%8GBbqg3VNzMYvCO1M05jCMBfZi92LLcb9dQT901fOHEb3epF6EV7k87bD_g9TA0Z1uvEnP6UXItTXkyTgw8uS1kcmLRrVOBwaqfVciPxhBv5d6jrZYPQeJnlUAVILbBR.png方程（5）的期望求解
+		- 异质化方法
+			- %LOCAL_FILE%jnVSG9-Zy0LEbWZ9Qu4zzDgWvhSrchOAa3OX-V2r-OIKdzIR3YnVPxzO2TvHYF_OZ1lEoT2DVf4RNjm6zSVZoEIf6z8noyaI0c0j_vxxqVc_0OMWwR6tUKY9jJysBlPU.png
+			- %LOCAL_FILE%Z7vxOWxI3wy1Wk-pb8FGr02veNK7AfpfRUo1t1nAwJtjhuGO56uK14-NAGm-GYLm1AHsEenmVXRJNylh3G13lyxSbzDJHVLLFRjwsgFkcmpjj9INVVd0IfOxzcOmZcW7.png
+			- T为T1w/T2w值
+		- 模型拟合
+			- wminEE, wscaleEE, wminEI, wscaleEI, and gl, and gr.  六个拟合参数
+			- Approximate Bayesian Computation，   adaptive hierarchical Population Monte Carlo
+	- 数据需求
+		- HCP 数据集提供了 MSMAll 注册的 T1-T2加权图像(T1w/T2w)之间比值的偏场校正图。在 MMP 分组中，每个半球的180个区域中的每一个都被分配到另一个半球的配对同源物(Glasser 等，2016)。对于左右半球之间的同源包裹在异质模型中具有相同的层次水平，通过平均左右半球之间的同源包裹的 T1w/T2w 图值来对称化 T1w/T2w 图。
+	- 参数可操作性
+		- wminEE, wscaleEE, wminEI, wscaleEI，即EE、EI连接的均值和散布
+		- G 全局耦合常数
+		- 潜在：v 扩散速度，σ噪声
+		- 数据：白质连接（rich-club所起的整合-分化作用）、T1/T2的相对散布
+-
+-
+- Highlights
+	- 大脑皮层具有平面异质性的电路模型适合于静息状态的 fMRI
+	- 微电路的层次特化遵循 MRI 导出的 T1w/T2w 图
+	- T1w/T2w 提供了专门化的优先轴，以适应功能连通性
+	- 层次分化是时空动力学的组织原则
+-
+- Abstract
+	- 大规模组织的跨皮层动态神经活动从局部电路的远程互动中涌现。
+	- 我们假设大规模的动力学也是由皮层区域内在的局部特性的异质性决定的， 微电路特性在一个关键维度上是根据皮层组织的层次结构分化的。
+	- 我们发展了一个包含局部突触强度异质性的大规模人类大脑皮层动态电路模型，遵循从 MRI 衍生的 t1到 t2加权(T1w/T2w)映射推断的层次轴，并使用多模态神经影像数据拟合模型。
+	- 我们发现，包含层次异质性大大提高了模型适合功能磁共振成像(fMRI)测量的静息状态功能连接和捕捉多个功能磁共振成像特征的感觉-关联结构。该模型预测了等级组织的更高频谱功率，我们用静息状态脑磁图进行了测试。
+	- 这些发现表明了连接时空分析水平的电路级机制，并强调了局部特性及其层次分化对人类皮层动力学的大规模组织的重要性。
+-
+- Introduction
+	- 重要的是，这些模型中的模拟功能连接性(FC)由局部回路的生理特性(例如兴奋性和抑制性突触连接的强度)形成(Resting-State Functional Connectivity Emerges from Structurally and Dynamically Shaped Slow Linear Fluctuations | Journal of Neuroscience；How Local Excitation–Inhibition Ratio Impacts the Whole Brain Dynamics | Journal of Neuroscience； Altered global brain signal in schizophrenia  )。然而，在人类皮层的大尺度模型中，还没有系统地研究局部电路特性的区域间异质性的作用。
+	- 通过皮层结构变化的结构神经成像测量，可以了解整个人类皮层的微电路特化。特别是，已经提出 T1-T2加权(T1w/T2w)图的 MRI 衍生的对比度来提供皮质内髓鞘含量的体内测量(Glasser 和 Van Essen，2011，Glasser 等，2014)。已经观察到皮质髓磷脂含量与 rs-FC 变异中显着的感觉关联梯度相关(Margulies 等，2016，Systematic Relationship Between Functional Connectivity and Intracortical Myelin in the Human Cerebral Cortex | Cerebral Cortex | Oxford Academic)。Burt 等(2018)发现，T1w/T2w 图提供了灵长类动物皮层解剖等级的非侵入性神经影像代理测量。包括兴奋性和抑制性微电路在内的等级专门化的多个方面沿着这个皮层轴线变化。在人类皮层中，T1w/T2w 图捕获了基因表达变异的显性区域模式(Burt 等，2018)。我们假设，T1w/T2w 地图所捕获的跨越人类皮层的局部微电路的分层专门化，形成了 rs-FC 的大规模组织。
+	- 我们使用 T1w/T2w 图来参数化皮层区域局部突触强度的等级异质性。与跨区域均匀微电路模型相比，该模型更好地捕获了经验的 rs-FC 模式，T1w/T2w 图为区域异质性提供了一个优先轴。此外，该模型还预测了高频神经动力学光谱特征的分级轴，我们发现这与静息状态脑磁图(meG)是一致的。
+-
+- Results
+	- 我们首先描述了人类皮层大规模电路模型的计算框架，包括局部特性的面积异质性，我们将其应用于来自大量健康受试者(n = 334)的 HCP 多模式神经影像数据集(图1A)。皮质表面被分成多个相邻区域。在这里，我们应用了最近开发的 HCP 多模式分区，每个半球产生180个皮层区域(Glasser 等，2016)。每个皮层区域被模拟为包含兴奋性锥体神经元和通过循环突触相互作用偶联的抑制性中间神经元的局部回路，具有控制局部动力学的神经生理学可解释参数，如下所述。大规模网络中的区域通过由结构连接矩阵约束的结构化长程兴奋性投影相互作用，从 dMRI 和概率纤维束成像(图 S1)得出。我们只模拟了半球内的相互作用，以将模型拟合重点放在捕捉 rs-FC 的网络结构上，并且因为 dMRI 在映射胼胝体投影方面受到限制。因此，SC 矩阵为模型中的长程神经相互作用提供了结构支架。
+	-
+	- Figure 1. Large-Scale Model of Human Cortex with Heterogeneous Local Circuit Properties
+		- %LOCAL_FILE%maiPI0DuqKrGPuYC4nGDEARkNPuJW1_XCPpCtBRhljuwvv2cFemlOp4vqczTXgF8j6JPh5q4Rxpah5k_nvjJgdRHQUIe-btFfbo9DQwiIy8WzoKJyeWwiWRR_qib5Qqf.png
+		- (A)模型架构。每个皮层区域被模拟为兴奋性(E)和抑制性(I)群体的耦合。依据dMRI 衍生的大脑半球内结构连接(SC)，区域通过长程投影相互作用。需要拟合的模型参数包括循环激发强度  w^{EE}   从兴奋到抑制的强度 w^{EI}  以及一个全局耦合参数 g 来衡量长距离连接的强度。 抑制-兴奋强度 (wIE) 被调整以保持跨区域的一致基线兴奋性放电率。 突触门控变量 (S^E) 的动力学通过 Balloon-Windkessel 血流动力学模型转换为模拟的 BOLD 信号。为了模型拟合的计算易处理性，模型 BOLD FC 矩阵是通过围绕系统固定点的扩展动力学方程的线性化计算的。   拟合模型参数以最大化模型和经验 FC 矩阵之间的相似性。
+		- (B) 通过异质性图对局部属性进行参数化。 在同质模型中，参数（wEI 和 wEE）在皮层区域是相同的。 在异质模型中，参数（wEI 和 wEE）基于异质性图 h 在皮层区域变化，其最小值和最大值分别为 0 和 1。对于每个区域 (i)，参数值由异质性映射值 {h_i} 的仿射函数设置，函数由截距和尺度因子来描述 w_i=w_{min}+w_{scale}h_i。
+		- (C) 皮质 T1w/T2w 图。每个分割皮质区域（每个半球 180 个）的中位数（n=334 名受试者）皮质 T1w/T2w 图值。
+		- (D) 网络分配。皮层区域被分配到八个功能性静息状态网络（RSN），包括三个感觉（AUD，听觉；VIS，视觉；和 SOM，躯体运动）和五个关联（DAN，背侧注意；FPN，额顶叶；VAN，腹侧注意；DMN , 默认模式;和 CON, cingulo-opercular) 网络。
+		- (E) 每个 RSN 的 T1w/T2w 地图值，跨区域平均。关联 RSN 中的 T1w/T2w 值显着低于感觉 RSN（p<0.003，Wilcoxon 符号秩检验，受试者之间感觉和关联 T1w/T2w 之间的差异）。误差线表示 RSN 内跨区域的 SD。
+	-
+	- 该模型模拟了每个皮层区域局部回路中兴奋性和抑制性神经元群体的时变活动。为了模型拟合的计算易处理性，以及系统的数学分析，我们使用网络中每个神经元群体的突触动力学的简化平均场近似。 群体接收来自多个来源的突触输入，其中有来自波动背景、局部循环连接和来自其他区域的远程连接的贡献，这会导致整个网络的结构化相关波动。 每个局部节点由两个突触参数表征，这些参数设置局部兴奋到兴奋 (wEE) 和兴奋到抑制 (wEI) 连接的强度。抑制兴奋强度 (wIE) 被设置为保持均匀的基线放电率，取决于其他参数（How Local Excitation–Inhibition Ratio Impacts the Whole Brain Dynamics | Journal of Neuroscience）。 全局耦合参数 g{L,R} 衡量左右半球内长程相互作用的强度。突触活动用于模拟 BOLD 信号，使用机制性的 Balloon-Windkessel 模型进行血流动力学响应。因此，该模型可以产生一个模拟的 BOLD FC 矩阵，可以将其与经验 BOLD rs-FC 数据进行比较。然后可以优化神经生理模型参数以提供与经验 rs-FC 的最佳拟合。
+	- 这里介绍的模型框​​架的一个关键扩展是一种假设驱动的方法，用于结合局部电路特性的区域异质性（图 1B）。我们将电路模型的性能与同质和异质局部电路参数进行了比较。在“同质”模型中，皮层区域的突触参数是一致的，并且其四个参数在全局范围内进行了优化（wEE、wEI、gL 和 gR）。相比之下，在“异质”模型中，参数值（此处为 wEE 和 wEI）可以根据预定义的异质性图参数化的皮层区域变化。因此，异质性图约束了异质模型中局部电路专业化的拓扑。
+	-
+	- T1w/T2w as a Hierarchical Heterogeneity Map
+		- 我们假设，皮层层次提供了一个原则，描述了跨皮层区域的微电路特性的专门化，形成大规模的功能动力学。因此，我们试图用一个反映皮层区域分层次序的异质性图来实现这个模型。由于解剖层次是通过侵入性道路追踪获得的，这阻碍了对人类皮层的直接研究，因此我们寻求一种非侵入性的代理测量方法。Burt 等人. (2018) 发现 MRI 衍生的 T1w/T2w 图与猕猴皮层的解剖层次呈负相关，并且发现皮质微电路多个方面的专业化与 T1w/T2w 图相关（图 1C）。 特别是，他们发现 T1w/T2w 值与锥体细胞树突上的棘数呈负相关，这可以解释为反复兴奋性突触强度的微观解剖学相关性（Elston，2003，Chaudhuri 等，2015），表明在具有低 T1w/T2w 值的关联区域中，wEE 值更强。
+		- 在人类皮层中，区域可以根据与不同感觉和高阶关联功能相关的连贯静息状态网络 (RSN) 进行情境化。我们将所有区域分配给 8 个典型的 RSN，包括三个感觉网络（视觉、体感和听觉）和五个关联网络（额顶、扣带盖、默认模式、背侧注意和腹侧注意）（Ito 等，2017）（图 1D）。我们观察到感觉网络中的 T1w/T2w 图值显着高于关联网络（p<0.003，Wilcoxon 符号秩检验）（Burt 等人，2018）（图 1E）。为了进一步支持 T1w/T2w 图作为人类皮层分层微电路专业化的代理测量，Burt 等人.（2018 年）分析了皮层基因表达的拓扑结构，发现 T1w/T2w 图捕获了人类皮层基因表达变异的主要空间模式。
+		- 这些发现表明，T1w/T2w 图可能捕捉到整个皮层区域异质性的关键轴，我们在模型中对其进行了定量实例化。我们通过重新缩放和反转原始 T1w/T2w 图得出层次异质性图，使其值在 0 和 1 之间相对均匀分布，高 T1w/T2w 感觉区域在低图值和低 T1w/T2w 关联区域在高地图值（图 S2）。然后将每个区域的局部突触强度（wEE 和 wEI）参数化为异质性映射值 {hi} 的仿射函数，其特征是截距 wmin 和比例因子 wscale：wi=wmin+wscalehi（图 1B）。因此，在模型拟合中使用异质性图可以对局部电路特性的区域差异进行假设驱动的研究，同时通过每个异质特性的单个附加参数来增加模型复杂性。
+	-
+	- Model Fitting
+		- 我们将上述模型定量拟合到 rs-FC 数据。为了估计最佳模型参数值，我们使用了贝叶斯优化技术（图 S2C）分层总体蒙特卡罗（hPMC）。 hPMC 通过从提议的分布中迭代地绘制一组模型参数（即“粒子”）来近似参数空间中的后验分布，以最小化模型和经验数据之间的距离度量。我们拟合模型参数以最大化模型和经验 FC 之间的平均 Pearson 相关性（n = 334）。为了计算模型 FC，我们使用了线性化系统动力学的解析近似，它可以高效地计算系统的动态特征，包括 FC 矩阵（Deco 等人，2013，Deco 等人，2014）（图 S3 ）。在这里，我们扩展了这种方法，包括将 Balloon-Windkessel 血流动力学模型线性化，以直接计算 BOLD FC 矩阵。 BOLD FC 的这种分析计算提供了参数拟合所需的计算效率，同时产生了模拟 BOLD FC 的高度准确估计（对于持续时间 ~1 小时的模拟，r = 0.972±0.005，即 4,800 重复次数 [TRs]）（图 S3）。拟合过程产生了最优模型参数的近似后验分布。为了评估参数可识别性，我们从异构模型的近似后验对模型生成的 FC 矩阵进行了 hPMC 拟合。拟合过程很好地恢复了参数，有和没有目标 FC 上的观察噪声（图 S4）。
+	-
+	- Hierarchical Heterogeneity Improves Fit to FC
+		- 我们测试了分层异质性是否提高了经验 rs-FC 和拟合模型 FC 模式之间的相似性，与跨皮质区域具有统一属性的同质模型相比。图 2A-2D 显示了同质和异质模型的经验组平均 SC 和 FC 矩阵和粒子平均 FC 矩阵。我们使用经验 FC 的拟合优度（即平方 Pearson 相关系数）量化模型性能，在受试者之间平均，由模型 FC 捕获，在来自近似后验分布的样本中平均。我们发现，在异质模型（r=0.560，r2=0.313）中，经验和模型 FC 之间的相似性显着高于同质模型（r=0.407，r2=0.166）（p<10-4，相关相关检验)（图 2G）。与作为基线的 SC-FC 相似性相比，两种模型都产生了更高的 FC 相似性（r=0.284，r2=0.081）（p<10-4，相关相关检验）。
+		-
+		- Figure 2. Hierarchical Heterogeneity Improves the Model Fit to rs-FC
+			- %LOCAL_FILE%fuhp7lH29Y9BKh9XarlljehRRvGKSN4Gsnrky0RTXKypExsevJBWz_JL06qodJ5jy5DAL-WHIINUIIEa0Q-vvrirtMSX8w033uBozhqu4H8_lsExRGudsaNAIJGFDuMT.png
+			- (A 和 B) 结构连接 (SC) (A) 和经验 FC (B) 矩阵（仅左半球），跨受试者平均。彩色条（矩阵的顶部和左侧）表示静息状态网络分配（颜色如图 1 所示）。
+			- (C 和 D) 均质 (C) 和异质 (D) 模型（仅左半球）的模型 FC，在粒子间平均 (***,p<10−3)。
+			- (E 和 F) 均质 (E) 和异质 (F) 模型的平均经验 FC 和平均模型 FC 之间的相关性。
+			- (G) 平均经验 FC 和 SC（灰色）、同质模型 FC（蓝色）和异质模型 FC（红色）之间的拟合优度（即解释方差 r2 的分数）。异质模型的拟合大于同质模型的拟合，后者大于 SC 的拟合（每个依赖相关检验的 p<10-5）。
+			- (H) 模型的循环兴奋性参数的最佳拟合值，区域按 T1w/T2w 衍生的分层异质性图的递增值排序。阴影区域显示跨粒子的 SD。
+		-
+		- 异质模型（r=0.440，r2=0.190）的 SC 和模型 FC 之间的拟合显着低于同质模型（r=0.595，r2=0.354）（p<10-4，相关相关检验），这表明区域异质性有助于解释 SC 未解释的 FC 模式（Chaudhuri 等，2015）。我们使用以 SC 作为附加预测因子的 FC 多元回归模型测试了这一建议。两种模型的回归系数都很显着（p<10-4）。然而，与仅包括 SC 的简化模型相比，异构模型 FC 将解释方差提高了 20%，而同质模型仅提高了 3%。
+		- (同质模型基本只提供SC的信息)
+		- 异质模型的最佳拟合参数在分层异质性图（（wscaleEE/wminEE）≈0.89）中表现出局部复发兴奋性到兴奋性突触强度（wEE）的大范围变化（图2H）。我们测试了层次异质性对其他非权重参数的影响，特别是兴奋和抑制时间常数（即 τE 和 τI）。该模型没有优于基于突触权重的异构模型（r=0.45；p<10-4，相关相关检验）。我们还研究了更抽象的动态模型中局部自耦合的层次异质性，特别是 Ornstein-Uhlenbeck (OU) 模型和同步自回归 (SAR) 模型。对于这两种模型，异质性显着提高了模型拟合度（OU：异质的 r=0.517，同质的 r=0.419；SAR：r=0.504 对 r=0.414），但两者都没有优于异质电路模型（p<10-4，取决于相关性检验）。
+		- （在测试的几个情境中，EE-EI异质化是最优方案）
+		- 为了提供对模型的机械洞察力，我们检查了线性化动力系统的特征值和特征向量（图 S5）。在同质模型中，主要特征向量（即具有最大特征值和最长时间尺度）表现出全局激活模式，而异构模型则显示空间结构化的主要特征向量。这些领先的特征向量表现出与网络相关的层次结构，而不是与 T1w/T2w 的严格单调关系。最慢的特征向量权重与视觉 RSN 中的 T1w/T2w 图呈强正相关，但不是全局性的，峰值在外侧下顶叶和外侧前额叶皮层，与视觉层次组织一致。
+		- 因为异质模型比同质模型有更多的参数（6 对 4），我们测试了拟合改进不是由于与更具表现力的模型过度拟合。实施重复的随机二次抽样交叉验证，我们对随机选择的 80% 受试者 (267) 子集重复拟合程序，并测量模型对剩余 20% 受试者的拟合 (67)。在 100 个交叉验证样本中，异质模型的预测能力（r=0.548±0.01）始终优于同质模型（r=0.405±0.005）。  （如何区分过拟合效应？）
+		- 此外，我们测试了改进的模型在异构模型中的拟合是否可以通过 rs-fMRI 中已知的非神经混淆来解释，例如头部运动、心率变化和呼吸。如果异质模型的改进拟合是由于其捕获了非神经 FC 贡献，那么非神经测量中的个体差异应该解释异质模型与同质模型的经验模型 FC 相似性改善的个体差异。异质模型提高了 334 名受试者中 98.5% 的 FC 拟合。我们对异质模型和同质模型之间的模型经验拟合差异对受试者进行了回归分析。一个常数项（即，没有非神经测量）解释了总平方和的 80%，并且包含单个非神经测量仅将解释方差提高了 1.5%。这表明异构模型在拟合方面的显着改进不能归因于非神经混淆。
+	-
+	- T1w/T2w Map as Preferential Axis of Areal Specialization
+		-
+		- Figure 3. Surrogate Heterogeneity Maps Show that the T1w/T2w Map Provides a Preferential Axis of Specialization
+			- %LOCAL_FILE%elfV73eo0yeF2Tp3dAFFcCSePo_zEjaJfkEN-1KHN3yB7MkdSNTrXjQHeYBznZwyd896hbOdfDITgy4PBepxsBA3dL7-vmce6XOEZ5tovvOIPQ2OfjXiEYMBKZGLWs09.png
+			-
+		-
+	-
+	- Model Fit across RSNs
+		-
+		- Figure 4. Model Fits across Resting-State Networks Are Network Specific
+			- %LOCAL_FILE%ttt81OzjRmQGNtoYsuU93oqfaY3Zagt9Nl061-qW_nfnjJACT92rqEiBMbgTB1uDuJAs6Kw5dXriI7T96w2xBjQdOyhhSay5w_wyHegWMZjgPstnJ_HdiEQJeVeGR_c3.png
+			-
+		-
+	-
+	- Global Brain Connectivity
+		-
+		- Figure 5. Hierarchical Topography of Cortical GBC
+			- %LOCAL_FILE%E2coVvTMRtR6hbc3l7ABUfQQ4ixWlSu-6F5Djaso7mMI9hjfRhVH2v5tkInh5QCzOY273n2lX4bQScdYGW1MpwXrE0mKSmNHyTkJLtWv8xH9F_XGeAiJC102GbjxYEd7.png
+			-
+		-
+	-
+	- Inter-individual Variation
+		-
+		- Figure 6. Hierarchical Topography of Inter-individual Dissimilarity of FC
+			- %LOCAL_FILE%RVL8kWplmT9MpD6XD5WdwQBveUb6ZNtQXE3WZr5nkTAlhwm0oAKcCRTgFZqPT5Bll8pfvQcAdQgmx6b2OGg6C2vznusdrPGmvv_GENr2JSHog1hpSo2Kx6LIe2Z7kw1m.png
+			-
+		-
+	-
+	- Heterogeneity in Neural Dynamics across Multiple Timescales
+		-
+		- Figure 7. Intrinsic Dynamics of a Local Microcircuit Model Vary with Recurrent Strengths
+			- %LOCAL_FILE%4dNmcjA0JXUh6rtqPlZlc6DJF-sabzXPS9DsW_75P_HNJ7ipopbv57yaVQFD71BxpN0fuGH3VtibslULfAyHGdGWB9vMWkhPSWDat642728_AV-WuJcz3j7eQka1HPNy.png
+			-
+		-
+	-
+	- MEG PSD
+		-
+		- Figure 8. Hierarchical Topography of Spectral Power in MEG
+			- %LOCAL_FILE%_Ao_RFqRSuq7vi06oiWAtZn6lKQbP9gGAk6y7kKYDfKfvSzFlMNPmuYsXhB_jCzZRil6aJsX5Ku17s_gTtEK6zh5Wsvu8BCfnO67hsElPYCFSPbXaAJbM_LIrsrKb49P.png
+			-
+		-
+	-
+-
+- Discussion
+	-
+-
+- STAR★Methods
+	- Key Resources Table
+		- Heterogeneous brain network model simulation and fitting software
+			- GitHub - murraylab/hbnm: Hierarchical brain network model (Demirtas et al., 2019)
+		- Connectome Workbench pipeline
+			- Connectome - Using Connectome Workbench
+		- MEG Connectome pipeline
+			- Connectome - MEG Pipeline Reference
+		- FieldTrip
+			- Welcome to the FieldTrip website - FieldTrip toolbox
+	-
+	- T1w/T2w maps
+		- HCP 数据集提供了 MSMAll 注册的 T1-T2加权图像(T1w/T2w)之间比值的偏差场校正图。
+	-
+	- Large-Scale Computational Model
+		- Synaptic Dynamical Equations
+		-
+		- Hemodynamic Equations
+		-
+		- Analytical Approximation of BOLD Functional Connectivity
+		-
+	-
+	- Theoretical Characterization of the Model
+	-
+	- Homogeneous and Heterogeneous Modeling Paradigms
+	-
+	- Optimization of Model Parameters
+	-
+	- Ornstein-Uhlenbeck and Simultaneous Autoregressive Models
+	-
+	- Surrogate Heterogeneity Map Generation
+	-
+	- Examination of Potential Confounding Variables
+	-
+	- Within-Network and Across-Network Fitting
+	-
+	- Global Brain Connectivity
+	-
+	- Inter-Individual Dissimilarity
+	-
+	- Spectral Characterization of the Model
+	-
+	- Principal Component Analysis of Empirical and Model Power Spectral Density
+	-
+	- Numerical Simulations
+	-
+	- Quantification and Statistical Analysis
+	-
+-
+- 所有结果都来自公开可用的 HCP 数据集。与这项研究有关的分组地图和连接矩阵可通过 BALSA 数据库( https://BALSA.wustl.edu/)获得。用 Python 编写的自定义建模和分析代码可以在 https://github.com/murraylab/hbnm 找到。
+-

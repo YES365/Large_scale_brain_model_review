@@ -1,2 +1,26 @@
-- 总体而言，异质性建模可以分为 with prior 和 without prior 两类
--
+### Modeling Framework
+	- 一般而言，什么是异质性建模：模型、参数、连接、优化
+- ### Classification
+	- 总体而言，异质性建模可以分为 with prior 和 without prior 两类
+	- with prior 方案是使用实测的脑区异质性度量作为参考，将异质性参数定义为脑区度量的函数
+		- [[Hierarchical Heterogeneity Across Human Cortex Shapes Large-Scale Neural Dynamics - 2019 - 104]] - 髓鞘化图谱作为区域异质性约束 - Murray
+		- [[Dynamical Consequences Of Regional Heterogeneity In The Brain’s Transcriptional Landscape - 2021]] - 基因表达图谱作为异质性约束 - Deco
+		- [[Sensory-motor Cortices Shape Functional Connectivity Dynamics In The Human Brain - 2021 - 5]] - 功能梯度作为模型区域异质约束 - Yeo
+		- [[The impact of regional heterogeneity in whole-brain dynamics in the presence of oscillations - 2023]] - 当考虑到结构和功能区域的异质性时，具有**振荡的模型**表现得更好。在**AD数据**上有应用。 - Deco
+	- without prior 方案指的是不依赖于实际的脑图谱，直接针对模拟目标（如FC）进行高维参数优化，得到异质性参数
+		- [[* Inversion of a large-scale circuit model reveals a cortical hierarchy in the dynamic resting human brain - Peng Wang et al. - 2019 - 109]] - DCM优化方法搜索区域异质参数 - Yeo
+		- [[Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics - 2023]] - **数据驱动**选择神经群体模型以及区域异质参数 - Jirsa
+- ### Questions in the field
+	- ### With Prior —— 脑图谱与参数的映射问题
+		- 使用何种脑图谱来约束模型中哪一个参数，参数与脑图谱的定量关系是什么？
+		- [[Hierarchical Heterogeneity Across Human Cortex Shapes Large-Scale Neural Dynamics - 2019 - 104]] - 髓鞘化图谱作为区域异质性约束 - Murray
+		- [[Dynamical Consequences Of Regional Heterogeneity In The Brain’s Transcriptional Landscape - 2021]] - 基因表达图谱作为异质性约束 - Deco
+		- [[Sensory-motor Cortices Shape Functional Connectivity Dynamics In The Human Brain - 2021 - 5]] - 功能梯度作为模型区域异质约束 - Yeo
+	- ### Without Prior —— 多解性/简并性问题
+		- 无先验的异质性建模需要处理高维的参数优化问题，往往能得到多个局部最优解，如何分析、理解这些不同的解？
+		- [[* Inversion of a large-scale circuit model reveals a cortical hierarchy in the dynamic resting human brain - Peng Wang et al. - 2019 - 109]] - DCM优化方法搜索区域异质参数 - Yeo
+	- ### 动力学情境的选择问题
+		- 选择哪种模型（哪种具体的动力学性态）进行建模，对 with/without prior 的建模结果都会有重要影响
+		- **Would two different neural mass models lead to the same conclusions, or do the results strongly depend on the exact model form?**
+		- [[The impact of regional heterogeneity in whole-brain dynamics in the presence of oscillations - 2023]] - 当考虑到结构和功能区域的异质性时，具有**振荡的模型**表现得更好。在**AD数据**上有应用。 - Deco
+		- [[Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics - 2023]] - **数据驱动**选择神经群体模型以及区域异质参数 - Jirsa
